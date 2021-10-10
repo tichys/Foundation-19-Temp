@@ -14,7 +14,7 @@
 	economic_modifier = 1
 	total_positions = 15
 	spawn_positions = 15
-	duties = "<big><b>Будучи сотрудником Фонда класса D, скорее всего, вы были сняты с пожизненного срока, или смертной казни в какой-либо из тюрем неподалёку отсюда. Вы вступили в Фонд добровольно, приняв участие в одной из многочисленных реабилитационных программ, нацеленных, в первую очередь, на ваше скорейшее освобождение(говоря точнее - 30 дней).<br> Покажите, что вы вновь готовы вернуться в общество, примерив на себе одну из предложенных комплексом работ - работой на шахтах/кухне/ферме или займитесь уборкой/помощью научным сотрудникам в различного рода экспериментах и исследованиях. <br> <span style = 'color:red'>ЗАПОМНИТЕ!</span> Беспричинные бунты(особенно в начале раунда) - могут привести к бану, или вовсе перме. У Класса D НЕТУ причин проявлять к Фонду и его сотрудникам агрессию. По-крайней мере изначально. <br>ВАЖНО! Не пытайтесь вырваться из своей клетки в начале игры. Вы сломаете свой единственный выход наружу!</span>"
+	duties = "<big><b>As a Class D Foundation Employee, you are most likely a former convict who faced a life sentence or the death penalty. You are extremely grateful to have been offered the chance to participate in the Foundation's rapid rehabilitation program, at a facility which aims to release you into the free world in just 30 days.<br> Find a way to show you're ready to re-integrate into society: work in mining, botany, the kitchens, or volunteer yourself as a participant in scientific studies.<br> <span style = 'color:red'>REMEMBER!</span> Rioting as Class D has been prohibited without staff approval, under rule 15. <br>IMPORTANT! Do not try to break out of your cell at game start. You will break your only way out!</span>"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	outfit_type = /decl/hierarchy/outfit/job/site90/crew/civ/classd
@@ -45,7 +45,7 @@
 	has_email = TRUE
 	title = "Site Director"
 	supervisors = "the SCP Foundation and O5 Council"
-	duties = "<big><b>Директор Зоны - является руководителем Участка 53, который напрямую отчитывается Совету Смотрителей. Директору Зоны подчиняется весь персонал и главы отделов включительно.<br>Несмотря на свой высокий ранг - вы крайне ограничены в посещении каких-либо объектов, или, тем более, тюремного блока Зоны.<br> В ваши задачи входит - управление другими главами и офицерским составом комплекса, отслеживание соблюдения СОП и прочих протоколов, а также поднятие общего настроя персонала. В конце концов - вы их духовный лидер. Ну, до нарушения условий содержания.<br><span style = 'color:red'>Директор Зоны - крайне важная и авторитетная шишка. Его смерть - это большая трагедия, приносящая Фонду лишь убытки. Именно поэтому, было решено ограничить полномочия Директоров касательно взаимодействия с объектами на территории комплекса.</span><br><span style = 'color:red'>За излишнее геройство, а также нарушения этих самых ограничений, вас могут понизить в должности не только ингейм, но также и на уровне джоббана.</span>"
+	duties = "<big><b>As the Site Director you are responsible for the operations happening in the Site that you manage.<br>You won't have access to SCP's, or the D-Class area.<br> As Site Director, you should worry about making sure all SOP and safety procedures are followed by delegating to the heads of staff.<br><span style = 'color:red'>It is not your job to jump in where necessary! Consistently bad roleplay will be punished under the CoHoS rule!</span>"
 	minimal_player_age = 20
 	economic_modifier = 15
 	ideal_character_age = 50
@@ -112,7 +112,7 @@
 	department_flag = COM
 	total_positions = 1
 	spawn_positions = 1
-	duties = "<big><b>Вы - глаза и уши Зоны 53. Будучи Офицером Коммуникации, в ваши обязанности входит - координация потерявшегося персонала, устранение возможных неполадок со связью, а также содействие Представителю Совета О5, если тому понадобится отправить что-либо на большую землю. Старайтесь сохранять анонимность при общении по общим незащищённым частотам.<br>Вы НЕ ДОЛЖНЫ покидать телевышку, если на то нет каких-либо серьёзных причин."
+	duties = "<big><b>As the Communications Officer it is your job to monitor the radio, help coordinate departments, and dispatch help where it is needed. Keep sensitive communications off the Common channel.<br>You should not ever leave your tower unless under specific circumstances."
 	minimal_player_age = 15
 	economic_modifier = 10
 	ideal_character_age = 45
@@ -266,7 +266,7 @@
 	supervisors = "The Facility Director"
 	department = "Command"
 	department_flag = SEC|COM
-	duties = "<big><b>ГО распоряжается практически всей охраной на территории Зоны 53. Ваша основная задача - размещение сил по ключевым областям комплекса и их дальнейшее координирование с перенаправлением в зависимости от ситуации. Сам же ГО не привязан к какой-либо из зон(тяжёлой или лёгкой), и волен сам решать, где будет нужнее. Вы также подчиняетесь Главнокомандующему Зоны и её окрестностей. Потому, при присутствии оного на смене - старайтесь сверять ваши решения с его мнением.</span>"
+	duties = "<big><b>As the Guard Commander, you have direct say over the Security department. You're not assigned to any zone, but instead should jump in where necessary or requested. You are to speak with your Zone Commanders oftenly, and assign new guards to the right zone, or where it's needed mostly.</span>"
 	economic_modifier = 8
 	minimal_player_age = 15
 	ideal_character_age = 55
@@ -281,7 +281,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(10,25), rand(10,15), rand(15,20)) // Str, Dex, Int.
+		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
 		H.add_skills(rand(90,100), rand(90,100), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(
@@ -305,16 +305,43 @@
 
 // COMMENT FOR LATER THIS WEEK, OUTFITS NEED TO BE RE-CODED. ~Lion. 09-10-18
 
-/datum/job/ltofficerhcz
+/datum/job/ltofficerlcz
 	has_email = TRUE
-	title = "Second Guard Commander"
-	department = "Security"
-	selection_color = "#8e2929"
+	title = "LCZ Zone Commander"
+	department = "Light Containment Personnel"
 	department_flag = SEC
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Guard Commander"
-	duties = "<big><b>Вы являетесь заместителем ГО. Ни больше ни меньше. При его отсутствии - можете смело брать на себя все тяготы и обязанности оного. Хотя, кто вас будет спрашивать?</span>"
+	duties = "<big><b>As the Zone Commander, you're the right hand of the Guard Commander, and in charge of a specific zone. In this zone, you have full command of the guards stationed there in every situation, except Code Red or higher. You also carry the responsibility of guarding the D-Cells. You should not leave your zone under usual SoP</span>"
+	economic_modifier = 4
+	minimal_player_age = 10
+	ideal_character_age = 45
+	alt_titles = null
+	outfit_type = /decl/hierarchy/outfit/job/site90/crew/security/ltofficerlcz
+	allowed_branches = list(
+		/datum/mil_branch/security
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/security/o1
+	)
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_skills(rand(80,100), rand(80,100), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
+
+	access = list(access_sec_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3, access_sciencelvl1, access_sciencelvl2, access_sciencelvl3)
+	minimal_access = list()
+
+/datum/job/ltofficerhcz
+	has_email = TRUE
+	title = "HCZ Zone Commander"
+	department = "Heavy Containment Personnel"
+	department_flag = SEC
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the Guard Commander"
+	duties = "<big><b>As the Zone Commander, you're the right hand of the Guard Commander, and in charge of a specific zone. In this zone, you have full command of the guards stationed there in every situation, except Code Red or higher. You should not leave your zone under usual SoP</span>"
 	economic_modifier = 4
 	minimal_player_age = 10
 	ideal_character_age = 45
@@ -328,22 +355,84 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(10,15), rand(10,15), rand(15,20)) // Str, Dex, Int.
+		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
 		H.add_skills(rand(80,100), rand(80,100), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
-	access = list(access_mtflvl1, access_mtflvl2, access_mtflvl3, access_mtflvl4, access_sciencelvl1, access_sciencelvl2, access_sciencelvl3, access_sciencelvl4, access_adminlvl1, access_adminlvl2, access_adminlvl3, access_adminlvl4)
+	access = list(access_sec_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3, access_mtflvl4, access_sciencelvl1, access_sciencelvl2, access_sciencelvl3, access_sciencelvl4)
+	minimal_access = list()
+
+/datum/job/ltofficerez
+	has_email = TRUE
+	title = "EZ Senior Agent"
+	department = "Entrance Personnel"
+	department_flag = SEC
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the O5 Council"
+	duties = "<big><b>As the Entrance Zone Senior Agent, you and your team work independently from the guard commander and regular security structure. In this zone, you are tasked with the protection of administrative personnel, together with the agents stationed here. You should not leave your zone under usual SoP, or allow administration to go without protection detail into the facility.</span>"
+	economic_modifier = 4
+	minimal_player_age = 10
+	ideal_character_age = 45
+	alt_titles = null
+	outfit_type = /decl/hierarchy/outfit/job/site90/crew/security/ltofficerez
+	allowed_branches = list(
+		/datum/mil_branch/security
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/security/w5
+	)
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_skills(rand(80,100), rand(80,100), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
+
+	access = list(access_sec_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3, access_mtflvl4, access_adminlvl1, access_adminlvl2, access_adminlvl3, access_adminlvl4, access_sciencelvl1, access_medicalgen)
+	minimal_access = list()
+
+//##
+// OFFICERS
+//##
+
+/datum/job/ncoofficerlcz
+	has_email = TRUE
+	title = "LCZ Guard"
+	department = "Light Containment Personnel"
+	department_flag = SEC
+	total_positions = 4
+	spawn_positions = 4
+	duties = "<big><b>As the Guard you have more access than a Junior Guard, but do not control them. You are to guard tests and SCP's in the zone you spawned in. If in doubt, ask your Zone or Guard Commander. You also have the duty of guarding the D-Class Cell Blocks. You should not leave your zone under usual SoP."
+	supervisors = "the Guard/Zone Commander"
+	economic_modifier = 4
+	minimal_player_age = 5
+	ideal_character_age = 25
+	alt_titles = null
+	outfit_type = /decl/hierarchy/outfit/job/site90/crew/security/ncoofficerlcz
+	allowed_branches = list(
+		/datum/mil_branch/security
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/security/e2,
+		/datum/mil_rank/security/e3,
+		/datum/mil_rank/security/e4,
+		/datum/mil_rank/security/e5
+	)
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_skills(rand(60,80), rand(60,80), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
+
+	access = list(access_sec_comms, access_mtflvl1, access_mtflvl2, access_sciencelvl1, access_sciencelvl2)
 	minimal_access = list()
 
 /datum/job/ncoofficerhcz
 	has_email = TRUE
-	title = "Security Guard"
-	department = "Security"
-	selection_color = "#601c1c"
+	title = "HCZ Guard"
+	department = "Heavy Containment Personnel"
 	department_flag = SEC
-	total_positions = 10
-	spawn_positions = 10
-	duties = "<big><b>Вы - основная ударная сила и охрана Зоны 53. В ваши обязанности входит - наблюдение за младшими офицерами службы безопасности при наличии таковых, охрана D-класса при отсутствии первых. Ваше основное рабочее место - тяжёлая зона содержания. Охраняйте особо опасные объекты как зеницу ока, помогайте научному персоналу с проведением опыта на оных в случае надобности."
-	supervisors = "the Zone Commander"
+	total_positions = 3
+	spawn_positions = 3
+	duties = "<big><b>As the Guard you have more access than a Junior Guard, but do not control them. You are to guard tests and SCP's in the zone you spawned in. If in doubt, ask your Zone or Guard Commander. You also have the duty of guarding the D-Class Cell Blocks. You should not leave your zone under usual SoP."
+	supervisors = "the Guard/Zone Commander"
 	economic_modifier = 4
 	minimal_player_age = 5
 	ideal_character_age = 25
@@ -359,12 +448,131 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(10,20), rand(10,20), rand(15,20)) // Str, Dex, Int.
+		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
 		H.add_skills(rand(60,80), rand(60,80), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
-	access = list(access_mtflvl1, access_mtflvl2, access_mtflvl3, access_sciencelvl1, access_sciencelvl2, access_sciencelvl3, access_adminlvl1, access_adminlvl2, access_adminlvl3)
+	access = list(access_sec_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3, access_sciencelvl1, access_sciencelvl2, access_sciencelvl3)
 	minimal_access = list()
 
+/datum/job/ncoofficerez
+	has_email = TRUE
+	title = "EZ Agent"
+	department = "Entrance Zone Personnel"
+	department_flag = SEC
+	total_positions = 2
+	spawn_positions = 2
+	duties = "<big><b>As the Agent you have more access than a Junior Agent, but do not control them. You are to guard tests and SCP's in the zone you spawned in. If in doubt, ask your Zone or Guard Commander. You also have the duty of guarding the D-Class Cell Blocks. You should not leave your zone under usual SoP."
+	supervisors = "the Senior Agent"
+	economic_modifier = 4
+	minimal_player_age = 5
+	ideal_character_age = 30
+	alt_titles = null
+	outfit_type = /decl/hierarchy/outfit/job/site90/crew/security/ncoofficerez
+	allowed_branches = list(
+		/datum/mil_branch/security
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/security/e7,
+		/datum/mil_rank/security/e8
+	)
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_skills(rand(60,80), rand(60,80), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
+
+	access = list(access_sciencelvl1, access_sec_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3, access_adminlvl1, access_adminlvl2, access_adminlvl3, access_medicalgen)
+	minimal_access = list()
+
+//##
+//JUNIOR OFFICER
+//##
+
+/datum/job/enlistedofficerlcz
+	has_email = TRUE
+	title = "LCZ Junior Guard"
+	department = "Light Containment Personnel"
+	department_flag = SEC
+	total_positions = 10
+	spawn_positions = 10
+	duties = "<big><b>As the Junior Guard you have minimal access. You are to guard tests, SCP's and provide support in the zone you spawned in. If in doubt, ask your Zone or Guard Commander. You also have the duty of guarding the D-Class Cell Blocks. You should not leave your zone under usual SoP."
+	supervisors = "the Guard/Zone Commander"
+	economic_modifier = 4
+//	minimal_player_age = 0
+	ideal_character_age = 25
+	alt_titles = null
+	outfit_type = /decl/hierarchy/outfit/job/site90/crew/security/enlistedofficerlcz
+	allowed_branches = list(
+		/datum/mil_branch/security
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/security/e1,
+		/datum/mil_rank/security/e2
+	)
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_skills(rand(50,80), rand(50,80), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
+
+	access = list(access_sec_comms, access_mtflvl1, access_sciencelvl1)
+	minimal_access = list()
+
+/datum/job/enlistedofficerhcz
+	has_email = TRUE
+	title = "HCZ Junior Guard"
+	department = "Heavy Containment Personnel"
+	department_flag = SEC
+	total_positions = 2
+	spawn_positions = 2
+	duties = "<big><b>As the Junior Guard you have minimal access. You are to guard tests, SCP's and provide support in the zone you spawned in. If in doubt, ask your Zone or Guard Commander. You should not leave your zone under usual SoP."
+	supervisors = "the Guard/Zone Commander"
+	economic_modifier = 4
+//	minimal_player_age = 0
+	ideal_character_age = 25
+	alt_titles = null
+	outfit_type = /decl/hierarchy/outfit/job/site90/crew/security/enlistedofficerhcz
+	allowed_branches = list(
+		/datum/mil_branch/security
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/security/e3,
+		/datum/mil_rank/security/e4
+	)
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_skills(rand(50,80), rand(50,80), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
+
+	access = list(access_sec_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3, access_sciencelvl1, access_sciencelvl2, access_sciencelvl3)
+	minimal_access = list()
+
+/datum/job/enlistedofficerez
+	has_email = TRUE
+	title = "EZ Junior Agent"
+	department = "Entrance Personnel"
+	department_flag = SEC
+	total_positions = 2
+	spawn_positions = 2
+	duties = "<big><b>As the Junior Agent you have minimal access. You are to guard tests, SCP's and provide support in the zone you spawned in. If in doubt, ask your Zone or Guard Commander. You should not leave your zone under usual SoP."
+	supervisors = "the Senior Agent"
+	economic_modifier = 4
+	minimal_player_age = 0
+	ideal_character_age = 27
+	alt_titles = null
+	outfit_type = /decl/hierarchy/outfit/job/site90/crew/security/enlistedofficerez
+	allowed_branches = list(
+		/datum/mil_branch/security
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/security/e4,
+		/datum/mil_rank/security/e5
+	)
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_skills(rand(50,80), rand(50,80), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
+
+	access = list(access_sciencelvl1, access_sec_comms, access_mtflvl1, access_mtflvl2, access_adminlvl1, access_adminlvl2, access_medicalgen)
+	minimal_access = list()
 
 // SCIENCE
 
@@ -790,7 +998,7 @@
 	spawn_positions = 2
 	ideal_character_age = 40
 	economic_modifier = 5
-	duties = "<big><b>Ваша основная задача, как парамедика - поддержание жизнеспособности класса D и сотрудников лёгкой зоны. Мед-пункт, вблизи КПП тюремного отсека - по сути является вашим храмом и домом, старайтесь не покидать его без нужды. Учитывайте также и то, что запас медикаментов достаточно сильно ограничен - решайте кого спасать с умом."
+	duties = "<big><b>As the EMT it is your job to man the medical post near the Class D cell block, and treat any injuries there of the guards or Class D's. You only have limited supplies, so it's best to make them count."
 	supervisors = "the Chief Medical Officer"
 	outfit_type = /decl/hierarchy/outfit/job/ds90/medical/emt
 	allowed_branches = list(
@@ -953,7 +1161,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	minimal_player_age = 9
-	duties = "<big><b>Ваша работа, как Архивариуса, преобладающе состоит из проверки и составления документов и отчётов, касающихся проводимых на территории Зоны 53 испытаний или операций, с дальнейшим помещением оных в архив комплекса. <span style = 'color:red'>ЗАПОМНИТЕ!</span> Относитесь к роли со всей серьёзностью, как и к Представителю О5. За помещение в архив каких-либо незначительных записей или паст с двачей - вы рискуете получить перманентный бан на профу.</span>"
+	duties = "<big><b>As the Archivist, it is your job to make sure the proper test logs are digitalized and saved in the digital archive, thus safekeeping them forever. You must be picky and selective, and only get those with great quality out! <span style = 'color:red'>REMEMBER!</span> If you put in nonsensical things, or copypasta's such as Woody's got Wood, you will be permanently job banned WITHOUT chance to appeal.</span>"
 	supervisors = "the Research Director"
 	economic_modifier = 4
 	minimal_player_age = 5
@@ -981,7 +1189,7 @@
 	department_flag = COM
 	total_positions = 1
 	spawn_positions = 1
-	duties = "<big><b>Как представитель Совета Смотрящих(Кратко - Совета О5), вашей основной сферой деятельности является наблюдение за соблюдением протоколов Фонда, конфликтами, и любым другим социально-информационным взаимодействием персонала, с дальнейшей переправкой полученных данных в Совет. В случае необходимости, вы также можете выступить в качестве посредника между О5 и кем-либо из сотрудников Зоны 53. <span style = 'color:red'>ЗАПОМНИТЕ!</span> Игра на данной роли подразумевает наличие ХОРОШИХ навыков отыгрыша. Наблюдение и взаимодействие с объектами Фонда к вашей работе НЕ ОТНОСИТСЯ. Пускай у вас и есть доступ к оным, до момента заявления нарушения условий содержания того или иного номера - они находятся вне вашей юрисдикции."
+	duties = "<big><b>As the O5 Representative, your task is to generally assess the situation, and you are to fax the O5 Council of any wrongdoings or SOP violations. You can also mediate between two employees if it is absolutely necessary. <span style = 'color:red'>REMEMBER!</span> This is a heavy roleplay job, and bad roleplay will be punished. Your job is not to assess SCP's, nor will you have access there. So don't try."
 	supervisors = "the Research Director"
 	economic_modifier = 4
 	minimal_player_age = 5

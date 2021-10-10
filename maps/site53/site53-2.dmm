@@ -2629,7 +2629,7 @@
 "aYC" = (/obj/machinery/door/airlock/centcom{hackProof = 1; name = "NTF Helipad"; opacity = 1; req_access = list(299)},/turf/simulated/floor/reinforced,/area/site53/lowertrams/escape)
 "aYD" = (/obj/machinery/door/airlock/centcom{hackProof = 1; name = "NTF Helipad"; opacity = 1; req_access = list(299)},/turf/simulated/floor/reinforced,/area/site53/surface/surface)
 "aYE" = (/obj/structure/flora/ausbushes/lavendergrass,/turf/simulated/floor/exoplanet/snow,/area/site53/surface/surface)
-"aYF" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/airlock/engineering{name = "Janitor Room"; req_access = list(26)},/turf/simulated/floor/tiled/monotile,/area/janitor)
+"aYF" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/airlock,/turf/simulated/floor/tiled/monotile,/area/janitor)
 "aYG" = (/obj/structure/flora/ausbushes/brflowers,/turf/simulated/floor/exoplanet/grass,/area/site53/surface/surface)
 "aYH" = (/obj/structure/flora/ausbushes/fullgrass,/turf/simulated/floor/exoplanet/snow,/area/site53/surface/surface)
 "aYI" = (/obj/random/tree,/turf/simulated/floor/exoplanet/grass,/area/site53/surface/surface)

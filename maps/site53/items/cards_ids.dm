@@ -250,7 +250,34 @@
 	item_state = "Sec_ID1"
 	job_access_type = /datum/job/enlistedofficerlcz
 
+/obj/item/weapon/card/id/junseclvl2ez
+	name = "level two security keycard"
+	desc = "A dark purple keycard. Looks important. The person wearing it, not at all."
+	icon_state = "securitylvl2"
+	item_state = "Sec_ID2"
+	job_access_type = /datum/job/enlistedofficerez
+
+/obj/item/weapon/card/id/junseclvl3hcz
+	name = "level three security keycard"
+	desc = "A dark blue keycard. Looks important. The person wearing it not so much."
+	icon_state = "securitylvl3"
+	item_state = "Sec_ID3"
+	job_access_type = /datum/job/enlistedofficerhcz
+
 // GUARD ID'S.
+/obj/item/weapon/card/id/seclvl2lcz
+	name = "level two security keycard"
+	desc = "A dark purple keycard. Looks important. The person wearing it, not at all."
+	icon_state = "securitylvl2"
+	item_state = "Sec_ID2"
+	job_access_type = /datum/job/ncoofficerlcz
+
+/obj/item/weapon/card/id/seclvl3ez
+	name = "level three security keycard"
+	desc = "A dark blue keycard. Looks important. The person wearing it not so much."
+	icon_state = "securitylvl3"
+	item_state = "Sec_ID3"
+	job_access_type = /datum/job/ncoofficerez
 
 /obj/item/weapon/card/id/seclvl3hcz
 	name = "level three security keycard"
@@ -267,6 +294,20 @@
 	icon_state = "securitylvl4"
 	item_state = "Sec_ID4"
 	job_access_type = /datum/job/ltofficerhcz
+
+/obj/item/weapon/card/id/zcseclvl3lcz
+	name = "level three security keycard"
+	desc = "A teal keycard. A dark blue keycard. Looks important. The person wearing it not so much."
+	icon_state = "securitylvl3"
+	item_state = "Sec_ID3"
+	job_access_type = /datum/job/ltofficerlcz
+
+/obj/item/weapon/card/id/zcseclvl4ez
+	name = "level four security keycard"
+	desc = "A teal keycard. Looks cool."
+	icon_state = "securitylvl4"
+	item_state = "Sec_ID4"
+	job_access_type = /datum/job/ltofficerez
 
 // GC ID.
 
