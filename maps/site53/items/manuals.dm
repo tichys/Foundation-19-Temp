@@ -468,31 +468,27 @@ Following initial investigations, multiple test subjects were allowed access to 
 /obj/item/weapon/paper/scp/euclid/scp049
 	name = "SCP-049"
 	info = {"
-	<tt><center><b><font color='orange'>SCP-049 - "Чумной Доктор"</font></b>
-	<h3>НАУЧНАЯ СЛУЖБА</h3>
+	<tt><center><b><font color='orange'>EUCLID: SCP-049</font></b>
+	<h3>FOUNDATION RESEARCH DIVISION</h3>
 	</center>
 <br>
-<b>Объект №:</b> SCP-049
+<b>Item #:</b> SCP-049
 <br>
-<b>Класс объекта:</b> Евклид
+<b>Object Class:</b> Euclid
 <br>
-<b>Особые условия содержания:</b> SCP-049 должен содержаться в охраняемой камере Исследовательского Участка 53. SCP-049 нельзя извлекать из камеры без разрешения сотрудников уровня два или выше; перед изъятием объект необходимо подвергнуть воздействию сильных транквилизаторов.
+<b>Special Containment Procedures:</b> SCP-049 is contained within a Standard Secure Humanoid Containment Cell in Research Sector-02 at Site-19. SCP-049 must be sedated before any attempts to transport it. During transport, SCP-049 must be secured within a Class III Humanoid Restriction Harness (including a locking collar and extension restraints) and monitored by no fewer than two armed guards.
 
-Кроме этого, его должны сопровождать два (2) вооружённых охранника, на нём должен быть надет стальной ошейник с двумя присоединёнными стальными трубами длиной 2 м, которые должны крепко держать два (2) сотрудника службы безопасности 1 или более высокого уровня допуска в течение всего времени транспортировки.
+While SCP-049 is generally cooperative with most Foundation personnel, outbursts or sudden changes in behaviour are to be met with elevated force. Under no circumstances should any personnel come into direct contact with SCP-049 during these outbursts. In the event SCP-049 becomes aggressive, the application of lavender (L. multifida) has been shown to produce a calming effect on the entity. Once calmed, SCP-049 generally becomes compliant, and will return to containment with little resistance.
 
-Любые эксперименты над SCP-049 должны проводиться в помещениях, подготовленных особым образом (см. документ 042-D-3-18).
-
-Камера SCP-049 должна постоянно просматриваться с помощью видеокамер. При проявлении объектом любого аномального поведения следует сразу же оповестить д-ра ------
+In order to facilitate the ongoing containment of SCP-049, the entity is to be provided with the corpse of a recently deceased animal (typically a bovine or other large mammal) once every two weeks for study. Corpses that become instances of SCP-049-2 are to be removed from SCP-049's containment cell and incinerated. SCP-049 is no longer permitted to interact with human subjects, and requests for human subjects are to be denied.
 <br>
-<b>Описание:</b> SCP-049 имеет гуманоидную внешность, рост 1,9 м и вес 95,3 кг. Тем не менее, на данный момент невозможно изучить его лицо и тело более подробно, так как объект покрыт тем, что выглядит как традиционный костюм «чумного доктора» Европы XV-XVI вв. Этот материал фактически является частью тела SCP-049; как показало генетическое исследование и анализ с помощью микроскопа, его структура аналогична мышечной ткани, хотя на ощупь он больше похож на грубую кожу, а маска напоминает керамическую.
+<b>Description:</b> SCP-049 is a humanoid entity, roughly 1.9 meters in height, which bears the appearance of a medieval plague doctor. While SCP-049 appears to be wearing the thick robes and the ceramic mask indicative of that profession, the garments instead seem to have grown out of SCP-049's body over time1, and are now nearly indistinguishable from whatever form is beneath them. X-rays indicate that despite this, SCP-049 does have a humanoid skeletal structure beneath its outer layer.
 
-SCP-049 был обнаружен местной полицией в ------, Англия. Мобильная оперативная группа среагировала на возможное появление ------. Одним из этапов начальной процедуры содержания стало введение всем гражданским лицам в радиусе 500 метров амнезиака класса A.
+SCP-049 is capable of speech in a variety of languages, though tends to prefer English or medieval French2. While SCP-049 is generally cordial and cooperative with Foundation staff, it can become especially irritated or at times outright aggressive if it feels that it is in the presence of what it calls the "Pestilence". Although the exact nature of this Pestilence is currently unknown to Foundation researchers, it does seem to be an issue of immense concern to SCP-049.
 
-Прикосновение SCP-049 всегда смертельно для людей. После контакта с рукой (руками) объекта жертва (здесь и далее обозначается как SCP-049-2) испытывает ------ и через несколько мгновений умирает. Затем SCP-049 пытается убить всех людей в пределах видимости тем же способом - предположительно для того, чтобы его не отвлекали - после чего возвращается к SCP-049-2. Откуда-то изнутри тела он достаёт сумку (исследования не смогли определить её местоположение в теле SCP-049 при помощи рентгена и подобных методик), сделанную из ------, содержащую скальпели, иглу, нить и несколько колб с пока не изученными веществами, и начинает препарировать SCP-049-2, а также внедрять в тело различные химические препараты. Примерно через 20 минут SCP-049 зашивает SCP-049-2 и снова становится контролируемым.
+SCP-049 will become hostile with individuals it sees as being affected by the Pestilence, often having to be restrained should it encounter such. If left unchecked, SCP-049 will generally attempt to kill any such individual; SCP-049 is capable of causing all biological functions of an organism to cease through direct skin contact. How this occurs is currently unknown, and autopsies of SCP-049's victims have invariably been inconclusive. SCP-049 has expressed frustration or remorse after these killings, indicating that they have done little to kill "The Pestilence", though will usually seek to then perform a crude surgery on the corpse using the implements contained within a black doctor's bag it carries on its person at all times3. While these surgeries are not always "successful", they often result in the creation of instances of SCP-049-2.
 
-Через несколько минут SCP-049-2 проявляет признаки жизни и начинает оживать. Тем не менее, SCP-049-2 выглядит абсолютно лишённым высших мозговых функций; он будет бесцельно бродить до тех пор, пока не обнаружит другого живого человека. В этот момент уровни адреналина и эндорфина SCP-049-2 повышаются втрое, он пытается убить и ------ любое человеческое существо, которое сможет найти, затем возвращается в бездумное состояние и бродит до тех пор, пока снова не встретит людей. На этом этапе дозволено уничтожение любыми способами. Если данную операцию не удалось провести, виновный карается уничтожением (исключение - исследовательские цели, см. Приложение T-049-12).
-
-Вскрытия тел образцов SCP-049-2 выявили наличие нескольких необычных веществ (наряду с обычными веществами в больших количествах) внутри тел, включая ------. Некоторые вещества ещё предстоит идентифицировать (сотрудники с 3 или более высоким уровнем допуска могут обратиться к Приложению C-1).
+SCP-049-2 instances are reanimated corpses that have been operated on by SCP-049. These instances do not seem to retain any of their prior memories or mental functions, having only basic motor skills and response mechanisms. While these instances are generally inactive, moving very little and in a generally ambulatory fashion, they can become extremely aggressive if provoked, or if directed to by SCP-049. SCP-049-2 instances express active biological functions, though these are vastly different from currently understood human physiology. Despite these alterations, SCP-049 often remarks that the subjects have been "cured".
 "}
 
 /obj/item/weapon/paper/scp/euclid/scp078
