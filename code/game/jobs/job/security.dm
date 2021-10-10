@@ -28,14 +28,14 @@
 
 /datum/job/ltofficerhcz
 	has_email = TRUE
-	title = "Second Guard Commander"
+	title = "Zone Commander"
 	department = "Security"
 	selection_color = "#8e2929"
 	department_flag = SEC
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 3
+	spawn_positions = 3
 	supervisors = "the Guard Commander"
-	duties = "<big><b>As the Second Guard Commander, you're the right hand of the Guard Commander.</span>"
+	duties = "<big><b>As the Zone Commander, You are assigned or pick a zone to manage and you make sure no SCPs or D-class escape from that zone or containment.</span>"
 	economic_modifier = 4
 	minimal_player_age = 10
 	ideal_character_age = 45

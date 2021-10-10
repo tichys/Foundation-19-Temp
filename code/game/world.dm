@@ -594,7 +594,7 @@ var/world_topic_spam_protect_time = world.timeofday
 /world/proc/update_status()
 	var/s = ""
 
-	s += "<center><a href=\"https://discord.gg/mXfDyd9fg9\"><big><b>[config.server_name]</b></big><br>"
+	s += "<center><a href=\"https://discord.gg/C2urrUaWuP\"><big><b>[config.server_name]</b></big><br>"
 	s += "Map: <b>[GLOB.using_map.full_name]</b><br>"
 	s += "Mode: <b>[PUBLIC_GAME_MODE]</b><br>"
 	s += "Hosted by: <b>[config.hostedby]</b><br>"

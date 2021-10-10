@@ -56,7 +56,7 @@
 			if("A: Character setup")
 				msgplayer = "\blue <b>NOTICE: <font color=red>[usr.key]</font> is autoresponding with <font color='#009900'>'[choice]'</font>. In order to join the game, you are required to select a branch and rank, found in the top area of the character set up. Once you have done this, you can join the jobs that are allowed for that rank. It is best to experiment for a moment to see which rank suits you best, since some jobs allow multiple.</b>"
 			if("A: Website and Discord information")
-				msgplayer = "\blue <b>NOTICE: <font color=red>[usr.key]</font> is autoresponding with <font color='#009900'>'[choice]'</font>. Hello, and welcome! Our website is located at: https://scp13.site, our wiki is located at: wiki.scp13.site, and our Discord is located at: https://discord.gg/kJ7UfvM . Hope to see you soon!</b>"
+				msgplayer = "\blue <b>NOTICE: <font color=red>[usr.key]</font> is autoresponding with <font color='#009900'>'[choice]'</font>. Hello, and welcome! Our website is located at: https://scp13.site, our wiki is located at: wiki.scp13.site, and our Discord is located at: https://discord.gg/C2urrUaWuP . Hope to see you soon!</b>"
 /*			if("Thanks")
 				msgplayer = "\blue <b>NOTICE: <font color=red>[usr.key]</font> is autoresponding with <font color='#009900'>'[choice]'</font>! Have a CM day!</b>"
 			if("Guilty")
