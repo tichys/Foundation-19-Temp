@@ -116,11 +116,8 @@
 			client.next_scp012_sound = -1
 
   	// SCP-049 stuff: don't change the order of these checks, they short circuit
-	if (prob(1) && prob(5) && type == /mob/living/carbon/human && !isscp049_1(src) && !pestilence) // a 1 in 2,000 chance every 2 seconds = 66 minutes?
+	if (prob(1) && prob(5) && type == /mob/living/carbon/human && !isscp049_1(src) && !pestilence && !isscp343(src)) // a 1 in 2,000 chance every 2 seconds = 66 minutes?
 		pestilence = TRUE
-
-	if (!isscp343(src))
-		pestilence = FALSE
 
 	if(!handle_some_updates())
 		return											//We go ahead and process them 5 times for HUD images and other stuff though.
