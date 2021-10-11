@@ -239,7 +239,6 @@
 			else
 				to_chat(user, "<span class='danger'>You need a better grip to do that!</span>")
 			sleep(50)
-			return
 
 	// Dismantle
 	if(isWrench(W) && !anchored)

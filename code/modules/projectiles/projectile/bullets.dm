@@ -128,7 +128,7 @@
 
 /obj/item/projectile/bullet/pistol
 	fire_sound = 'sound/weapons/gunshot/gunshot_pistol.ogg'
-	damage = 30 //9mm, .38, etc
+	damage = 35 //9mm, .38, etc
 	armor_penetration = 13.5
 	agony = 20
 
@@ -153,13 +153,13 @@
 
 /obj/item/projectile/bullet/pistol/medium/smg/hollowpoint
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
-	damage = 24 //10mm hollowpoint
+	damage = 50 //10mm hollowpoint
 	armor_penetration = 8
 	agony = 25
 
 /obj/item/projectile/bullet/pistol/medium/smg/ap
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
-	damage = 26 //10mm AP
+	damage = 30 //10mm AP
 	armor_penetration = 30
 	agony = 21
 
@@ -171,12 +171,12 @@
 
 /obj/item/projectile/bullet/pistol/medium/revolver
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
-	damage = 30 //.44 magnum or something
+	damage = 55 //.44 magnum or something
 	agony = 23
 
 /obj/item/projectile/bullet/pistol/strong //matebas
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
-	damage = 50 //.50AE
+	damage = 60 //.50AE
 	armor_penetration = 30
 	agony = 15
 
@@ -206,7 +206,7 @@
 /obj/item/projectile/bullet/shotgun
 	name = "slug"
 	fire_sound = 'sound/weapons/gunshot/shotgun.ogg'
-	damage = 55
+	damage = 60
 	armor_penetration = 20
 	agony = 34
 
@@ -223,7 +223,7 @@
 /obj/item/projectile/bullet/pellet/shotgun
 	name = "shrapnel"
 	fire_sound = 'sound/weapons/gunshot/shotgun.ogg'
-	damage = 15
+	damage = 20
 	pellets = 6
 	range_step = 1
 	spread_step = 10
@@ -238,13 +238,13 @@
 
 /obj/item/projectile/bullet/rifle/a556
 	fire_sound = 'sound/weapons/gunshot/gunshot3.ogg'
-	damage = 35
+	damage = 50
 	armor_penetration = 40
 	agony = 23
 
 /obj/item/projectile/bullet/rifle/a762
 	fire_sound = 'sound/weapons/gunshot/gunshot2.ogg'
-	damage = 35
+	damage = 60
 	armor_penetration = 30
 	agony = 24
 
