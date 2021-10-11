@@ -12,6 +12,7 @@ GLOBAL_LIST_EMPTY(scp173s)
 	icon_state = "173"
 	SCP = /datum/scp/SCP_173
 
+
 	see_invisible = SEE_INVISIBLE_NOLIGHTING
 	see_in_dark = 7
 
@@ -195,7 +196,7 @@ GLOBAL_LIST_EMPTY(scp173s)
 		var/feces = pick(/obj/effect/decal/cleanable/blood, /obj/effect/decal/cleanable/blood/gibs, /obj/effect/decal/cleanable/mucus)
 		new feces(loc)
 
-// humans 
+// humans
 /mob/living/carbon/human/set_stat(_new)
 	..(_new)
 	if (stat != DEAD)

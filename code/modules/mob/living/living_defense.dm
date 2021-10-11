@@ -181,10 +181,10 @@
 		var/dtype = O.damtype
 		var/throw_damage = O.throwforce*(speed/THROWFORCE_SPEED_DIVISOR)
 
-		var/miss_chance = 15
+		var/miss_chance = 5
 		if (O.throw_source)
 			var/distance = get_dist(O.throw_source, loc)
-			miss_chance = max(15*(distance-2), 0)
+			miss_chance = max(2*(distance-2), 0)
 
 		if (prob(miss_chance))
 			visible_message("<span class='notice'>\The [O] misses [src] narrowly!</span>")
@@ -346,7 +346,7 @@
 	for(var/item in items_with_action_button_names)
 		var/obj/item/I = item
 		if (get_dist(I, src) != 0 || (l_hand != I && r_hand != I))
-			items_with_action_button_names -= I 
+			items_with_action_button_names -= I
 			continue
 		if(I.action_button_name)
 			if(!I.action)
