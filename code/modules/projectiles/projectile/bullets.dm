@@ -128,14 +128,14 @@
 
 /obj/item/projectile/bullet/pistol
 	fire_sound = 'sound/weapons/gunshot/gunshot_pistol.ogg'
-	damage = 35 //9mm, .38, etc
+	damage = 40 //9mm, .38, etc
 	armor_penetration = 13.5
-	agony = 20
+	agony = 35
 
 /obj/item/projectile/bullet/pistol/medium
-	damage = 45 //.45
+	damage = 50 //.45
 	armor_penetration = 14.5
-	agony = 22
+	agony = 45
 
 /obj/item/projectile/bullet/pistol/medium/smg
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
@@ -153,15 +153,15 @@
 
 /obj/item/projectile/bullet/pistol/medium/smg/hollowpoint
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
-	damage = 50 //10mm hollowpoint
+	damage = 60 //10mm hollowpoint
 	armor_penetration = 8
-	agony = 25
+	agony = 40
 
 /obj/item/projectile/bullet/pistol/medium/smg/ap
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
 	damage = 30 //10mm AP
 	armor_penetration = 30
-	agony = 21
+	agony = 25
 
 /obj/item/projectile/bullet/pistol/medium/smg/silver
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
@@ -171,14 +171,14 @@
 
 /obj/item/projectile/bullet/pistol/medium/revolver
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
-	damage = 55 //.44 magnum or something
-	agony = 23
+	damage = 60 //.44 magnum or something
+	agony = 35
 
 /obj/item/projectile/bullet/pistol/strong //matebas
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
-	damage = 60 //.50AE
+	damage = 65 //.50AE
 	armor_penetration = 30
-	agony = 15
+	agony = 35
 
 /obj/item/projectile/bullet/pistol/vstrong //tacrevolver
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
@@ -187,7 +187,7 @@
 	agony = 45
 
 /obj/item/projectile/bullet/pistol/strong/revolver //revolvers
-	damage = 50 //Revolvers get snowflake bullets, to keep them relevant
+	damage = 60 //Revolvers get snowflake bullets, to keep them relevant
 	armor_penetration = 20
 	agony = 36
 
@@ -223,34 +223,34 @@
 /obj/item/projectile/bullet/pellet/shotgun
 	name = "shrapnel"
 	fire_sound = 'sound/weapons/gunshot/shotgun.ogg'
-	damage = 20
+	damage = 30
 	pellets = 6
 	range_step = 1
 	spread_step = 10
-	agony = 10
+	agony = 15
 
 /* "Rifle" rounds */
 
 /obj/item/projectile/bullet/rifle
 	armor_penetration = 25
 	penetrating = 1
-	agony = 20
+	agony = 35
 
 /obj/item/projectile/bullet/rifle/a556
 	fire_sound = 'sound/weapons/gunshot/gunshot3.ogg'
 	damage = 50
 	armor_penetration = 40
-	agony = 23
+	agony = 40
 
 /obj/item/projectile/bullet/rifle/a762
 	fire_sound = 'sound/weapons/gunshot/gunshot2.ogg'
 	damage = 60
 	armor_penetration = 30
-	agony = 24
+	agony = 45
 
 /obj/item/projectile/bullet/rifle/a145
 	fire_sound = 'sound/weapons/gunshot/sniper.ogg'
-	damage = 80
+	damage = 120
 	stun = 3
 	weaken = 3
 	penetrating = 5
@@ -259,7 +259,7 @@
 	penetration_modifier = 1.25
 
 /obj/item/projectile/bullet/rifle/a145/apds
-	damage = 75
+	damage = 100
 	penetrating = 6
 	armor_penetration = 95
 	penetration_modifier = 1.5
