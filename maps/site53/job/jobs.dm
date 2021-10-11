@@ -1083,8 +1083,8 @@
 	title = "Janitor"
 	department = "Civilian"
 	department_flag = CIV
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 3
+	spawn_positions = 3
 	supervisors = "the Head of Personnel"
 	ideal_character_age = 24
 	alt_titles = list("Interior caretaker")

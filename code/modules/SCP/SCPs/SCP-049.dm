@@ -175,6 +175,9 @@ GLOBAL_LIST_EMPTY(scp049_1s)
 	if (H.client && !pestilence)
 		H << "<span class = 'danger'>They are not infected with the Pestilence.</span>"
 		return
+	if (isscp343(src))
+		to_chat(H, "<span class='warning'> You refrain from curing god.</span>")
+		return
 	switch (stat)
 		if (CONSCIOUS, UNCONSCIOUS)
 			visible_message("<span class = 'danger'><big>[H] touches [src], killing them instantly!</big></span>")
