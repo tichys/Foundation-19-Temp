@@ -220,7 +220,7 @@
 			if(occupied)
 				to_chat(user, "<span class='danger'>There's \a [occupied] in the way.</span>")
 				return
-
+/*
 			if(G.force_danger())
 				if(user.a_intent == I_HURT)
 					visible_message("<span class='danger'>[G.assailant] slams [G.affecting]'s face against \the [src]!</span>")
@@ -239,7 +239,7 @@
 			else
 				to_chat(user, "<span class='danger'>You need a better grip to do that!</span>")
 			sleep(50)
-
+*/
 	// Dismantle
 	if(isWrench(W) && !anchored)
 		playsound(src.loc, 'sound/items/Ratchet.ogg', 50, 1)
