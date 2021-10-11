@@ -133,13 +133,13 @@
 	agony = 20
 
 /obj/item/projectile/bullet/pistol/medium
-	damage = 26.5 //.45
+	damage = 45 //.45
 	armor_penetration = 14.5
 	agony = 22
 
 /obj/item/projectile/bullet/pistol/medium/smg
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
-	damage = 35 //10mm
+	damage = 40 //10mm
 	armor_penetration = 15
 	agony = 31
 
