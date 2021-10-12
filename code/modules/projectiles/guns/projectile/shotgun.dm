@@ -70,6 +70,9 @@
 
 	burst_delay = 0
 
+/obj/item/weapon/gun/projectile/shotgun/tactical/beanbag
+	ammo_type = /obj/item/ammo_casing/shotgun/beanbag
+
 /obj/item/weapon/gun/projectile/shotgun/doublebarrel
 	name = "double-barreled shotgun"
 	desc = "A true classic."
