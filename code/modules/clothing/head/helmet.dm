@@ -10,7 +10,7 @@
 	restricted_accessory_slots = list(ACCESSORY_SLOT_HELM_C)
 	item_flags = ITEM_FLAG_THICKMATERIAL
 	body_parts_covered = HEAD
-	armor = list(melee = 50, bullet = 50, laser = 50,energy = 25, bomb = 30, bio = 0, rad = 0)
+	armor = list(melee = 50, bullet = 80, laser = 50,energy = 25, bomb = 30, bio = 0, rad = 0)
 	flags_inv = HIDEEARS|BLOCKHEADHAIR
 	cold_protection = HEAD
 	min_cold_protection_temperature = HELMET_MIN_COLD_PROTECTION_TEMPERATURE
@@ -36,7 +36,7 @@
 	name = "tactical helmet"
 	desc = "A tan helmet made from advanced ceramic. Comfortable and robust."
 	icon_state = "helmet_tac"
-	armor = list(melee = 50, bullet = 60, laser = 60, energy = 45, bomb = 30, bio = 0, rad = 0)
+	armor = list(melee = 50, bullet = 70, laser = 60, energy = 45, bomb = 30, bio = 0, rad = 0)
 	siemens_coefficient = 0.6
 
 /obj/item/clothing/head/helmet/bgtactical
@@ -51,7 +51,7 @@
 	name = "combat helmet"
 	desc = "A heavily reinforced helmet painted with red markings. Feels like it could take a lot of punishment."
 	icon_state = "helmet_merc"
-	armor = list(melee = 70, bullet = 70, laser = 70, energy = 35, bomb = 30, bio = 0, rad = 0)
+	armor = list(melee = 70, bullet = 75, laser = 70, energy = 35, bomb = 30, bio = 0, rad = 0)
 	siemens_coefficient = 0.5
 
 /obj/item/clothing/head/helmet/riot
@@ -86,14 +86,14 @@
 	desc = "A helmet with reinforced plating to protect against ballistic projectiles."
 	icon_state = "helmet_bulletproof"
 	valid_accessory_slots = null
-	armor = list(melee = 5, bullet = 82, laser = 30, energy = 5, bomb = 30, bio = 2, rad = 0)
+	armor = list(melee = 5, bullet = 85, laser = 30, energy = 5, bomb = 30, bio = 2, rad = 0)
 	siemens_coefficient = 0.7
 
 /obj/item/clothing/head/helmet/swat
 	name = "\improper SWAT helmet"
 	desc = "They're often used by highly trained Swat Members."
 	icon_state = "helmet_merc"
-	armor = list(melee = 80, bullet = 60, laser = 50,energy = 25, bomb = 50, bio = 10, rad = 0)
+	armor = list(melee = 80, bullet = 75, laser = 50,energy = 25, bomb = 50, bio = 10, rad = 0)
 	cold_protection = HEAD
 	min_cold_protection_temperature = SPACE_HELMET_MIN_COLD_PROTECTION_TEMPERATURE
 	siemens_coefficient = 0.5
@@ -102,7 +102,7 @@
 	name = "tactical hazmat helmet"
 	desc = "An armored hazmat helmet. Has a distinct orange hue."
 	icon_state = "tac_helmet"
-	armor = list(melee = 80, bullet = 60, laser = 50,energy = 25, bomb = 50, bio = 100, rad = 60)
+	armor = list(melee = 80, bullet = 75, laser = 50,energy = 25, bomb = 50, bio = 100, rad = 60)
 	cold_protection = HEAD
 	min_cold_protection_temperature = SPACE_HELMET_MIN_COLD_PROTECTION_TEMPERATURE
 	item_flags = ITEM_FLAG_THICKMATERIAL|ITEM_FLAG_AIRTIGHT
@@ -140,7 +140,7 @@
 		SPECIES_UNATHI = 'icons/mob/species/unathi/helmet.dmi'
 		)
 
-	armor = list(melee = 62, bullet = 50, laser = 50,energy = 35, bomb = 10, bio = 2, rad = 0)
+	armor = list(melee = 62, bullet = 70, laser = 50,energy = 35, bomb = 10, bio = 2, rad = 0)
 	flags_inv = HIDEEARS
 	siemens_coefficient = 0.7
 */
@@ -150,7 +150,7 @@
 	desc = "A helmet with optical and cranial augments coupled to it."
 	icon_state = "v62"
 	valid_accessory_slots = null
-	armor = list(melee = 80, bullet = 60, laser = 50,energy = 25, bomb = 50, bio = 10, rad = 0)
+	armor = list(melee = 80, bullet = 70, laser = 50,energy = 25, bomb = 50, bio = 10, rad = 0)
 	flags_inv = HIDEEARS|HIDEEYES
 	body_parts_covered = HEAD|EYES|BLOCKHEADHAIR
 	cold_protection = HEAD
@@ -168,7 +168,7 @@
 		slot_l_hand_str = "syndicate-helm-green",
 		slot_r_hand_str = "syndicate-helm-green",
 		)
-	armor = list(melee = 62, bullet = 50, laser = 50,energy = 35, bomb = 10, bio = 2, rad = 0)
+	armor = list(melee = 62, bullet = 70, laser = 50,energy = 35, bomb = 10, bio = 2, rad = 0)
 
 //Security
 /obj/item/clothing/head/helmet/ert/security
@@ -198,7 +198,7 @@
 	desc = "A helmet with 'CORPORATE SECURITY' printed on the back lettering."
 	icon_state = "guard-helm"
 	body_parts_covered = HEAD|FACE|EYES //face shield
-	armor = list(melee = 50, bullet = 60, laser = 50,energy = 25, bomb = 30, bio = 10, rad = 10)
+	armor = list(melee = 50, bullet = 70, laser = 50,energy = 25, bomb = 30, bio = 10, rad = 10)
 	flags_inv = HIDEEARS
 	action_button_name = "Toggle Visor"
 
@@ -216,7 +216,7 @@
 	desc = "A helmet with 'CHAOS INSURGENCY' symbol printed on the back lettering."
 	icon_state = "chaos-helm"
 	body_parts_covered = HEAD //face shield
-	armor = list(melee = 50, bullet = 70, laser = 50,energy = 25, bomb = 40, bio = 10, rad = 10)
+	armor = list(melee = 50, bullet = 75, laser = 50,energy = 25, bomb = 40, bio = 10, rad = 10)
 	flags_inv = HIDEEARS
 
 /obj/item/clothing/head/helmet/scp/donor
@@ -224,7 +224,7 @@
 	desc = "Тактический шлем из композитных сплавов, оснащённый тепловизором, встроенной радиостанцией и устройством GPS, с выводом данных на интерфейс шлема. К сожалению из-за отсутствия питания единственная функция этого шлема - защищать голову владельца."
 	icon_state = "donor_sec"
 	body_parts_covered = HEAD|FACE|EYES //face shield
-	armor = list(melee = 50, bullet = 60, laser = 50,energy = 25, bomb = 30, bio = 10, rad = 10)
+	armor = list(melee = 50, bullet = 70, laser = 50,energy = 25, bomb = 30, bio = 10, rad = 10)
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|BLOCKHAIR
 
 /obj/item/clothing/head/helmet/scp/donor2
@@ -232,7 +232,7 @@
 	desc = "Тяжёлый шлем специального назначения Рысь-Т, покрашен в чёрный цвет."
 	icon_state = "donate_sec"
 	body_parts_covered = HEAD|FACE|EYES //face shield
-	armor = list(melee = 50, bullet = 60, laser = 50,energy = 25, bomb = 30, bio = 10, rad = 10)
+	armor = list(melee = 50, bullet = 70, laser = 50,energy = 25, bomb = 30, bio = 10, rad = 10)
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|BLOCKHAIR
 
 /obj/item/clothing/head/helmet/scp/donor3
