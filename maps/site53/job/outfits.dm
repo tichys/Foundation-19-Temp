@@ -112,7 +112,7 @@
 	uniform = /obj/item/clothing/under/scp/utility/security/zc
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/zcseclvl4ez
-	l_hand = /obj/item/device/radio
+	l_ear = /obj/item/device/radio/headset/headset_com
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
 	back = null
 // GUARD OUTFITS
@@ -121,26 +121,26 @@
 	uniform = /obj/item/clothing/under/scp/utility/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/seclvl2lcz
+	l_ear = /obj/item/device/radio/headset/headset_sec
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
 	back = null
-	l_hand = /obj/item/device/radio
 
 /decl/hierarchy/outfit/job/site90/crew/security/ncoofficerhcz
 	name = OUTFIT_JOB_NAME("HCZ Guard")
 	uniform = /obj/item/clothing/under/scp/whiteuniform
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/seclvl3hcz
+	l_ear = /obj/item/device/radio/headset/headset_sec
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
 	back = /obj/item/weapon/storage/backpack/satchel
-	l_hand = /obj/item/device/radio
 
 /decl/hierarchy/outfit/job/site90/crew/security/ncoofficerez
 	name = OUTFIT_JOB_NAME("EZ Agent")
 	uniform = /obj/item/clothing/under/scp/utility/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/seclvl3ez
+	l_ear = /obj/item/device/radio/headset/headset_sec
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
-	l_hand = /obj/item/device/radio
 	back = null
 
 /decl/hierarchy/outfit/job/site90/crew/security/enlistedofficerez
@@ -148,8 +148,8 @@
 	uniform = /obj/item/clothing/under/scp/utility/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/junseclvl2ez
+	l_ear = /obj/item/device/radio/headset/headset_sec
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
-	l_hand = /obj/item/device/radio
 	back = null
 
 // JUNIOR GUARD OUTFITS
@@ -158,7 +158,7 @@
 	uniform = /obj/item/clothing/under/scp/whiteuniform
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/junseclvl1
-	l_hand = /obj/item/device/radio
+	l_ear = /obj/item/device/radio/headset/headset_sec
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
 	back = /obj/item/weapon/storage/backpack/satchel
 
@@ -167,7 +167,7 @@
 	uniform = /obj/item/clothing/under/scp/utility/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/junseclvl3hcz
-	l_hand = /obj/item/device/radio
+	l_ear = /obj/item/device/radio/headset/headset_sec
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
 	back = null
 // SCIENCE OUTFITS
@@ -179,7 +179,7 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	id_type = /obj/item/weapon/card/id/sciencelvl1
 	gloves = /obj/item/clothing/gloves/latex
-	l_hand = /obj/item/device/radio
+	l_ear = /obj/item/device/radio/headset/headset_sci
 	back = /obj/item/weapon/storage/backpack/satchel
 
 /decl/hierarchy/outfit/job/site90/crew/science/scientist
@@ -189,7 +189,7 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	id_type = /obj/item/weapon/card/id/sciencelvl2
 	gloves = /obj/item/clothing/gloves/latex
-	l_hand = /obj/item/device/radio
+	l_ear = /obj/item/device/radio/headset/headset_sci
 	l_pocket = /obj/item/weapon/book/manual/scp/scisop
 
 /decl/hierarchy/outfit/job/site90/crew/science/seniorscientist
@@ -200,7 +200,7 @@
 	id_type = /obj/item/weapon/card/id/sciencelvl4
 	gloves = /obj/item/clothing/gloves/latex/nitrile
 	l_pocket = /obj/item/weapon/book/manual/scp/scisop
-	l_hand = /obj/item/device/radio
+	l_ear = /obj/item/device/radio/headset/headset_sci
 	back = /obj/item/weapon/storage/backpack/satchel/pocketbook
 
 /decl/hierarchy/outfit/job/site90/crew/science/researchdirector
@@ -238,7 +238,7 @@
 	l_pocket = /obj/item/device/radio
 	id_type = /obj/item/weapon/card/id/sciencelvl1
 	back = /obj/item/weapon/storage/backpack/satchel
-	l_hand = /obj/item/device/radio
+	l_ear = /obj/item/device/radio/headset/headset_service
 
 /decl/hierarchy/outfit/job/site90/crew/civ/chef
 	name = OUTFIT_JOB_NAME("Chef")
@@ -265,7 +265,7 @@
 	l_pocket = /obj/item/device/radio
 	id_type = /obj/item/weapon/card/id/archivist
 	back = /obj/item/weapon/storage/backpack/satchel
-	l_hand = /obj/item/device/radio
+	l_ear = /obj/item/device/radio/headset/headset_com
 
 /decl/hierarchy/outfit/job/site90/crew/civ/o5rep
 	name = OUTFIT_JOB_NAME("O5 Representative")
@@ -285,7 +285,7 @@
 	id_type = /obj/item/weapon/card/id/seclvl2
 	belt = /obj/item/weapon/storage/belt/utility/full
 	l_pocket = /obj/item/device/radio
-
+	l_ear = /obj/item/device/radio/headset/headset_eng
 
 /decl/hierarchy/outfit/job/ds90/crew/engineering/eng
 	name = OUTFIT_JOB_NAME("Engineer")
@@ -294,6 +294,7 @@
 	id_type = /obj/item/weapon/card/id/seclvl3
 	belt = /obj/item/weapon/storage/belt/utility/full
 	l_pocket = /obj/item/device/radio
+	l_ear = /obj/item/device/radio/headset/headset_eng
 
 /decl/hierarchy/outfit/job/ds90/crew/engineering/seneng
 	name = OUTFIT_JOB_NAME("Senior Engineer")
@@ -302,6 +303,7 @@
 	id_type = /obj/item/weapon/card/id/seclvl4
 	belt = /obj/item/weapon/storage/belt/utility/full
 	l_pocket = /obj/item/device/radio
+	l_ear = /obj/item/device/radio/headset/heads/ce
 	back = /obj/item/weapon/storage/backpack/industrial
 
 /decl/hierarchy/outfit/job/ds90/crew/engineering/conteng
