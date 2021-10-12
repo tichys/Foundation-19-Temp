@@ -25,7 +25,7 @@
 
 /datum/job/assistant/equip(mob/living/carbon/human/H)
 	..()
-	H.add_stats(rand(1,6), rand(1,6), rand(1,7)) // Str, Dex, Int.
+	H.add_stats(rand(3,8), rand(1,6), rand(1,7)) // Str, Dex, Int.
 	H.add_skills(rand(10,20), rand(5,10), rand(0,5), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 	var/r = rand(100,9000)
@@ -175,7 +175,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(5,7), rand(5,7), rand(20,25)) // Str, Dex, Int.
+		H.add_stats(rand(7,10), rand(5,7), rand(20,25)) // Str, Dex, Int.
 		H.add_skills(rand(25,30), rand(25,30), rand(5,10), rand(50,60)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(
@@ -225,7 +225,7 @@
 	minimal_access = list()
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_stats(rand(12,15), rand(10), rand(15,20)) // Str, Dex, Int.
 		H.add_skills(rand(70,90), rand(70,90), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 
@@ -254,7 +254,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_stats(rand(11,15), rand(10), rand(15,20)) // Str, Dex, Int.
 		H.add_skills(rand(60,80), rand(60,80), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 	access = list(access_mtflvl1, access_mtflvl2, access_dclassjanitorial, access_dclassmining, access_dclasskitchen, access_dclassbotany)
 	minimal_access = list()
@@ -281,7 +281,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_stats(rand(12,16), rand(10,12), rand(15,20)) // Str, Dex, Int.
 		H.add_skills(rand(90,100), rand(90,100), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(
@@ -327,7 +327,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_stats(rand(12,15), rand(10,12), rand(15,20)) // Str, Dex, Int.
 		H.add_skills(rand(80,100), rand(80,100), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_sec_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3, access_sciencelvl1, access_sciencelvl2, access_sciencelvl3)
@@ -355,7 +355,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_stats(rand(12,15), rand(10,12), rand(15,20)) // Str, Dex, Int.
 		H.add_skills(rand(80,100), rand(80,100), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_sec_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3, access_mtflvl4, access_sciencelvl1, access_sciencelvl2, access_sciencelvl3, access_sciencelvl4)
@@ -383,7 +383,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_stats(rand(12,15), rand(10,12), rand(15,20)) // Str, Dex, Int.
 		H.add_skills(rand(80,100), rand(80,100), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_sec_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3, access_mtflvl4, access_adminlvl1, access_adminlvl2, access_adminlvl3, access_adminlvl4, access_sciencelvl1, access_medicalgen)
@@ -418,7 +418,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_stats(rand(11,15), rand(10,12), rand(15,20)) // Str, Dex, Int.
 		H.add_skills(rand(60,80), rand(60,80), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_sec_comms, access_mtflvl1, access_mtflvl2, access_sciencelvl1, access_sciencelvl2)
@@ -448,7 +448,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_stats(rand(11,15), rand(10,12), rand(15,20)) // Str, Dex, Int.
 		H.add_skills(rand(60,80), rand(60,80), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_sec_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3, access_sciencelvl1, access_sciencelvl2, access_sciencelvl3)
@@ -477,7 +477,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_stats(rand(11,15), rand(10,12), rand(15,20)) // Str, Dex, Int.
 		H.add_skills(rand(60,80), rand(60,80), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_sciencelvl1, access_sec_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3, access_adminlvl1, access_adminlvl2, access_adminlvl3, access_medicalgen)
@@ -510,7 +510,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_stats(rand(10,13), rand(10,11), rand(15,20)) // Str, Dex, Int.
 		H.add_skills(rand(50,80), rand(50,80), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_sec_comms, access_mtflvl1, access_sciencelvl1)
@@ -539,7 +539,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_stats(rand(10,13), rand(10,11), rand(15,20)) // Str, Dex, Int.
 		H.add_skills(rand(50,80), rand(50,80), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_sec_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3, access_sciencelvl1, access_sciencelvl2, access_sciencelvl3)
@@ -568,7 +568,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(10), rand(10), rand(15,20)) // Str, Dex, Int.
+		H.add_stats(rand(10,13), rand(10,11), rand(15,20)) // Str, Dex, Int.
 		H.add_skills(rand(50,80), rand(50,80), rand(15,30), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_sciencelvl1, access_sec_comms, access_mtflvl1, access_mtflvl2, access_adminlvl1, access_adminlvl2, access_medicalgen)
@@ -594,7 +594,7 @@
 	allowed_ranks = list(/datum/mil_rank/civ/classc)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(3,5), rand(3,5), rand(20,25)) // Str, Dex, Int.
+		H.add_stats(rand(3,8), rand(3,5), rand(20,25)) // Str, Dex, Int.
 		H.add_skills(rand(0,25), rand(0,10), rand(50,70), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 
@@ -619,7 +619,7 @@
 	allowed_ranks = list(/datum/mil_rank/civ/classc)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(3,5), rand(3,5), rand(25,35)) // Str, Dex, Int.
+		H.add_stats(rand(3,8), rand(3,5), rand(25,35)) // Str, Dex, Int.
 		H.add_skills(rand(0,25), rand(0,10), rand(50,70), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 
@@ -644,7 +644,7 @@
 	allowed_ranks = list(/datum/mil_rank/civ/classb)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(3,5), rand(3,5), rand(35,45)) // Str, Dex, Int.
+		H.add_stats(rand(3,8), rand(3,5), rand(35,45)) // Str, Dex, Int.
 		H.add_skills(rand(0,25), rand(0,10), rand(50,70), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 
@@ -666,7 +666,7 @@
 	allowed_ranks = list(/datum/mil_rank/civ/classa)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(3,5), rand(3,5), rand(45,60)) // Str, Dex, Int.
+		H.add_stats(rand(3,8), rand(3,5), rand(45,60)) // Str, Dex, Int.
 		H.add_skills(rand(0,25), rand(0,10), rand(50,70), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(
@@ -710,7 +710,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(5,7), rand(5,7), rand(20,25)) // Str, Dex, Int.
+		H.add_stats(rand(8,10), rand(5,7), rand(20,25)) // Str, Dex, Int.
 		H.add_skills(rand(25,30), rand(25,30), rand(5,10), rand(30,50)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_eng_comms, access_mtflvl1, access_mtflvl2)
@@ -743,7 +743,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(5,7), rand(5,7), rand(20,25)) // Str, Dex, Int.
+		H.add_stats(rand(9,11), rand(5,7), rand(20,25)) // Str, Dex, Int.
 		H.add_skills(rand(25,30), rand(25,30), rand(5,10), rand(50,60)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_eng_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3)
@@ -776,7 +776,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(5,7), rand(5,7), rand(20,25)) // Str, Dex, Int.
+		H.add_stats(rand(9,11), rand(5,7), rand(20,25)) // Str, Dex, Int.
 		H.add_skills(rand(25,30), rand(25,30), rand(5,10), rand(60,70)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_eng_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3, access_mtflvl4)
@@ -804,7 +804,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(5,7), rand(5,7), rand(20,25)) // Str, Dex, Int.
+		H.add_stats(rand(9,11), rand(5,7), rand(20,25)) // Str, Dex, Int.
 		H.add_skills(rand(25,30), rand(25,30), rand(5,10), rand(60,80)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_eng_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3, access_mtflvl4, access_sciencelvl1, access_sciencelvl2, access_sciencelvl3, access_sciencelvl4)
@@ -829,7 +829,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(5,7), rand(5,7), rand(20,25)) // Str, Dex, Int.
+		H.add_stats(rand(9,11), rand(5,7), rand(20,25)) // Str, Dex, Int.
 		H.add_skills(rand(25,30), rand(25,30), rand(5,10), rand(80,100)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_eng_comms, access_mtflvl1, access_mtflvl2, access_mtflvl3, access_mtflvl4, access_mtflvl4, access_sciencelvl1, access_sciencelvl2, access_sciencelvl3, access_sciencelvl4, access_keyauth)
@@ -857,7 +857,7 @@
 	minimal_access = list()
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(3,6), rand(7,10), rand(20,25))
+		H.add_stats(rand(3,8), rand(7,10), rand(20,25))
 		H.add_skills(rand(10,25), rand(10,25), rand(90,100), rand(5,10))
 
 /datum/job/chemist
@@ -881,7 +881,7 @@
 	minimal_access = list()
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(3,6), rand(7,10), rand(20,25))
+		H.add_stats(rand(3,8), rand(7,10), rand(20,25))
 		H.add_skills(rand(10,25), rand(10,25), rand(70,90), rand(5,10))
 
 /datum/job/psychiatrist
@@ -903,7 +903,7 @@
 		/datum/mil_rank/civ/classb)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(1,3), rand(3,5), rand(25,30))
+		H.add_stats(rand(3,8), rand(3,5), rand(25,30))
 		H.add_skills(rand(10,25), rand(10,25), rand(70,90), rand(5,10))
 
 	access = list(access_med_comms, access_medicalgen, access_medicalpsych, access_medicalequip)
@@ -929,7 +929,7 @@
 		/datum/mil_rank/security/o2)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(3,6), rand(7,10), rand(20,25))
+		H.add_stats(rand(3,8), rand(7,10), rand(20,25))
 		H.add_skills(rand(10,25), rand(10,25), rand(70,90), rand(5,10))
 
 
@@ -955,7 +955,7 @@
 		/datum/mil_rank/civ/classb)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(3,6), rand(7,10), rand(20,25))
+		H.add_stats(rand(3,8), rand(7,10), rand(20,25))
 		H.add_skills(rand(10,25), rand(10,25), rand(70,90), rand(5,10))
 
 
@@ -981,7 +981,7 @@
 		/datum/mil_rank/security/o2)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(3,6), rand(7,10), rand(20,25))
+		H.add_stats(rand(3,8), rand(7,10), rand(20,25))
 		H.add_skills(rand(10,25), rand(10,25), rand(70,90), rand(5,10))
 
 
@@ -1011,7 +1011,7 @@
 		)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(3,6), rand(7,10), rand(20,25))
+		H.add_stats(rand(6,10), rand(7,10), rand(20,25))
 		H.add_skills(rand(10,25), rand(10,25), rand(50,70), rand(5,10))
 
 
@@ -1100,7 +1100,7 @@
 	minimal_access = list()
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(1,3), rand(0,3), rand(5,10)) // Str, Dex, Int.
+		H.add_stats(rand(3,8), rand(3,5), rand(5,10)) // Str, Dex, Int.
 		H.add_skills(rand(5,10), rand(5,10), rand(5,10), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 /datum/job/chef
@@ -1123,7 +1123,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(1,3), rand(0,3), rand(5,10)) // Str, Dex, Int.
+		H.add_stats(rand(3,8), rand(0,3), rand(5,10)) // Str, Dex, Int.
 		H.add_skills(rand(5,10), rand(5,10), rand(5,10), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 	access = list(access_civ_comms, access_s53bar, access_s53kitchen, access_dclasskitchen, access_dclassbotany)// Limited internal D-Block access e.g. when training D-Class or unlocking their crates
 	minimal_access = list()
@@ -1148,7 +1148,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(1,3), rand(0,3), rand(5,10)) // Str, Dex, Int.
+		H.add_stats(rand(3,8), rand(0,3), rand(5,10)) // Str, Dex, Int.
 		H.add_skills(rand(5,10), rand(5,10), rand(5,10), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 	access = list(access_civ_comms, access_s53bar, access_s53kitchen, access_dclasskitchen, access_dclassbotany) // Limited internal D-Block access e.g. when training D-Class or unlocking their crates
 	minimal_access = list()
@@ -1176,7 +1176,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(1,3), rand(0,3), rand(5,10)) // Str, Dex, Int.
+		H.add_stats(rand(3,8), rand(0,3), rand(5,10)) // Str, Dex, Int.
 		H.add_skills(rand(5,10), rand(5,10), rand(5,10), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_civ_comms, access_archive)
@@ -1205,7 +1205,7 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(1,3), rand(0,3), rand(5,10)) // Str, Dex, Int.
+		H.add_stats(rand(3,8), rand(0,3), rand(5,10)) // Str, Dex, Int.
 		H.add_skills(rand(5,10), rand(5,10), rand(5,10), rand(5,10)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_com_comms, access_adminlvl1, access_adminlvl2, access_adminlvl3, access_adminlvl4, access_adminlvl5)
