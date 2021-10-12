@@ -534,3 +534,8 @@
 	name = "emp ammunition"
 	desc = "Contains EMP ammunition for a shotgun."
 	startswith = list(/obj/item/ammo_casing/shotgun/emp = 7)
+
+/obj/item/weapon/storage/box/mtf/beanbag
+	name = "non-lethal ammunition"
+	desc = "Contains beanbag ammunition for a shotgun."
+	startswith = list(/obj/item/ammo_casing/shotgun/beanbag = 7)
