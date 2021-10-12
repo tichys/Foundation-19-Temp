@@ -129,8 +129,8 @@
 /obj/item/projectile/bullet/pistol
 	fire_sound = 'sound/weapons/gunshot/gunshot_pistol.ogg'
 	damage = 40 //9mm, .38, etc
-	armor_penetration = 25
-	agony = 35
+	armor_penetration = 34
+	agony = 34
 
 /obj/item/projectile/bullet/pistol/medium
 	damage = 50 //.45
@@ -141,7 +141,7 @@
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
 	damage = 40 //10mm
 	armor_penetration = 30
-	agony = 31
+	agony = 35
 
 /obj/item/projectile/bullet/pistol/medium/smg/rubber
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
@@ -161,24 +161,24 @@
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
 	damage = 35 //10mm AP
 	armor_penetration = 55
-	agony = 25
+	agony = 30
 
 /obj/item/projectile/bullet/pistol/medium/smg/silver
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
-	damage = 30 //10mm but i have no idea what bimmer wanted for classifaction, so i made it just better normal ammo
+	damage = 40 //10mm but i have no idea what bimmer wanted for classifaction, so i made it just better normal ammo
 	armor_penetration = 18
-	agony = 23
+	agony = 30
 
 /obj/item/projectile/bullet/pistol/medium/revolver
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
 	damage = 60 //.44 magnum or something
-	agony = 35
+	agony = 45
 
 /obj/item/projectile/bullet/pistol/strong //matebas
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
 	damage = 65 //.50AE
 	armor_penetration = 30
-	agony = 35
+	agony = 45
 
 /obj/item/projectile/bullet/pistol/vstrong //tacrevolver
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
@@ -189,7 +189,7 @@
 /obj/item/projectile/bullet/pistol/strong/revolver //revolvers
 	damage = 60 //Revolvers get snowflake bullets, to keep them relevant
 	armor_penetration = 20
-	agony = 36
+	agony = 45
 
 /obj/item/projectile/bullet/pistol/rubber //"rubber" bullets
 	name = "rubber bullet"
@@ -207,8 +207,8 @@
 	name = "slug"
 	fire_sound = 'sound/weapons/gunshot/shotgun.ogg'
 	damage = 60
-	armor_penetration = 30
-	agony = 34
+	armor_penetration = 24
+	agony = 40
 
 /obj/item/projectile/bullet/shotgun/beanbag		//because beanbags are not bullets
 	name = "beanbag"
@@ -223,7 +223,7 @@
 /obj/item/projectile/bullet/pellet/shotgun
 	name = "shrapnel"
 	fire_sound = 'sound/weapons/gunshot/shotgun.ogg'
-	damage = 30
+	damage = 35
 	pellets = 6
 	range_step = 1
 	spread_step = 10
@@ -239,7 +239,7 @@
 /obj/item/projectile/bullet/rifle/a556
 	fire_sound = 'sound/weapons/gunshot/gunshot3.ogg'
 	damage = 50
-	armor_penetration = 50
+	armor_penetration = 34
 	agony = 40
 
 /obj/item/projectile/bullet/rifle/a762
