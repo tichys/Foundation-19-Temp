@@ -129,18 +129,18 @@
 /obj/item/projectile/bullet/pistol
 	fire_sound = 'sound/weapons/gunshot/gunshot_pistol.ogg'
 	damage = 40 //9mm, .38, etc
-	armor_penetration = 13.5
+	armor_penetration = 25
 	agony = 35
 
 /obj/item/projectile/bullet/pistol/medium
 	damage = 50 //.45
-	armor_penetration = 14.5
+	armor_penetration = 15
 	agony = 45
 
 /obj/item/projectile/bullet/pistol/medium/smg
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
 	damage = 40 //10mm
-	armor_penetration = 15
+	armor_penetration = 30
 	agony = 31
 
 /obj/item/projectile/bullet/pistol/medium/smg/rubber
@@ -159,8 +159,8 @@
 
 /obj/item/projectile/bullet/pistol/medium/smg/ap
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
-	damage = 30 //10mm AP
-	armor_penetration = 30
+	damage = 35 //10mm AP
+	armor_penetration = 55
 	agony = 25
 
 /obj/item/projectile/bullet/pistol/medium/smg/silver
@@ -207,7 +207,7 @@
 	name = "slug"
 	fire_sound = 'sound/weapons/gunshot/shotgun.ogg'
 	damage = 60
-	armor_penetration = 20
+	armor_penetration = 30
 	agony = 34
 
 /obj/item/projectile/bullet/shotgun/beanbag		//because beanbags are not bullets
@@ -239,13 +239,13 @@
 /obj/item/projectile/bullet/rifle/a556
 	fire_sound = 'sound/weapons/gunshot/gunshot3.ogg'
 	damage = 50
-	armor_penetration = 40
+	armor_penetration = 50
 	agony = 40
 
 /obj/item/projectile/bullet/rifle/a762
 	fire_sound = 'sound/weapons/gunshot/gunshot2.ogg'
 	damage = 60
-	armor_penetration = 30
+	armor_penetration = 40
 	agony = 45
 
 /obj/item/projectile/bullet/rifle/a145
@@ -254,14 +254,14 @@
 	stun = 3
 	weaken = 3
 	penetrating = 5
-	armor_penetration = 80
+	armor_penetration = 100
 	hitscan = 1 //so the PTR isn't useless as a sniper weapon
 	penetration_modifier = 1.25
 
 /obj/item/projectile/bullet/rifle/a145/apds
 	damage = 100
 	penetrating = 6
-	armor_penetration = 95
+	armor_penetration = 120
 	penetration_modifier = 1.5
 	agony = 25
 
