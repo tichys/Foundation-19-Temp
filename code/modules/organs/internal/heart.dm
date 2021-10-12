@@ -126,9 +126,9 @@
 							//somehow you can apply pressure to every wound on the organ at the same time
 							//you're basically forced to do nothing at all, so let's make it pretty effective
 							var/min_eff_damage = max(0, W.damage - 10) / 6 //still want a little bit to drip out, for effect
-							blood_max += max(min_eff_damage, W.damage - 30) / 40
+							blood_max += max(min_eff_damage, W.damage - 30) / 20
 						else
-							blood_max += W.damage / 40
+							blood_max += W.damage / 20
 
 			if(temp.status & ORGAN_ARTERY_CUT)
 				var/bleed_amount = Floor((owner.vessel.total_volume / (temp.applied_pressure || !open_wound ? 400 : 250))*temp.arterial_bleed_severity)
