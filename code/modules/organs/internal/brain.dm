@@ -50,11 +50,11 @@
 
 /obj/item/organ/internal/brain/New(var/mob/living/carbon/holder)
 	..()
-	max_damage = 200
+	max_damage = 100
 	if(species)
 		max_damage = species.total_health
-	min_bruised_damage = max_damage*0.25
-	min_broken_damage = max_damage*0.75
+	min_bruised_damage = max_damage*0.1
+	min_broken_damage = max_damage*0.25
 
 	damage_threshold_value = round(max_damage / damage_threshold_count)
 	spawn(5)
