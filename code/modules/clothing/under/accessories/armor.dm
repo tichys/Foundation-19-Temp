@@ -71,7 +71,7 @@
 	name = "tactical armor plate"
 	desc = "A medium armor plate with additional ablative coating. Attaches to a plate carrier."
 	icon_state = "armor_tactical"
-	armor = list(melee = 40, bullet = 80, laser = 60, energy = 35, bomb = 30, bio = 0, rad = 0)
+	armor = list(melee = 40, bullet = 85, laser = 60, energy = 35, bomb = 30, bio = 0, rad = 0)
 
 /obj/item/clothing/accessory/armorplate/merc
 	name = "heavy armor plate"
@@ -112,7 +112,7 @@
 	name = "heavy arm guards"
 	desc = "A pair of red-trimmed black arm pads reinforced with heavy armor plating. Attaches to a plate carrier."
 	icon_state = "armguards_merc"
-	armor = list(melee = 60, bullet = 85, laser = 60, energy = 40, bomb = 40, bio = 0, rad = 0)
+	armor = list(melee = 60, bullet = 90, laser = 60, energy = 40, bomb = 40, bio = 0, rad = 0)
 
 /obj/item/clothing/accessory/armguards/riot
 	name = "riot arm guards"
@@ -168,7 +168,7 @@
 	name = "heavy leg guards"
 	desc = "A pair of heavily armored leg pads in red-trimmed black. Attaches to a plate carrier."
 	icon_state = "legguards_merc"
-	armor = list(melee = 60, bullet = 75, laser = 60, energy = 40, bomb = 40, bio = 0, rad = 0)
+	armor = list(melee = 60, bullet = 90, laser = 60, energy = 40, bomb = 40, bio = 0, rad = 0)
 
 /obj/item/clothing/accessory/legguards/riot
 	name = "riot leg guards"
