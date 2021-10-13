@@ -157,7 +157,7 @@
 	matter = list(DEFAULT_WALL_MATERIAL = 1800)
 	caliber = "9mm"
 	ammo_type = /obj/item/ammo_casing/c9mm
-	max_ammo = 30
+	max_ammo = 150
 
 /obj/item/ammo_magazine/box/c9mm/empty
 	initial_ammo = 0
@@ -208,7 +208,17 @@
 	caliber = "a762"
 	matter = list(DEFAULT_WALL_MATERIAL = 2250)
 	ammo_type = /obj/item/ammo_casing/a762
-	max_ammo = 40
+	max_ammo = 150
+	multiple_sprites = 1
+	
+/obj/item/ammo_magazine/box/a10mm
+	name = "ammunition box (5.7 x 28 mm)"
+	icon_state = "usmc_box"
+	origin_tech = list(TECH_COMBAT = 2)
+	caliber = "10mm"
+	matter = list(DEFAULT_WALL_MATERIAL = 2250)
+	ammo_type = /obj/item/ammo_casing/a10mm
+	max_ammo = 200
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/box/c45donor
@@ -218,7 +228,17 @@
 	caliber = ".45"
 	matter = list(DEFAULT_WALL_MATERIAL = 2250)
 	ammo_type = /obj/item/ammo_casing/c45
-	max_ammo = 50
+	max_ammo = 100
+	multiple_sprites = 1
+	
+/obj/item/ammo_magazine/box/a50donor
+	name = "ammunition box (.50)"
+	icon_state = "ammobox"
+	origin_tech = list(TECH_COMBAT = 2)
+	caliber = ".50"
+	matter = list(DEFAULT_WALL_MATERIAL = 2250)
+	ammo_type = /obj/item/ammo_casing/a50
+	max_ammo = 90
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/box/c45donor/rubber
@@ -228,7 +248,7 @@
 	caliber = ".45"
 	matter = list(DEFAULT_WALL_MATERIAL = 2250)
 	ammo_type = /obj/item/ammo_casing/c45/rubber
-	max_ammo = 50
+	max_ammo = 100
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/box/a556alt
@@ -238,7 +258,7 @@
 	caliber = "a556"
 	matter = list(DEFAULT_WALL_MATERIAL = 2250)
 	ammo_type = /obj/item/ammo_casing/a556
-	max_ammo = 40
+	max_ammo = 150
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/box/c45
@@ -248,7 +268,7 @@
 	caliber = ".45"
 	matter = list(DEFAULT_WALL_MATERIAL = 2250)
 	ammo_type = /obj/item/ammo_casing/c45
-	max_ammo = 30
+	max_ammo = 100
 
 /obj/item/ammo_magazine/box/c45/empty
 	initial_ammo = 0
