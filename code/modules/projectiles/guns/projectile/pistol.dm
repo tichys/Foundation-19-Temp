@@ -63,6 +63,7 @@
 	desc = "A SCPF Mk3 Tactical, reminiscent of a H&K USP. This weapon, patented and produced by the SCP Foundation, is the main service firearm for it's members. Chambered in .45 rounds."
 	name = "Mk3 Tactical"
 	icon_state = "usp"
+	magazine_type = /obj/item/ammo_magazine/c45m
 	accuracy = 0
 
 /obj/item/weapon/gun/projectile/sec/sec/update_icon()
