@@ -383,6 +383,8 @@
 
 	toggle_scope(usr, 1.0)
 
+/obj/item/weapon/gun/projectile/automatic/scp/p90
+	magazine_type = /obj/item/ammo_magazine/scp/p90_mag/rubber
 
 /obj/item/weapon/gun/projectile/automatic/scp/m16
 	name = "M16"
