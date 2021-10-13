@@ -204,6 +204,21 @@
 		/obj/item/weapon/storage/box/mtf/pelletammo = 6
 	)
 
+/obj/structure/closet/secure_closet/mtf/riotshotguns
+	name = "riot shotgun locker"
+	req_access = list(access_mtflvl1)
+	icon_state = "sec1"
+	icon_closed = "sec"
+	icon_locked = "sec1"
+	icon_opened = "secopen"
+	icon_off = "secoff"
+
+/obj/structure/closet/secure_closet/mtf/riotshotguns/WillContain()
+	return list(
+		/obj/item/weapon/gun/projectile/shotgun/tactical/beanbag = 3,
+		/obj/item/weapon/storage/box/mtf/beanbag = 9
+	)
+
 /obj/structure/closet/secure_closet/mtf/attackby(var/obj/item/weapon/W, var/mob/user)
 	if (src.opened)
 		..()
