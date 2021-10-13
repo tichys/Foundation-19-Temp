@@ -227,8 +227,8 @@
 /obj/structure/closet/secure_closet/mtf/riotshotguns/WillContain()
 	return list(
 		/obj/item/weapon/gun/projectile/shotgun/tactical/beanbag = 3,
-		/obj/item/weapon/storage/box/mtf/beanbag = 9,
-		/obj/item/clothing/accessory/storage/bandolier
+		/obj/item/weapon/storage/box/mtf/beanbag = 6,
+		/obj/item/clothing/accessory/storage/bandolier/beanbag = 3
 	)
 
 /obj/structure/closet/secure_closet/mtf/attackby(var/obj/item/weapon/W, var/mob/user)

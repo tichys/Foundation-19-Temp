@@ -151,3 +151,9 @@
 
 	for(var/i = 0, i < slots, i++)
 		new /obj/item/weapon/net_shell(hold)
+
+/obj/item/clothing/accessory/storage/bandolier/beanbag/New()
+	..()
+
+	for(var/i = 0, i < slots, i++)
+		new /obj/item/ammo_casing/shotgun/beanbag(hold)
