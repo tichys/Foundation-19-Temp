@@ -66,7 +66,7 @@
 		..()
 
 /obj/item/weapon/implanter/attack(mob/M as mob, mob/user as mob)
-	if (!istype(M, /mob/living/carbon))
+	if (!istype(M, /mob/living/carbon) || isscp049(src) || isscp173(src) || isscp343(src))
 		return
 	if (user && src.imp)
 		M.visible_message("<span class='warning'>[user] is attemping to implant [M].</span>")
