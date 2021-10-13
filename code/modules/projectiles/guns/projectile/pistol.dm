@@ -126,11 +126,11 @@
 		icon_state = "gyropistol"
 
 /obj/item/weapon/gun/projectile/pistol
-	name = "standard-issue handgun"
-	desc = "The Lumoco Arms P3 Whisper. A small, easily concealable gun. Uses 9mm rounds."
+	name = "MK9 Standard"
+	desc = "Standard issue 9mm pistol of the SCP Foundation, based on the makarov."
 	icon_state = "pistol"
 	item_state = null
-	w_class = ITEM_SIZE_SMALL
+	w_class = ITEM_SIZE_NORMAL
 	caliber = "9mm"
 	silenced = 0
 	fire_delay = 1
