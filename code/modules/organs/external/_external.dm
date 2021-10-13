@@ -745,7 +745,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 ****************************************************/
 
 //Handles dismemberment
-/obj/item/organ/external/proc/droplimb(var/clean, var/disintegrate = DROPLIMB_EDGE, var/ignore_children, var/silent)
+/obj/item/organ/external/proc/droplimb(var/clean, var/disintegrate = DROPLIMB_BLUNT, var/ignore_children, var/silent)
 
 	if(isscp049(owner))
 		return
