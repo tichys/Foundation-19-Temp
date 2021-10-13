@@ -10,7 +10,7 @@
 	restricted_accessory_slots = list(ACCESSORY_SLOT_HELM_C)
 	item_flags = ITEM_FLAG_THICKMATERIAL
 	body_parts_covered = HEAD
-	armor = list(melee = 50, bullet = 80, laser = 50,energy = 25, bomb = 30, bio = 0, rad = 0)
+	armor = list(melee = 50, bullet = 83, laser = 50,energy = 25, bomb = 30, bio = 0, rad = 0)
 	flags_inv = HIDEEARS|BLOCKHEADHAIR
 	cold_protection = HEAD
 	min_cold_protection_temperature = HELMET_MIN_COLD_PROTECTION_TEMPERATURE
@@ -36,7 +36,7 @@
 	name = "tactical helmet"
 	desc = "A tan helmet made from advanced ceramic. Comfortable and robust."
 	icon_state = "helmet_tac"
-	armor = list(melee = 50, bullet = 70, laser = 60, energy = 45, bomb = 30, bio = 0, rad = 0)
+	armor = list(melee = 50, bullet = 80, laser = 60, energy = 45, bomb = 30, bio = 0, rad = 0)
 	siemens_coefficient = 0.6
 
 /obj/item/clothing/head/helmet/bgtactical
@@ -44,7 +44,7 @@
 	desc = "A tactical riot helmet, commonly seen on security personnel."
 	icon_state = "obj-riot"
 	item_state = "helmet_riot2"
-	armor = list(melee = 50, bullet = 40, laser = 20, energy = 25, bomb = 30, bio = 0, rad = 0)
+	armor = list(melee = 50, bullet = 60, laser = 20, energy = 25, bomb = 30, bio = 0, rad = 0)
 	siemens_coefficient = 0.6
 
 /obj/item/clothing/head/helmet/merc
@@ -140,7 +140,7 @@
 		SPECIES_UNATHI = 'icons/mob/species/unathi/helmet.dmi'
 		)
 
-	armor = list(melee = 62, bullet = 70, laser = 50,energy = 35, bomb = 10, bio = 2, rad = 0)
+	armor = list(melee = 62, bullet = 80, laser = 50,energy = 35, bomb = 10, bio = 2, rad = 0)
 	flags_inv = HIDEEARS
 	siemens_coefficient = 0.7
 */
