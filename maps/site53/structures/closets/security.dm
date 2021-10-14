@@ -289,7 +289,7 @@
 		/obj/item/clothing/accessory/armguards,
 		/obj/item/clothing/accessory/armorplate/medium,
 		/obj/item/clothing/accessory/storage/pouches/large,
-		/obj/item/clothing/under/color/red
+		/obj/item/clothing/under/color/red,
 		/obj/item/weapon/gun/projectile/revolver/mateba,
 		/obj/item/ammo_magazine/box/a50donor,
 		/obj/item/ammo_magazine/c50 = 4,
