@@ -65,7 +65,7 @@
 	name = "medium armor plate"
 	desc = "A plasteel-reinforced synthetic armor plate, providing good protection. Attaches to a plate carrier."
 	icon_state = "armor_medium"
-	armor = list(melee = 40, bullet = 75, laser = 40, energy = 25, bomb = 30, bio = 0, rad = 0)
+	armor = list(melee = 40, bullet = 80, laser = 40, energy = 25, bomb = 30, bio = 0, rad = 0)
 
 /obj/item/clothing/accessory/armorplate/tactical
 	name = "tactical armor plate"
@@ -89,7 +89,7 @@
 	icon_state = "armguards"
 	gender = PLURAL
 	body_parts_covered = ARMS
-	armor = list(melee = 40, bullet = 70, laser = 40, energy = 25, bomb = 30, bio = 0, rad = 0)
+	armor = list(melee = 40, bullet = 80, laser = 40, energy = 25, bomb = 30, bio = 0, rad = 0)
 	slot = ACCESSORY_SLOT_ARMOR_A
 
 /obj/item/clothing/accessory/armguards/blue
@@ -145,7 +145,7 @@
 	icon_state = "legguards"
 	gender = PLURAL
 	body_parts_covered = LEGS
-	armor = list(melee = 40, bullet = 70, laser = 40, energy = 25, bomb = 30, bio = 0, rad = 0)
+	armor = list(melee = 40, bullet = 80, laser = 40, energy = 25, bomb = 30, bio = 0, rad = 0)
 	slot = ACCESSORY_SLOT_ARMOR_L
 
 /obj/item/clothing/accessory/legguards/blue

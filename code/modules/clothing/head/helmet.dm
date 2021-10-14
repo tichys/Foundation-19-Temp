@@ -93,7 +93,7 @@
 	name = "\improper SWAT helmet"
 	desc = "They're often used by highly trained Swat Members."
 	icon_state = "helmet_merc"
-	armor = list(melee = 80, bullet = 75, laser = 50,energy = 25, bomb = 50, bio = 10, rad = 0)
+	armor = list(melee = 80, bullet = 80, laser = 50,energy = 25, bomb = 50, bio = 10, rad = 0)
 	cold_protection = HEAD
 	min_cold_protection_temperature = SPACE_HELMET_MIN_COLD_PROTECTION_TEMPERATURE
 	siemens_coefficient = 0.5
@@ -102,7 +102,7 @@
 	name = "tactical hazmat helmet"
 	desc = "An armored hazmat helmet. Has a distinct orange hue."
 	icon_state = "tac_helmet"
-	armor = list(melee = 80, bullet = 75, laser = 50,energy = 25, bomb = 50, bio = 100, rad = 60)
+	armor = list(melee = 80, bullet = 83, laser = 50,energy = 25, bomb = 50, bio = 100, rad = 60)
 	cold_protection = HEAD
 	min_cold_protection_temperature = SPACE_HELMET_MIN_COLD_PROTECTION_TEMPERATURE
 	item_flags = ITEM_FLAG_THICKMATERIAL|ITEM_FLAG_AIRTIGHT
@@ -216,7 +216,7 @@
 	desc = "A helmet with 'CHAOS INSURGENCY' symbol printed on the back lettering."
 	icon_state = "chaos-helm"
 	body_parts_covered = HEAD //face shield
-	armor = list(melee = 50, bullet = 75, laser = 50,energy = 25, bomb = 40, bio = 10, rad = 10)
+	armor = list(melee = 50, bullet = 83, laser = 50,energy = 25, bomb = 40, bio = 10, rad = 10)
 	flags_inv = HIDEEARS
 
 /obj/item/clothing/head/helmet/scp/donor

@@ -166,8 +166,8 @@
 	return
 
 /obj/item/weapon/gun/projectile/automatic/z8
-	name = "bullpup assault rifle"
-	desc = "The Z8 Bulldog is an older model bullpup carbine, made by the now defunct Zendai Foundries. Uses armor piercing 7.62mm rounds. Makes you feel like a space marine when you hold it."
+	name = "SCPF ZR8 Combat Rifle"
+	desc = "A powerful advanced combat rifle of the Foundation used by certain MTF and high level security officers. Packs a punch and will defeat most armours."
 	icon_state = "carbine"
 	item_state = "z8carbine"
 	w_class = ITEM_SIZE_HUGE
