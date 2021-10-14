@@ -210,7 +210,7 @@
 	ammo_type = /obj/item/ammo_casing/a762
 	max_ammo = 150
 	multiple_sprites = 1
-	
+
 /obj/item/ammo_magazine/box/a10mm
 	name = "ammunition box (5.7 x 28 mm)"
 	icon_state = "usmc_box"
@@ -230,7 +230,7 @@
 	ammo_type = /obj/item/ammo_casing/c45
 	max_ammo = 100
 	multiple_sprites = 1
-	
+
 /obj/item/ammo_magazine/box/a50donor
 	name = "ammunition box (.50)"
 	icon_state = "ammobox"
@@ -497,3 +497,26 @@
 	ammo_type = /obj/item/ammo_casing/a762
 	max_ammo = 10
 	multiple_sprites = 1
+
+
+/obj/item/ammo_magazine/box/slug
+	name = "ammunition box (slugs)"
+	icon_state = "9mm"
+	caliber = "shotgun slug"
+	ammo_type = /obj/item/ammo_casing/shotgun
+	max_ammo = 30
+
+/obj/item/ammo_magazine/box/buckshot
+	name = "ammunition box (buckshots)"
+	icon_state = "9mm"
+	caliber = "shotgun shell"
+	ammo_type = /obj/item/ammo_casing/shotgun/pellet
+	max_ammo = 30
+
+/obj/item/ammo_magazine/box/beanbag
+	name = "ammunition box (beanbags)"
+	icon_state = "9mm"
+	caliber = "beanbag shell"
+	ammo_type = /obj/item/projectile/bullet/shotgun/beanbag
+	max_ammo = 30
+

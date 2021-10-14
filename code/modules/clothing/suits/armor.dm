@@ -132,7 +132,7 @@
 	permeability_coefficient = 0
 	gas_transfer_coefficient = 0
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
-	armor = list(melee = 80, bullet = 75, laser = 65, energy = 15, bomb = 80, bio = 100, rad = 60)
+	armor = list(melee = 80, bullet = 85, laser = 65, energy = 15, bomb = 80, bio = 100, rad = 60)
 
 /*
 /obj/item/clothing/suit/armor/tactical
@@ -318,7 +318,7 @@
 	icon_state = "chaos-armor"
 	body_parts_covered = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
 	cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
-	armor = list(melee = 40, bullet = 75, laser = 40, energy = 25, bomb = 30, bio = 15, rad = 10)
+	armor = list(melee = 40, bullet = 85, laser = 40, energy = 25, bomb = 30, bio = 15, rad = 10)
 
 /obj/item/clothing/suit/storage/vest/merc
 	name = "heavy combat armor"
