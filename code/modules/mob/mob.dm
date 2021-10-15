@@ -821,6 +821,9 @@
 /mob/proc/IsAdvancedToolUser()
 	return 0
 
+/mob/proc/CanUseGuns()
+	return 0
+
 /mob/proc/Stun(amount)
 	if(status_flags & CANSTUN)
 		facing_dir = null

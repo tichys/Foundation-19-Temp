@@ -116,6 +116,8 @@
 		return 0
 	if(!user.IsAdvancedToolUser())
 		return 0
+	if(!user.CanUseGuns())
+		return 0
 
 	var/mob/living/M = user
 	if(HULK in M.mutations)

@@ -17,7 +17,7 @@ GLOBAL_LIST_EMPTY(scp343s)
 /obj/sprite_helper/scp343
 	icon = 'icons/mob/scp343.dmi'
 
-/mob/living/carbon/human/scp343/IsAdvancedToolUser()
+/mob/living/carbon/human/scp343/CanUseGuns()
 	return FALSE
 
 /mob/living/carbon/human/scp343/New()
