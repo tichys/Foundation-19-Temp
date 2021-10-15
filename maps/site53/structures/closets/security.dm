@@ -207,7 +207,7 @@
 		/obj/item/ammo_magazine/mc9mm = 4,
 		/obj/item/ammo_magazine/box/c9mm,
 		/obj/item/clothing/mask/balaclava,
-		/obj/item/armor/pcarrier/scp,
+		/obj/item/clothing/suit/armor/pcarrier,
 		/obj/item/clothing/accessory/legguards,
 		/obj/item/clothing/accessory/armguards,
 		/obj/item/clothing/accessory/armorplate/medium,
@@ -245,7 +245,7 @@
 		/obj/item/ammo_magazine/mc9mm = 4,
 		/obj/item/ammo_magazine/box/c9mm,
 		/obj/item/clothing/mask/balaclava,
-		/obj/item/armor/pcarrier/scp,
+		/obj/item/clothing/suit/armor/pcarrier,
 		/obj/item/clothing/accessory/legguards,
 		/obj/item/clothing/accessory/armguards,
 		/obj/item/clothing/accessory/armorplate/medium,
@@ -284,12 +284,12 @@
 		/obj/item/ammo_magazine/mc9mm = 4,
 		/obj/item/ammo_magazine/box/c9mm,
 		/obj/item/clothing/mask/balaclava,
-		/obj/item/armor/pcarrier/scp,
+		/obj/item/clothing/suit/armor/pcarrier,
 		/obj/item/clothing/accessory/legguards,
 		/obj/item/clothing/accessory/armguards,
 		/obj/item/clothing/accessory/armorplate/medium,
 		/obj/item/clothing/accessory/storage/pouches/large,
-		/obj/item/clothing/under/color/red
+		/obj/item/clothing/under/color/red,
 		/obj/item/weapon/gun/projectile/revolver/mateba,
 		/obj/item/ammo_magazine/box/a50donor,
 		/obj/item/ammo_magazine/c50 = 4,
@@ -332,7 +332,9 @@
 		/obj/item/weapon/gun/projectile/shotgun/tactical,
 		/obj/item/weapon/gun/projectile/shotgun/tactical,
 		/obj/item/weapon/storage/box/mtf/empammo = 6,
-		/obj/item/weapon/storage/box/mtf/pelletammo = 6
+		/obj/item/weapon/storage/box/mtf/pelletammo = 6,
+		/obj/item/ammo_magazine/box/buckshot = 3,
+		/obj/item/ammo_magazine/box/slug = 3
 	)
 
 /obj/structure/closet/secure_closet/mtf/riotshotguns
@@ -347,8 +349,8 @@
 /obj/structure/closet/secure_closet/mtf/riotshotguns/WillContain()
 	return list(
 		/obj/item/weapon/gun/projectile/shotgun/tactical/beanbag = 3,
-		/obj/item/weapon/storage/box/mtf/beanbag = 6,
-		/obj/item/clothing/accessory/storage/bandolier/beanbag = 3
+		/obj/item/clothing/accessory/storage/bandolier/beanbag = 3,
+		/obj/item/ammo_magazine/box/beanbag = 3
 	)
 
 /obj/structure/closet/secure_closet/mtf/attackby(var/obj/item/weapon/W, var/mob/user)
