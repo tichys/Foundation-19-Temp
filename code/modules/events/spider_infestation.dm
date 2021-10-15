@@ -5,7 +5,7 @@
 	var/spawncount = 1
 
 datum/event/spider_infestation/announce()
-	command_announcement.Announce("Containment breach of object class Euclid SCP-525 detected. multiple instances detected.", "Biohazard Alert")
+	command_announcement.Announce("Containment breach of object class Euclid SCP-525 detected. Multiple instances detected.", "Biohazard Alert")
 
 /datum/event/spider_infestation/setup()
 	announceWhen = rand(announceWhen, announceWhen + 60)

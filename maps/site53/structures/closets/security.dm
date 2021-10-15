@@ -135,6 +135,7 @@
 		/obj/item/weapon/storage/box/bloodtypes,
 		/obj/item/weapon/gun/projectile/pistol,
 		/obj/item/ammo_magazine/mc9mm = 2
+		/obj/item/ammo_magazine/box/c9mm,
 	)
 
 /obj/structure/closet/secure_closet/mtf/co
