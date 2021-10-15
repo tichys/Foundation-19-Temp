@@ -186,7 +186,7 @@
 	icon_opened = "nopen"
 	icon_off = "noff"
 
-/obj/structure/closet/secure_closet/mtf/co/WillContain()
+/obj/structure/closet/secure_closet/mtf/hczguard/WillContain()
 	return list(
 		/obj/item/weapon/storage/belt/security/tactical,
 		/obj/item/weapon/gun/projectile/automatic/scp/m16,
@@ -212,6 +212,7 @@
 		/obj/item/clothing/accessory/armguards,
 		/obj/item/clothing/accessory/armorplate/medium,
 		/obj/item/clothing/accessory/storage/pouches/large,
+		/obj/item/clothing/head/helmet/swat,
 		/obj/item/clothing/under/color/black
 	)
 
@@ -224,7 +225,7 @@
 	icon_opened = "enlistedopen"
 	icon_off = "enlistedoff"
 
-/obj/structure/closet/secure_closet/mtf/co/WillContain()
+/obj/structure/closet/secure_closet/mtf/hczguardjunior/WillContain()
 	return list(
 		/obj/item/weapon/storage/belt/security/tactical,
 		/obj/item/weapon/gun/projectile/automatic/scp/m16,
@@ -250,6 +251,7 @@
 		/obj/item/clothing/accessory/armguards,
 		/obj/item/clothing/accessory/armorplate/medium,
 		/obj/item/clothing/accessory/storage/pouches/large,
+		/obj/item/clothing/head/helmet/swat,
 		/obj/item/clothing/under/color/white
 	)
 
@@ -263,7 +265,7 @@
 	icon_opened = "coopen"
 	icon_off = "cooff"
 
-/obj/structure/closet/secure_closet/mtf/co/WillContain()
+/obj/structure/closet/secure_closet/mtf/hczguardzonecomm/WillContain()
 	return list(
 		/obj/item/weapon/storage/belt/security/tactical,
 		/obj/item/weapon/gun/projectile/automatic/z8,
@@ -289,6 +291,7 @@
 		/obj/item/clothing/accessory/armguards,
 		/obj/item/clothing/accessory/armorplate/medium,
 		/obj/item/clothing/accessory/storage/pouches/large,
+		/obj/item/clothing/head/helmet/swat,
 		/obj/item/clothing/under/color/red,
 		/obj/item/weapon/gun/projectile/revolver/mateba,
 		/obj/item/ammo_magazine/box/a50donor,
