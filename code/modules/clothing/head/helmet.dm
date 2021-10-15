@@ -90,8 +90,8 @@
 	siemens_coefficient = 0.7
 
 /obj/item/clothing/head/helmet/swat
-	name = "\improper SWAT helmet"
-	desc = "They're often used by highly trained Swat Members."
+	name = "\improper Foundation Security Helmet"
+	desc = "They're often used by highly trained SCPF SD Troopers."
 	icon_state = "helmet_merc"
 	armor = list(melee = 80, bullet = 80, laser = 50,energy = 25, bomb = 50, bio = 10, rad = 0)
 	cold_protection = HEAD
