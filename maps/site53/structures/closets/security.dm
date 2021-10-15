@@ -35,7 +35,6 @@
 
 /obj/structure/closet/secure_closet/mtf/enlisted/WillContain()
 	return list(
-		/obj/item/clothing/under/scp/utility/security,
 		/obj/item/clothing/head/helmet/scp/security,
 		/obj/item/device/flashlight/maglight,
 		/obj/item/clothing/accessory/storage/black_vest,
@@ -110,7 +109,6 @@
 
 /obj/structure/closet/secure_closet/mtf/nco/WillContain()
 	return list(
-		/obj/item/clothing/under/scp/utility/security,
 		/obj/item/clothing/head/helmet/scp/security,
 		/obj/item/clothing/suit/armor/vest/scp/medarmor,
 		/obj/item/clothing/glasses/sunglasses/sechud/goggles,
@@ -162,7 +160,7 @@
 		/obj/item/ammo_magazine/scp/p90_mag = 2,
 		/obj/item/ammo_magazine/scp/p90_mag/rubber = 4,
 		/obj/item/ammo_magazine/box/a10mm,
-		/obj/item/clothing/accessory/storage/webbing_large,
+		/obj/item/clothing/accessory/storage/black_vest,
 		/obj/item/weapon/melee/telebaton,
 		/obj/item/clothing/accessory/solgov/department/security/marine,
 		/obj/item/weapon/handcuffs = 2,
@@ -180,6 +178,130 @@
 		/obj/item/ammo_magazine/mc9mm = 2
 	)
 
+/obj/structure/closet/secure_closet/mtf/hczguard
+	name = "HCZ Guard Locker"
+	req_access = list(access_mtflvl3)
+	icon_state = "nlocked"
+	icon_closed = "nunlocked"
+	icon_locked = "nlocked"
+	icon_opened = "nopen"
+	icon_off = "noff"
+
+/obj/structure/closet/secure_closet/mtf/hczguard/WillContain()
+	return list(
+		/obj/item/weapon/storage/belt/security/tactical,
+		/obj/item/weapon/gun/projectile/automatic/scp/m16,
+		/obj/item/clothing/glasses/sunglasses/sechud/goggles,
+		/obj/item/ammo_magazine/scp/m16_mag = 6,
+		/obj/item/ammo_magazine/box/a556alt,
+		/obj/item/clothing/accessory/storage/black_vest,
+		/obj/item/weapon/melee/telebaton,
+		/obj/item/clothing/accessory/solgov/department/security/marine,
+		/obj/item/weapon/handcuffs = 2,
+		/obj/item/weapon/reagent_containers/spray/pepper,
+		/obj/item/device/flash,
+		/obj/item/device/flashlight/maglight,
+		/obj/item/clothing/gloves/tactical/scp,
+		/obj/item/clothing/accessory/holster/thigh,
+		/obj/item/weapon/storage/box/bloodtypes,
+		/obj/item/weapon/gun/projectile/pistol,
+		/obj/item/ammo_magazine/mc9mm = 4,
+		/obj/item/ammo_magazine/box/c9mm,
+		/obj/item/clothing/mask/balaclava,
+		/obj/item/clothing/suit/armor/pcarrier/scp,
+		/obj/item/clothing/accessory/legguards,
+		/obj/item/clothing/accessory/armguards,
+		/obj/item/clothing/accessory/armorplate/medium,
+		/obj/item/clothing/accessory/storage/pouches/large,
+		/obj/item/clothing/head/helmet/swat,
+		/obj/item/clothing/under/color/black
+	)
+
+/obj/structure/closet/secure_closet/mtf/hczguardjunior
+	name = "HCZ Junior Guard Locker"
+	req_access = list(access_mtflvl1)
+	icon_state = "enlistedlocked"
+	icon_closed = "enlistedunlocked"
+	icon_locked = "enlistedlocked"
+	icon_opened = "enlistedopen"
+	icon_off = "enlistedoff"
+
+/obj/structure/closet/secure_closet/mtf/hczguardjunior/WillContain()
+	return list(
+		/obj/item/weapon/storage/belt/security/tactical,
+		/obj/item/weapon/gun/projectile/automatic/scp/m16,
+		/obj/item/clothing/glasses/sunglasses/sechud/goggles,
+		/obj/item/ammo_magazine/scp/m16_mag = 6,
+		/obj/item/ammo_magazine/box/a556alt,
+		/obj/item/clothing/accessory/storage/black_vest,
+		/obj/item/weapon/melee/telebaton,
+		/obj/item/clothing/accessory/solgov/department/security/marine,
+		/obj/item/weapon/handcuffs = 2,
+		/obj/item/weapon/reagent_containers/spray/pepper,
+		/obj/item/device/flash,
+		/obj/item/device/flashlight/maglight,
+		/obj/item/clothing/gloves/tactical/scp,
+		/obj/item/clothing/accessory/holster/thigh,
+		/obj/item/weapon/storage/box/bloodtypes,
+		/obj/item/weapon/gun/projectile/pistol,
+		/obj/item/ammo_magazine/mc9mm = 4,
+		/obj/item/ammo_magazine/box/c9mm,
+		/obj/item/clothing/mask/balaclava,
+		/obj/item/clothing/suit/armor/pcarrier/scp,
+		/obj/item/clothing/accessory/legguards,
+		/obj/item/clothing/accessory/armguards,
+		/obj/item/clothing/accessory/armorplate/medium,
+		/obj/item/clothing/accessory/storage/pouches/large,
+		/obj/item/clothing/head/helmet/swat,
+		/obj/item/clothing/under/color/white
+	)
+
+
+/obj/structure/closet/secure_closet/mtf/hczguardzonecomm
+	name = "HCZ Zone Commander Locker"
+	req_access = list(access_mtflvl4)
+	icon_state = "colocked"
+	icon_closed = "counlocked"
+	icon_locked = "colocked"
+	icon_opened = "coopen"
+	icon_off = "cooff"
+
+/obj/structure/closet/secure_closet/mtf/hczguardzonecomm/WillContain()
+	return list(
+		/obj/item/weapon/storage/belt/security/tactical,
+		/obj/item/weapon/gun/projectile/automatic/z8,
+		/obj/item/clothing/glasses/sunglasses/sechud/goggles,
+		/obj/item/ammo_magazine/a762 = 6,
+		/obj/item/ammo_magazine/box/a762,
+		/obj/item/clothing/accessory/storage/black_vest,
+		/obj/item/weapon/melee/telebaton,
+		/obj/item/clothing/accessory/solgov/department/security/marine,
+		/obj/item/weapon/handcuffs = 2,
+		/obj/item/weapon/reagent_containers/spray/pepper,
+		/obj/item/device/flash,
+		/obj/item/device/flashlight/maglight,
+		/obj/item/clothing/gloves/tactical/scp,
+		/obj/item/clothing/accessory/holster/thigh,
+		/obj/item/weapon/storage/box/bloodtypes,
+		/obj/item/weapon/gun/projectile/pistol,
+		/obj/item/ammo_magazine/mc9mm = 4,
+		/obj/item/ammo_magazine/box/c9mm,
+		/obj/item/clothing/mask/balaclava,
+		/obj/item/clothing/suit/armor/pcarrier/scp,
+		/obj/item/clothing/accessory/legguards,
+		/obj/item/clothing/accessory/armguards,
+		/obj/item/clothing/accessory/armorplate/medium,
+		/obj/item/clothing/accessory/storage/pouches/large,
+		/obj/item/clothing/head/helmet/swat,
+		/obj/item/clothing/under/color/red,
+		/obj/item/weapon/gun/projectile/revolver/mateba,
+		/obj/item/ammo_magazine/box/a50donor,
+		/obj/item/ammo_magazine/c50 = 4,
+	)
+
+
+
+
 /obj/structure/closet/secure_closet/mtf/breachautomatics
 	name = "automatic weapons locker"
 	req_access = list(access_mtflvl2)
@@ -194,7 +316,8 @@
 		/obj/item/weapon/gun/projectile/automatic/scp/m16,
 		/obj/item/weapon/gun/projectile/automatic/scp/m16,
 		/obj/item/weapon/gun/projectile/automatic/scp/m16,
-		/obj/item/ammo_magazine/scp/m16_mag = 9
+		/obj/item/ammo_magazine/scp/m16_mag = 9,
+		/obj/item/ammo_magazine/box/a556alt = 3
 	)
 
 

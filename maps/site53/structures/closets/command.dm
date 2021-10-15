@@ -45,7 +45,10 @@
 		/obj/item/weapon/storage/box/encryptionkeys/eng,
 		/obj/item/weapon/storage/box/encryptionkeys/sec,
 		/obj/item/clothing/shoes/dutyboots,
-		/obj/item/device/radio/headset/heads/commsofficer
+		/obj/item/clothing/accessory/holster/thigh,
+		/obj/item/device/radio/headset/heads/commsofficer,
+		/obj/item/weapon/gun/projectile/pistol,
+		/obj/item/ammo_magazine/mc9mm = 3
 	)
 
 /obj/structure/closet/secure_closet/administration/commstech

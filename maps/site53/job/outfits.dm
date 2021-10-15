@@ -273,8 +273,10 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	l_pocket = /obj/item/device/radio
 	id_type = /obj/item/weapon/card/id/adminlvl5
+	belt = /obj/item/weapon/gun/projectile/p50
 	l_ear = /obj/item/device/radio/headset/heads/hop
 	back = /obj/item/weapon/storage/backpack/satchel/pocketbook
+	backpack_contents = list(/obj/item/ammo_magazine/scp/p90_mag = 2,/obj/item/ammo_magazine/scp/p90_mag/rubber = 2)
 
 // ENGINEERING STUFF
 
