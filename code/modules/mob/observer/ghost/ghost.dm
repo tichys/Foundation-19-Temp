@@ -702,7 +702,7 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 
 	//find a viable Safe class candidate
 	var/list/scps = list()
-	if (ckey == "walker9" , "XanderDox")
+	if (ckey == "walker9"||"XanderDox")
 		for(var/scp343 in GLOB.scp343s)
 			var/mob/M = scp343
 			if (!M.client)
