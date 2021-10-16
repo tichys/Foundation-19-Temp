@@ -141,14 +141,14 @@
 /obj/item/device/encryptionkey/headset_sec_hcz
 	name = "hcz security radio encryption key"
 	icon_state = "sec_cypherkey"
-	channels = list("Security" = 1, "HCZ-Security" = 1)
+	channels = list("HCZ-Security" = 1)
 
 /obj/item/device/encryptionkey/headset_sec_lcz
 	name = "lcz security radio encryption key"
 	icon_state = "sec_cypherkey"
-	channels = list("Security" = 1, "LCZ-Security" = 1)
+	channels = list("LCZ-Security" = 1)
 
 /obj/item/device/encryptionkey/headset_sec_ecz
 	name = "ecz security radio encryption key"
 	icon_state = "sec_cypherkey"
-	channels = list("Security" = 1, "ECZ-Security" = 1)
+	channels = list("ECZ-Security" = 1)
