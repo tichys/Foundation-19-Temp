@@ -258,5 +258,8 @@ var/const/MAP_HAS_RANK = 2		//Rank system, also togglable
 		num2text(SCI_FREQ)   = list(access_sci_comms),
 		num2text(SUP_FREQ)   = list(access_log_comms),
 		num2text(SRV_FREQ)   = list(access_civ_comms),
+		num2text(SEC_HCZ_FREQ)   = list(access_sec_comms),
+		num2text(SEC_LCZ_FREQ)   = list(access_sec_comms),
+		num2text(SEC_ECZ_FREQ)   = list(access_sec_comms)
 	)
 
