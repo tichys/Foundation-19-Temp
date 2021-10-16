@@ -124,6 +124,9 @@ var/const/EXP_FREQ = 1361
 // internal department channels
 var/const/MED_I_FREQ = 1485
 var/const/SEC_I_FREQ = 1475
+var/const/SEC_HCZ_FREQ = 1479
+var/const/SEC_LCZ_FREQ = 1471
+var/const/SEC_ECZ_FREQ = 1473
 
 var/list/radiochannels = list(
 	"Public"		= PUB_FREQ,
@@ -142,7 +145,10 @@ var/list/radiochannels = list(
 	"Encrypted"		= AI_FREQ,
 	"Entertainment" = ENT_FREQ,
 	"Medical(I)"	= MED_I_FREQ,
-	"Security(I)"	= SEC_I_FREQ
+	"Security(I)"	= SEC_I_FREQ,
+	"HCZ-Security"	= SEC_HCZ_FREQ,
+	"LCZ-Security"	= SEC_LCZ_FREQ,
+	"ECZ-Security"	= SEC_ECZ_FREQ
 )
 
 // central command channels, i.e deathsquid & response teams
@@ -152,7 +158,7 @@ var/list/CENT_FREQS = list(ERT_FREQ, DTH_FREQ)
 var/list/ANTAG_FREQS = list(SYND_FREQ, RAID_FREQ)
 
 //Department channels, arranged lexically
-var/list/DEPT_FREQS = list(AI_FREQ, COMM_FREQ, ENG_FREQ, MED_FREQ, SEC_FREQ, SCI_FREQ, SRV_FREQ, SUP_FREQ, EXP_FREQ, ENT_FREQ)
+var/list/DEPT_FREQS = list(AI_FREQ, COMM_FREQ, ENG_FREQ, MED_FREQ, SEC_ECZ_FREQ, SEC_FREQ, SEC_HCZ_FREQ, SEC_LCZ_FREQ, SCI_FREQ, SRV_FREQ, SUP_FREQ, EXP_FREQ, ENT_FREQ)
 
 #define TRANSMISSION_WIRE	0
 #define TRANSMISSION_RADIO	1
@@ -187,6 +193,12 @@ var/list/DEPT_FREQS = list(AI_FREQ, COMM_FREQ, ENG_FREQ, MED_FREQ, SEC_FREQ, SCI
 		return "srvradio"
 	if(frequency == ENT_FREQ) //entertainment
 		return "entradio"
+	if(frequency == SEC_HCZ_FREQ) //HCZ sec
+		return "hczradio"
+	if(frequency == SEC_LCZ_FREQ) //LCZ sec
+		return "lczradio"
+	if(frequency == SEC_ECZ_FREQ) //ECZ sec
+		return "eczradio"
 	if(frequency in DEPT_FREQS)
 		return "deptradio"
 

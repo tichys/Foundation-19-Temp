@@ -683,9 +683,10 @@
 	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 30, rad = 0)
 
 /obj/item/clothing/under/scp/whiteuniform
-	name = "white uniform"
-	desc = "A sterile white uniform."
+	name = "white security uniform"
+	desc = "A sterile white uniform. Commonly issued to lower ranked security personnel."
 	icon_state = "white"
+
 
 /obj/item/clothing/under/scp/donor
 	name = "grey uniform"

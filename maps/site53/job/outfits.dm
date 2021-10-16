@@ -90,10 +90,10 @@
 
 /decl/hierarchy/outfit/job/site90/crew/security/ltofficerhcz
 	name = OUTFIT_JOB_NAME("HCZ Zone Commander")
-	uniform = /obj/item/clothing/under/scp/whiteuniform
+	uniform = /obj/item/clothing/under/scp/utility/security/zc
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/zcseclvl4hcz
-	l_ear = /obj/item/device/radio/headset/headset_com
+	l_ear = /obj/item/device/radio/headset/heads/cos
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
 	back = /obj/item/weapon/storage/backpack/dufflebag/sec
 
@@ -102,7 +102,7 @@
 	uniform = /obj/item/clothing/under/scp/utility/security/zc
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/zcseclvl3lcz
-	l_ear = /obj/item/device/radio/headset/headset_com
+	l_ear = /obj/item/device/radio/headset/heads/cos
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
 	back = null
 
@@ -112,7 +112,7 @@
 	uniform = /obj/item/clothing/under/scp/utility/security/zc
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/zcseclvl4ez
-	l_ear = /obj/item/device/radio/headset/headset_com
+	l_ear = /obj/item/device/radio/headset/heads/cos
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
 	back = null
 // GUARD OUTFITS
@@ -121,16 +121,16 @@
 	uniform = /obj/item/clothing/under/scp/utility/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/seclvl2lcz
-	l_ear = /obj/item/device/radio/headset/headset_sec
+	l_ear = /obj/item/device/radio/headset/headset_sec_lcz
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
 	back = null
 
 /decl/hierarchy/outfit/job/site90/crew/security/ncoofficerhcz
 	name = OUTFIT_JOB_NAME("HCZ Guard")
-	uniform = /obj/item/clothing/under/scp/whiteuniform
+	uniform = /obj/item/clothing/under/scp/utility/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/seclvl3hcz
-	l_ear = /obj/item/device/radio/headset/headset_sec
+	l_ear = /obj/item/device/radio/headset/headset_sec_hcz
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
 	back = /obj/item/weapon/storage/backpack/satchel
 
@@ -139,16 +139,16 @@
 	uniform = /obj/item/clothing/under/scp/utility/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/seclvl3ez
-	l_ear = /obj/item/device/radio/headset/headset_sec
+	l_ear = /obj/item/device/radio/headset/headset_sec_ecz
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
 	back = null
 
 /decl/hierarchy/outfit/job/site90/crew/security/enlistedofficerez
 	name = OUTFIT_JOB_NAME("EZ Junior Agent")
-	uniform = /obj/item/clothing/under/scp/utility/security
+	uniform = /obj/item/clothing/under/scp/whiteuniform
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/junseclvl2ez
-	l_ear = /obj/item/device/radio/headset/headset_sec
+	l_ear = /obj/item/device/radio/headset/headset_sec_ecz
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
 	back = null
 
@@ -158,16 +158,16 @@
 	uniform = /obj/item/clothing/under/scp/whiteuniform
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/junseclvl1
-	l_ear = /obj/item/device/radio/headset/headset_sec
+	l_ear = /obj/item/device/radio/headset/headset_sec_lcz
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
 	back = /obj/item/weapon/storage/backpack/satchel
 
 /decl/hierarchy/outfit/job/site90/crew/security/enlistedofficerhcz
 	name = OUTFIT_JOB_NAME("HCZ Junior Guard")
-	uniform = /obj/item/clothing/under/scp/utility/security
+	uniform = /obj/item/clothing/under/scp/whiteuniform
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/junseclvl3hcz
-	l_ear = /obj/item/device/radio/headset/headset_sec
+	l_ear = /obj/item/device/radio/headset/headset_sec_hcz
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
 	back = null
 // SCIENCE OUTFITS
@@ -273,10 +273,8 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	l_pocket = /obj/item/device/radio
 	id_type = /obj/item/weapon/card/id/adminlvl5
-	belt = /obj/item/weapon/gun/projectile/p50
 	l_ear = /obj/item/device/radio/headset/heads/hop
 	back = /obj/item/weapon/storage/backpack/satchel/pocketbook
-	backpack_contents = list(/obj/item/ammo_magazine/scp/p90_mag = 2,/obj/item/ammo_magazine/scp/p90_mag/rubber = 2)
 
 // ENGINEERING STUFF
 

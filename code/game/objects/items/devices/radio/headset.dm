@@ -93,6 +93,27 @@
 	item_state = "headset"
 	ks2type = /obj/item/device/encryptionkey/headset_sec
 
+/obj/item/device/radio/headset/headset_sec_hcz
+	name = "HCZ security radio headset"
+	desc = "This is used by your elite security force."
+	icon_state = "sec_headset"
+	item_state = "headset"
+	ks2type = /obj/item/device/encryptionkey/headset_sec_hcz
+
+/obj/item/device/radio/headset/headset_sec_lcz
+	name = "LCZ security radio headset"
+	desc = "This is used by your elite security force."
+	icon_state = "sec_headset"
+	item_state = "headset"
+	ks2type = /obj/item/device/encryptionkey/headset_sec_lcz
+
+/obj/item/device/radio/headset/headset_sec_ecz
+	name = "EZ security radio headset"
+	desc = "This is used by your elite security force."
+	icon_state = "sec_headset"
+	item_state = "headset"
+	ks2type = /obj/item/device/encryptionkey/headset_sec_ecz
+
 /obj/item/device/radio/headset/headset_eng
 	name = "engineering radio headset"
 	desc = "When the engineers wish to chat like girls."
