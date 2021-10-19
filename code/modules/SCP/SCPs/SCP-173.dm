@@ -121,8 +121,8 @@ GLOBAL_LIST_EMPTY(scp173s)
 		if(H.stat == DEAD)
 			to_chat(src, "<span class='warning'><I>[H] is already dead!</I></span>")
 			return
-		visible_message("<span class='danger'>[src] snaps [H]'s neck!</span>")
-		playsound(loc, pick('sound/scp/spook/NeckSnap1.ogg', 'sound/scp/spook/NeckSnap3.ogg'), 50, 1)
+		visible_message("<span class='danger'>[src] rapidly moves to [H]'s location, their neck violently twisting with a loud crack!</span>")
+		playsound(loc, pick('sound/scp/spook/NeckSnap1.ogg', 'sound/scp/spook/NeckSnap3.ogg', 'sound/scp/spook/NeckSnap2.ogg' ), 50, 1)
 		H.death()
 		H.scp173_killed = TRUE
 
