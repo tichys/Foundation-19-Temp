@@ -180,8 +180,8 @@ GLOBAL_LIST_EMPTY(scp173s)
 				return
 			forceMove(spot)
 			dir = get_dir(src, target)
-visible_message("<span class='danger'>[src] appears at [H]'s location, their neck violently twisting with a loud crack by an unseen force!</span>")
-			playsound(loc, pick('sound/scp/spook/NeckSnap1.ogg', 'sound/scp/spook/NeckSnap3.ogg'), 50, 1)
+		visible_message("<span class='danger'>[src] appears at [H]'s location, their neck violently twisting with a loud crack by an unseen force!</span>")
+			playsound(loc, pick('sound/scp/spook/NeckSnap1.ogg', 'sound/scp/spook/NeckSnap2.ogg', 'sound/scp/spook/NeckSnap3.ogg'), 50, 1)
 			target.death()
 			target.scp173_killed = TRUE
 			last_snap = world.time
