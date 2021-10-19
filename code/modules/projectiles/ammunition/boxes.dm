@@ -457,7 +457,7 @@
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/scp/m16_mag
-	name = "magazine (5.56)"
+	name = "magazine (5.56x45mm)"
 	icon_state = "m16"
 	origin_tech = list(TECH_COMBAT = 2)
 	mag_type = MAGAZINE
