@@ -21,8 +21,8 @@
 	var/activation_sound = 'sound/items/goggles_charge.ogg'
 
 /obj/item/clothing/head/helmet/nt
-	name = "\improper corporate security helmet"
-	desc = "A helmet with 'CORPORATE SECURITY' printed on the back in red lettering."
+	name = "\improper guard helmet"
+	desc = "A helmet with 'GUARD' printed on the back in red lettering."
 	icon_state = "helmet_nt"
 
 /obj/item/clothing/head/helmet/pcrc
@@ -227,8 +227,8 @@
 	icon_state = "m_helmet"
 
 /obj/item/clothing/head/helmet/scp/security
-	name = "\improper corporate security helmet"
-	desc = "A helmet with 'CORPORATE SECURITY' printed on the back lettering."
+	name = "\improper guard helmet"
+	desc = "A helmet with 'GUARD' printed on the back lettering."
 	icon_state = "guard-helm"
 	body_parts_covered = HEAD|FACE|EYES //face shield
 	armor = list(melee = 50, bullet = 70, laser = 50,energy = 25, bomb = 30, bio = 10, rad = 10)
