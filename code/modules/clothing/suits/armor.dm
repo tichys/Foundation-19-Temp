@@ -134,6 +134,25 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	armor = list(melee = 80, bullet = 85, laser = 65, energy = 15, bomb = 80, bio = 100, rad = 60)
 
+/obj/item/clothing/suit/armor/mtfheavy
+	name = "combined heavy assault suit"
+	desc = "A multi-layered composite armor suit with ballistic weave underpadding and a kevlar undersuit, fitted with it's own cooling unit. 'Nu-7' is emblazoned on the collar, and 'Hammer Down' is sewed into the back of it."
+	icon_state = "mtf-heavy"
+	item_state = "armor"
+	permeability_coefficient = 0
+	gas_transfer_coefficient = 0
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
+	armor = list(melee = 110, bullet = 110, laser = 90, energy = 90, bomb = 120, bio = 100, rad = 80)
+	
+/obj/item/clothing/suit/armor/mtftactical
+	name = "tactical armor suit"
+	desc = "An advanced multi-plated composite vest with kevlar lining and plenty of room to move. 'E-11' is sewn into the left pauldron, and 'Nine Tailed Fox' is sewn into the right."
+	icon_state = "mtf-tactical"
+	item_state = "armor"
+	permeability_coefficient = 0
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
+	armor = list(melee = 80, bullet = 85, laser = 65, energy = 15, bomb = 80, bio = 40, rad = 60)
+	
 /*
 /obj/item/clothing/suit/armor/tactical
 	name = "tactical armor"
