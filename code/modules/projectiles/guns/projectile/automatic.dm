@@ -387,8 +387,8 @@
 	magazine_type = /obj/item/ammo_magazine/scp/p90_mag/rubber
 
 /obj/item/weapon/gun/projectile/automatic/scp/m16
-	name = "M16"
-	desc = "A automatic rifle sample of the 1960s, with a scope mounted on top"
+	name = "SR17"
+	desc = "A Foundation-standard service rifle that takes 5.56x45mm straight magazines. Also sports a compensator, lofty iron sights, and a comfortable grip."
 	icon_state = "m16"
 	item_state = "m16"
 	w_class = ITEM_SIZE_HUGE
