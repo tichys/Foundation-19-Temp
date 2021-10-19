@@ -111,7 +111,7 @@
 	siemens_coefficient = 0.5
 	permeability_coefficient = 0
 	
-/obj/item/clothing/head/helmet/chaos
+/obj/item/clothing/head/helmet/mtfheavy
 	name = "combined heavy assault helmet"
 	desc = "A quad-layered heavy composite helmet with titanium strut supports made solely so it doesn't crush one's heavy with the weight."
 	icon_state = "mtf-heavy-helmet"
