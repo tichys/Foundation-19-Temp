@@ -139,8 +139,8 @@
 
 /obj/item/projectile/bullet/pistol/medium/smg
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
-	damage = 40 //10mm
-	armor_penetration = 30
+	damage = 30
+	armor_penetration = 60
 	agony = 35
 
 /obj/item/projectile/bullet/pistol/medium/smg/rubber
@@ -159,8 +159,8 @@
 
 /obj/item/projectile/bullet/pistol/medium/smg/ap
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
-	damage = 35 //10mm AP
-	armor_penetration = 55
+	damage = 25 //10mm AP
+	armor_penetration = 80
 	agony = 30
 
 /obj/item/projectile/bullet/pistol/medium/smg/silver
