@@ -17,7 +17,7 @@
 
 	var/can_use_mmi = TRUE
 	var/mob/living/carbon/brain/brainmob = null
-	var/const/damage_threshold_count = 10
+	var/const/damage_threshold_count = 20
 	var/damage_threshold_value
 	var/healed_threshold = 1
 	var/fake_brain = 0
@@ -50,16 +50,17 @@
 
 /obj/item/organ/internal/brain/New(var/mob/living/carbon/holder)
 	..()
-	max_damage = 100
+	max_damage = 50
 	if(species)
 		max_damage = species.total_health
-	min_bruised_damage = max_damage*0.1
-	min_broken_damage = max_damage*0.25
+	min_bruised_damage = max_damage*0.05
+	min_broken_damage = max_damage*0.08
 
 	damage_threshold_value = round(max_damage / damage_threshold_count)
 	spawn(5)
 		if(brainmob && brainmob.client)
 			brainmob.client.screen.len = null //clear the hud
+
 
 /obj/item/organ/internal/brain/Destroy()
 	QDEL_NULL(brainmob)
@@ -174,7 +175,7 @@
 			else if((owner.disabilities & NERVOUS) && prob(10))
 				owner.stuttering = max(10, owner.stuttering)
 
-			if(owner.stat == CONSCIOUS)
+			if(owner.stat == CONSCIOUS) // tabbed one step back so that it isn't skipped if already paralyzed (to avoid issue where character stands up every 5 seconds then falls back)
 				if(damage > 0 && prob(1))
 					owner.custom_pain("Your head feels numb and painful.",10)
 				if(is_bruised() && prob(1) && owner.eye_blurry <= 0)
@@ -183,10 +184,10 @@
 				if(is_broken() && prob(1) && owner.get_active_hand())
 					to_chat(owner, "<span class='danger'>Your hand won't respond properly, and you drop what you are holding!</span>")
 					owner.drop_item()
-				if((damage >= (max_damage * 0.75)))
+				if((damage >= (max_damage * 0.1)))
 					if(!owner.lying)
 						to_chat(owner, "<span class='danger'>You black out!</span>")
-					owner.Paralyse(10)
+					owner.Paralyse(100)
 
 		// Brain damage from low oxygenation or lack of blood.
 		if(owner.should_have_organ(BP_HEART))

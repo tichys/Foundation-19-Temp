@@ -128,20 +128,21 @@
 
 /obj/item/projectile/bullet/pistol
 	fire_sound = 'sound/weapons/gunshot/gunshot_pistol.ogg'
-	damage = 40 //9mm, .38, etc
-	armor_penetration = 34
-	agony = 34
+	damage = 32.5 //9mm, .38, etc
+	armor_penetration = 17.5
+	agony = 15
 
 /obj/item/projectile/bullet/pistol/medium
-	damage = 50 //.45
-	armor_penetration = 15
-	agony = 45
+	damage = 45 //.45
+	armor_penetration = 5
+	agony = 20
 
 /obj/item/projectile/bullet/pistol/medium/smg
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
 	damage = 30
 	armor_penetration = 35
 	agony = 35
+
 
 /obj/item/projectile/bullet/pistol/medium/smg/rubber
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
@@ -153,9 +154,9 @@
 
 /obj/item/projectile/bullet/pistol/medium/smg/hollowpoint
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
-	damage = 60 //10mm hollowpoint
-	armor_penetration = 8
-	agony = 40
+	damage = 45 //10mm hollowpoint
+	armor_penetration = 5
+	agony = 20
 
 /obj/item/projectile/bullet/pistol/medium/smg/ap
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
@@ -165,20 +166,21 @@
 
 /obj/item/projectile/bullet/pistol/medium/smg/silver
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
-	damage = 40 //10mm but i have no idea what bimmer wanted for classifaction, so i made it just better normal ammo
-	armor_penetration = 18
-	agony = 30
+	damage = 30 //10mm but i have no idea what bimmer wanted for classifaction, so i made it just better normal ammo
+	armor_penetration = 30
+	agony = 15
 
 /obj/item/projectile/bullet/pistol/medium/revolver
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
-	damage = 60 //.44 magnum or something
-	agony = 45
+	damage = 55 //.44 magnum or something
+	armor_penetration = 15
+	agony = 25
 
 /obj/item/projectile/bullet/pistol/strong //matebas
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
 	damage = 65 //.50AE
-	armor_penetration = 30
-	agony = 45
+	armor_penetration = 15
+	agony = 30
 
 /obj/item/projectile/bullet/pistol/vstrong //tacrevolver
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
@@ -227,7 +229,7 @@
 	pellets = 6
 	range_step = 1
 	spread_step = 10
-	agony = 15
+	agony = 10
 
 /* "Rifle" rounds */
 
@@ -239,13 +241,13 @@
 /obj/item/projectile/bullet/rifle/a556
 	fire_sound = 'sound/weapons/gunshot/gunshot3.ogg'
 	damage = 50
-	armor_penetration = 34
+	armor_penetration = 35
 	agony = 40
 
 /obj/item/projectile/bullet/rifle/a762
 	fire_sound = 'sound/weapons/gunshot/gunshot2.ogg'
 	damage = 60
-	armor_penetration = 40
+	armor_penetration = 60
 	agony = 45
 
 /obj/item/projectile/bullet/rifle/a145
@@ -263,7 +265,7 @@
 	penetrating = 6
 	armor_penetration = 120
 	penetration_modifier = 1.5
-	agony = 25
+	agony = 100
 
 /* Miscellaneous */
 

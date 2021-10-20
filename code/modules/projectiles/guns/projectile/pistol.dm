@@ -104,7 +104,7 @@
 		icon_state = "magnum"
 	else
 		icon_state = "magnum-e"
-		
+
 /obj/item/weapon/gun/projectile/p50
 	name = "P50"
 	desc = "The KelTec P50, a semi-automatic long-barreled futuristic pistol that uses the same magazines as the P90. Curiously, the entire top flips open to reload."
@@ -153,7 +153,6 @@
 	name = "MK9 Standard"
 	desc = "Standard issue 9mm pistol of the SCP Foundation, based on the makarov."
 	icon_state = "pistol"
-	item_state = null
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9mm"
 	silenced = 0
@@ -162,6 +161,15 @@
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/mc9mm
 	allowed_magazines = /obj/item/ammo_magazine/mc9mm
+
+/obj/item/weapon/gun/projectile/pistol/update_icon()
+	..()
+	if(ammo_magazine && ammo_magazine.stored_ammo.len)
+		icon_state = "pistol"
+	else
+		icon_state = "pistol-e"
+
+
 
 /obj/item/weapon/gun/projectile/pistol/flash
 	name = "holdout signal pistol"
