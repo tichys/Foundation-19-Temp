@@ -30,6 +30,9 @@
 	var/activation_sound = 'sound/items/goggles_charge.ogg'
 	var/obj/screen/overlay = null
 	var/electric = 0 //if the glasses should be disrupted by EMP
+	
+/obj/item/clothing/head/helmet/needs_vision_update()
+	return ..() || overlay || vision_flags || see_invisible || darkness_view
 
 /obj/item/clothing/head/helmet/nt
 	name = "\improper guard helmet"
