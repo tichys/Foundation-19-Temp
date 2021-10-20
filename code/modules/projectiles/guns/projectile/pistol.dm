@@ -138,6 +138,7 @@
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a75
 	fire_delay = 25
+	slot_flags = SLOT_BELT
 	auto_eject = 1
 	auto_eject_sound = 'sound/weapons/smg_empty_alarm.ogg'
 
