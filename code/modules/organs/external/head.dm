@@ -4,8 +4,8 @@
 	icon_name = "head"
 	name = "head"
 	slot_flags = SLOT_BELT
-	max_damage = 125
-	min_broken_damage = 35
+	max_damage = 175
+	min_broken_damage = 20
 	w_class = ITEM_SIZE_NORMAL
 	body_part = HEAD
 	parent_organ = BP_CHEST
@@ -15,6 +15,7 @@
 	encased = "skull"
 	artery_name = "cartoid artery"
 	cavity_name = "cranial"
+	arterial_bleed_severity = 2
 
 	var/can_intake_reagents = 1
 	var/eye_icon = "eyes_s"
@@ -28,7 +29,7 @@
 	eye_icon_location = species.eye_icon_location
 
 /obj/item/organ/external/head/get_agony_multiplier()
-	return (owner && owner.headcheck(organ_tag)) ? 1.50 : 1
+	return (owner && owner.headcheck(organ_tag)) ? 1.5 : 1
 
 /obj/item/organ/external/head/robotize(var/company, var/skip_prosthetics, var/keep_organs)
 	if(company)
