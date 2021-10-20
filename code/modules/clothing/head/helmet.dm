@@ -18,7 +18,18 @@
 	max_heat_protection_temperature = HELMET_MAX_HEAT_PROTECTION_TEMPERATURE
 	siemens_coefficient = 0.7
 	w_class = ITEM_SIZE_NORMAL
+	//var/vision_flags = 0
+	//var/darkness_view = 0//Base human is 2
+	sprite_sheets = list(
+		SPECIES_UNATHI = 'icons/mob/onmob/Unathi/eyes.dmi'
+		)
+	var/prescription = 0
+	var/toggleable = 0
+	var/off_state = "degoggles"
+	var/active = 1
 	var/activation_sound = 'sound/items/goggles_charge.ogg'
+	var/obj/screen/overlay = null
+	var/electric = 0 //if the glasses should be disrupted by EMP
 
 /obj/item/clothing/head/helmet/nt
 	name = "\improper guard helmet"
