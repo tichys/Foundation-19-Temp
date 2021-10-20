@@ -25,6 +25,7 @@ var/list/mob_hat_cache = list()
 	icon_state = "repairbot"
 	maxHealth = 35
 	health = 35
+    duties = "<big><b>As the Drone, you and your AIC colleagues are tasked with following your laws to the best of your ability. Your security clearance level is Level-1. You are an Narrow Intelligence Class-II Adaptive AIC. Class-II Adaptive AICs possess memory and is able to learn from previous experiences in order to improve. Narrow Intelligence AICs are able to perform a single task or category of tasks.</span>"
 	cell_emp_mult = 1
 	universal_speak = 0
 	universal_understand = 1
