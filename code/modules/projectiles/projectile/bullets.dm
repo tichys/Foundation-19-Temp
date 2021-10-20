@@ -140,7 +140,7 @@
 /obj/item/projectile/bullet/pistol/medium/smg
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
 	damage = 30
-	armor_penetration = 60
+	armor_penetration = 35
 	agony = 35
 
 /obj/item/projectile/bullet/pistol/medium/smg/rubber
@@ -287,7 +287,10 @@
 	agony = 20
 
 /obj/item/projectile/bullet/gyro
-	fire_sound = 'sound/effects/Explosion1.ogg'
+	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
+	name = "self propelled round"
+	damage = 25
+	agony = 40
 
 /obj/item/projectile/bullet/gyro/on_hit(var/atom/target, var/blocked = 0)
 	if(isturf(target))
