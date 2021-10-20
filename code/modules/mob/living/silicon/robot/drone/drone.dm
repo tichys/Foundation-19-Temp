@@ -25,6 +25,7 @@ var/list/mob_hat_cache = list()
 	icon_state = "repairbot"
 	maxHealth = 35
 	health = 35
+    duties = "<big><b>As the Drone, you and your AIC colleagues are tasked with following your laws to the best of your ability. Your security clearance level is Level-1. You are an Narrow Intelligence Class-II Adaptive AIC. Class-II Adaptive AICs possess memory and is able to learn from previous experiences in order to improve. Narrow Intelligence AICs are able to perform a single task or category of tasks.</span>"
 	cell_emp_mult = 1
 	universal_speak = 0
 	universal_understand = 1
@@ -270,7 +271,7 @@ var/list/mob_hat_cache = list()
 	clear_inherent_laws()
 	QDEL_NULL(laws)
 	laws = new /datum/ai_laws/syndicate_override
-	set_zeroth_law("Only [user.real_name] and people \he designates as being such are operatives.")
+	set_zeroth_law("Only [user.real_name] and people \he designates as being such are Insurgents.")
 
 	if(!controlling_ai)
 		to_chat(src, "<b>Obey these laws:</b>")
@@ -379,7 +380,7 @@ var/list/mob_hat_cache = list()
 
 /mob/living/silicon/robot/drone/construction/welcome_drone()
 	to_chat(src, "<b>You are a construction drone, an autonomous engineering and fabrication system.</b>.")
-	to_chat(src, "You are assigned to a Sol Central construction project. The name is irrelevant. Your task is to complete construction and subsystem integration as soon as possible.")
+	to_chat(src, "You are assigned to an SCP Foundation construction project. The name is irrelevant. Your task is to complete construction and subsystem integration as soon as possible.")
 	to_chat(src, "Use <b>:d</b> to talk to other drones and <b>say</b> to speak silently to your nearby fellows.")
 	to_chat(src, "<b>You do not follow orders from anyone; not the AI, not humans, and not other synthetics.</b>.")
 

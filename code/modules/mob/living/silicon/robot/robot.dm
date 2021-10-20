@@ -7,7 +7,7 @@
 	icon_state = "robot"
 	maxHealth = 200
 	health = 200
-
+    duties = "<big><b>As the Cyborg, you and your AIC colleagues are tasked with following your laws to the best of your ability. Your Security Clearance is Level-3. You are a General Intelligence Class-IV Sentient AIC. Sentient AICs possess self-awareness and are able to understand itself in relation to its environment. General Intelligence AICs are able to perform new tasks which it was not programmed to solve.</span>"
 	mob_bump_flag = ROBOT
 	mob_swap_flags = ROBOT|MONKEY|SLIME|SIMPLE_ANIMAL
 	mob_push_flags = ~HEAVY //trundle trundle
