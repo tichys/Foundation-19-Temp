@@ -18,68 +18,7 @@
 	max_heat_protection_temperature = HELMET_MAX_HEAT_PROTECTION_TEMPERATURE
 	siemens_coefficient = 0.7
 	w_class = ITEM_SIZE_NORMAL
-	//var/vision_flags = 0
-	//var/darkness_view = 0//Base human is 2
-	var/prescription = 0
-	var/toggleable = 0
-	var/off_state = "degoggles"
-	var/active = 1
-	var/activation_sound = 'sound/items/goggles_charge.ogg'
-	var/obj/screen/overlay = null
-	var/obj/item/clothing/head/helmet/hud/hud = null	// lol
-	var/electric = 0 //if the glasses should be disrupted by EMP
-
-/obj/item/clothing/head/helmet/New()
-	..()
-	if(ispath(hud))
-		hud = new hud(src)
-
-/obj/item/clothing/head/helmet/Destroy()
-	qdel(hud)
-	hud = null
-	. = ..()
-
-/obj/item/clothing/head/helmet/needs_vision_update()
-	return ..() || overlay || vision_flags || see_invisible || darkness_view
-
-/obj/item/clothing/head/helmet/emp_act(severity)
-	if(electric)
-		if(istype(src.loc, /mob/living/carbon/human))
-			var/mob/living/carbon/human/M = src.loc
-			to_chat(M, "<span class='danger'>Your [name] malfunction[gender != PLURAL ? "s":""], blinding you!</span>")
-			if(M.glasses == src)
-				M.eye_blind = 2
-				M.eye_blurry = 4
-				// Don't cure being nearsighted
-				if(!(M.disabilities & NEARSIGHTED))
-					M.disabilities |= NEARSIGHTED
-					spawn(100)
-						M.disabilities &= ~NEARSIGHTED
-		if(toggleable)
-			if(active)
-				active = 0
-
-/obj/item/clothing/head/helmet/attack_self(mob/user)
-	if(toggleable && !user.incapacitated())
-		if(active)
-			active = 0
-			icon_state = off_state
-			user.update_inv_glasses()
-			flash_protection = FLASH_PROTECTION_NONE
-			tint = TINT_NONE
-			to_chat(usr, "You deactivate the optical matrix on the [src].")
-		else
-			active = 1
-			icon_state = initial(icon_state)
-			user.update_inv_glasses()
-			if(activation_sound)
-				sound_to(usr, activation_sound)
-
-			flash_protection = initial(flash_protection)
-			tint = initial(tint)
-			to_chat(usr, "You activate the optical matrix on the [src].")
-		user.update_action_buttons()
-
+	
 /obj/item/clothing/head/helmet/nt
 	name = "\improper guard helmet"
 	desc = "A helmet with 'GUARD' printed on the back in red lettering."
@@ -192,16 +131,7 @@
 	min_cold_protection_temperature = SPACE_HELMET_MIN_COLD_PROTECTION_TEMPERATURE
 	item_flags = ITEM_FLAG_THICKMATERIAL|ITEM_FLAG_AIRTIGHT
 	body_parts_covered = HEAD|FACE|EYES
-	action_button_name = "Toggle Goggles"
-	toggleable = 1
-	electric = 1
-	see_invisible = SEE_INVISIBLE_NOLIGHTING
 	darkness_view = 7
-	off_state = "mtf-tactical-helmetOFF"
-	
-/obj/item/clothing/head/helmet/mtftactical/New()
-	..()
-	overlay = GLOB.global_hud.nvg
 
 /obj/item/clothing/head/helmet/thunderdome
 	name = "\improper Thunderdome helmet"
