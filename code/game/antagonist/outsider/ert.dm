@@ -46,7 +46,11 @@ var/datum/antagonist/ert/ert
 	player.equip_to_slot_or_del(new /obj/item/clothing/under/ert(src), slot_w_uniform)
 	player.equip_to_slot_or_del(new /obj/item/clothing/shoes/swat(src), slot_shoes)
 	player.equip_to_slot_or_del(new /obj/item/clothing/gloves/thick/swat(src), slot_gloves)
-	player.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses(src), slot_glasses)
+	player.equip_to_slot_or_del(new /obj/item/weapon/storage/belt/security/tactical(player), slot_belt)
+	player.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/mtftactical(player), slot_head)
+	player.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/mtftactical(player), slot_wear_suit)
+	player.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile/automatic/z8(player), slot_r_hand)
+	player.equip_to_slot_or_del(new /obj/item/weapon/storage/backpack/dufflebag/syndie/ammo(player), backpack_contents = list(/obj/item/ammo_magazine/box/a762 = 6,/obj/item/weapon/grenade/frag/shell = 3), slot_back)
 
 	create_id(role_text, player)
 	return 1
