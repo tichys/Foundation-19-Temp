@@ -20,4 +20,4 @@
 
 /datum/job/ai/is_position_available()
 	return (empty_playable_ai_cores.len != 0)
-duties = "<big><b>As the AI, you and your AIC colleagues are tasked with following your laws to the best of your ability. Your security clearance level is Level-4. You are a Superintelligent Class-V Sapient AIC. Sapient AICs possess advanced awareness of the relationships between themselves and other intelligent entities; often possesses 'human-like' attributes. Superintelligent AICs are able to perform tasks which humans are not able to perform, or at a level which humans are not capable of. Godspeed. </span>"
+//duties = "<big><b>As the AI, you and your AIC colleagues are tasked with following your laws to the best of your ability. Your security clearance level is Level-4. You are a Superintelligent Class-V Sapient AIC. Sapient AICs possess advanced awareness of the relationships between themselves and other intelligent entities; often possesses 'human-like' attributes. Superintelligent AICs are able to perform tasks which humans are not able to perform, or at a level which humans are not capable of. Godspeed. </span>"
