@@ -687,6 +687,65 @@
 	desc = "A sterile white uniform. Commonly issued to lower ranked security personnel."
 	icon_state = "white"
 
+/obj/item/clothing/under/scp/lczwhiteuniform
+	name = "LCZ security uniform"
+	desc = "A sterile white uniform. Currently issued to LCZ Guard personnel."
+	icon_state = "white_s_sergeant_lcz"
+	item_state = "white_s_sergeant_lcz"
+	item_state_slots = list(
+        slot_l_hand_str = "jumpsuit-sergeant-lcz",
+        slot_r_hand_str = "jumpsuit-sergeant-lcz",
+        )
+
+/obj/item/clothing/under/scp/lczwhitejunioruniform
+	name = "LCZ junior security uniform"
+	desc = "A sterile white uniform. Currently issued to LCZ Junior Guard personnel."
+	icon_state = "white_s_lcz"
+	item_state = "white_s_lcz"
+	item_state_slots = list(
+        slot_l_hand_str = "jumpsuit-lcz",
+        slot_r_hand_str = "jumpsuit-lcz",
+        )
+
+/obj/item/clothing/under/scp/hczwhiteuniform
+	name = "HCZ security uniform"
+	desc = "A sterile white uniform. Currently issued to HCZ Guard personnel."
+	icon_state = "white_s_sergeant_hcz"
+	item_state = "white_s_sergeant_hcz"
+	item_state_slots = list(
+        slot_l_hand_str = "jumpsuit-sergeant-hcz",
+        slot_r_hand_str = "jumpsuit-sergeant-hcz",
+        )
+
+/obj/item/clothing/under/scp/hczwhitejunioruniform
+	name = "HCZ junior security uniform"
+	desc = "A sterile white uniform. Currently issued to HCZ Junior Guard personnel."
+	icon_state = "white_s_hcz"
+	item_state = "white_s_hcz"
+	item_state_slots = list(
+        slot_l_hand_str = "jumpsuit-hcz",
+        slot_r_hand_str = "jumpsuit-hcz",
+        )
+
+/obj/item/clothing/under/scp/ezwhiteuniform
+	name = "EZ security uniform"
+	desc = "A sterile white uniform. Currently issued to EZ Guard personnel."
+	icon_state = "white_s_sergeant_ez"
+	item_state = "white_s_sergeant_ez"
+	item_state_slots = list(
+        slot_l_hand_str = "jumpsuit-sergeant-ez",
+        slot_r_hand_str = "jumpsuit-sergeant-ez",
+        )
+
+/obj/item/clothing/under/scp/ezwhitejunioruniform
+	name = "EZ junior security uniform"
+	desc = "A sterile white uniform. Currently issued to EZ Junior Guard personnel."
+	icon_state = "white_s_ez"
+	item_state = "white_s_ez"
+	item_state_slots = list(
+		slot_l_hand_str = "jumpsuit-ez",
+		slot_r_hand_str = "jumpsuit-ez",
+		)
 
 /obj/item/clothing/under/scp/donor
 	name = "grey uniform"
