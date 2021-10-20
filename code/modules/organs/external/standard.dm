@@ -8,8 +8,8 @@
 	name = "upper body"
 	organ_tag = BP_CHEST
 	icon_name = "torso"
-	max_damage = 150
-	min_broken_damage = 65
+	max_damage = 300
+	min_broken_damage = 200
 	w_class = ITEM_SIZE_HUGE //Used for dismembering thresholds, in addition to storage. Humans are w_class 6, so it makes sense that chest is w_class 5.
 	body_part = UPPER_TORSO
 	vital = 1
@@ -22,6 +22,9 @@
 	encased = "ribcage"
 	artery_name = "aorta"
 	cavity_name = "thoracic"
+
+/obj/item/organ/external/chest/get_agony_multiplier()
+	return (owner && owner.headcheck(organ_tag)) ? 0.1 : 1
 
 /obj/item/organ/external/chest/robotize()
 	if(..())
@@ -36,12 +39,13 @@
 	if( L && L.is_bruised())
 		. += "Lung ruptured"
 
+
 /obj/item/organ/external/groin
 	name = "lower body"
 	organ_tag = BP_GROIN
 	icon_name = "groin"
-	max_damage = 150
-	min_broken_damage = 65
+	max_damage = 300
+	min_broken_damage = 200
 	w_class = ITEM_SIZE_LARGE
 	body_part = LOWER_TORSO
 	vital = 1
@@ -57,8 +61,8 @@
 	organ_tag = BP_L_ARM
 	name = "left arm"
 	icon_name = "l_arm"
-	max_damage = 100
-	min_broken_damage = 30
+	max_damage = 150
+	min_broken_damage = 125
 	w_class = ITEM_SIZE_NORMAL
 	body_part = ARM_LEFT
 	parent_organ = BP_CHEST
@@ -68,7 +72,11 @@
 	has_tendon = TRUE
 	tendon_name = "palmaris longus tendon"
 	artery_name = "basilic vein"
-	arterial_bleed_severity = 0.75
+	arterial_bleed_severity = 0.375
+
+/obj/item/organ/external/arm/get_agony_multiplier()
+	return (owner && owner.headcheck(organ_tag)) ? 0.5 : 1
+
 
 /obj/item/organ/external/arm/stun_act(var/stun_amount, var/agony_amount)
 	if(!owner || (agony_amount < 5))
@@ -84,12 +92,15 @@
 	joint = "right elbow"
 	amputation_point = "right shoulder"
 
+
+
+
 /obj/item/organ/external/leg
 	organ_tag = BP_L_LEG
 	name = "left leg"
 	icon_name = "l_leg"
-	max_damage = 100
-	min_broken_damage = 30
+	max_damage = 200
+	min_broken_damage = 125
 	w_class = ITEM_SIZE_NORMAL
 	body_part = LEG_LEFT
 	icon_position = LEFT
@@ -100,7 +111,10 @@
 	has_tendon = TRUE
 	tendon_name = "cruciate ligament"
 	artery_name = "femoral artery"
-	arterial_bleed_severity = 0.75
+	arterial_bleed_severity = 0.375
+
+/obj/item/organ/external/leg/get_agony_multiplier()
+	return (owner && owner.headcheck(organ_tag)) ? 0.5 : 1
 
 /obj/item/organ/external/leg/stun_act(var/stun_amount, var/agony_amount)
 	if(!owner || agony_amount < 5)
@@ -122,8 +136,8 @@
 	organ_tag = BP_L_FOOT
 	name = "left foot"
 	icon_name = "l_foot"
-	max_damage = 80
-	min_broken_damage = 15
+	max_damage = 100
+	min_broken_damage = 85
 	w_class = ITEM_SIZE_SMALL
 	body_part = FOOT_LEFT
 	icon_position = LEFT
@@ -133,7 +147,10 @@
 	can_stand = 1
 	has_tendon = TRUE
 	tendon_name = "Achilles tendon"
-	arterial_bleed_severity = 0.5
+	arterial_bleed_severity = 0.2
+
+/obj/item/organ/external/foot/get_agony_multiplier()
+	return (owner && owner.headcheck(organ_tag)) ? 0.5 : 1
 
 /obj/item/organ/external/foot/stun_act(var/stun_amount, var/agony_amount)
 	if(!owner || agony_amount < 5)
@@ -160,8 +177,8 @@
 	organ_tag = BP_L_HAND
 	name = "left hand"
 	icon_name = "l_hand"
-	max_damage = 80
-	min_broken_damage = 15
+	max_damage = 100
+	min_broken_damage = 85
 	w_class = ITEM_SIZE_SMALL
 	body_part = HAND_LEFT
 	parent_organ = BP_L_ARM
@@ -170,7 +187,10 @@
 	can_grasp = 1
 	has_tendon = TRUE
 	tendon_name = "carpal ligament"
-	arterial_bleed_severity = 0.5
+	arterial_bleed_severity = 0.2
+
+/obj/item/organ/external/hand/get_agony_multiplier()
+	return (owner && owner.headcheck(organ_tag)) ? 0.5 : 1
 
 /obj/item/organ/external/hand/stun_act(var/stun_amount, var/agony_amount)
 	if(!owner || (agony_amount < 5))

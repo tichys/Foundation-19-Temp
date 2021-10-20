@@ -4,7 +4,7 @@
 	gender = PLURAL
 	organ_tag = BP_KIDNEYS
 	parent_organ = BP_GROIN
-	min_bruised_damage = 25
+	min_bruised_damage = 35
 	min_broken_damage = 45
 	max_damage = 50
 

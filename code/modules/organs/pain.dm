@@ -21,7 +21,7 @@ mob/living/carbon/proc/custom_pain(var/message, var/power, var/force, var/obj/it
 			affecting.add_pain(ceil(power/2))
 		else
 			adjustHalLoss(ceil(power/2))
-	
+
 	flash_pain(min(round(2*power)+55, 255))
 
 	// Anti message spam checks
@@ -51,7 +51,7 @@ mob/living/carbon/human/proc/handle_pain()
 		var/dam = E.get_damage()
 		// make the choice of the organ depend on damage,
 		// but also sometimes use one of the less damaged ones
-		if(dam > maxdam && (maxdam == 0 || prob(70)) )
+		if(dam > maxdam && (maxdam == 0 || prob(50)) )
 			damaged_organ = E
 			maxdam = dam
 	if(damaged_organ && chem_effects[CE_PAINKILLER] < maxdam)
