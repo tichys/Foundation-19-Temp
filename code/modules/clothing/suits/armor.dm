@@ -134,6 +134,25 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	armor = list(melee = 80, bullet = 85, laser = 65, energy = 15, bomb = 80, bio = 100, rad = 60)
 
+/obj/item/clothing/suit/armor/mtfheavy
+	name = "combined heavy assault suit"
+	desc = "A multi-layered composite armor suit with ballistic weave underpadding and a kevlar undersuit, fitted with it's own cooling unit. 'Nu-7' is emblazoned on the collar, and 'Hammer Down' is sewed into the back of it."
+	icon_state = "mtf-heavy"
+	item_state = "armor"
+	permeability_coefficient = 0
+	gas_transfer_coefficient = 0
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
+	armor = list(melee = 110, bullet = 110, laser = 90, energy = 90, bomb = 120, bio = 100, rad = 80)
+
+/obj/item/clothing/suit/armor/mtftactical
+	name = "tactical armor suit"
+	desc = "An advanced multi-plated composite vest with kevlar lining and plenty of room to move. 'E-11' is sewn into the left pauldron, and 'Nine Tailed Fox' is sewn into the right."
+	icon_state = "mtf-tactical"
+	item_state = "armor"
+	permeability_coefficient = 0
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
+	armor = list(melee = 80, bullet = 85, laser = 65, energy = 15, bomb = 80, bio = 40, rad = 60)
+
 /*
 /obj/item/clothing/suit/armor/tactical
 	name = "tactical armor"
@@ -237,6 +256,60 @@
 	body_parts_covered = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
 	cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
 	armor = list(melee = 40, bullet = 70, laser = 40, energy = 25, bomb = 30, bio = 15, rad = 10)
+
+/obj/item/clothing/suit/armor/vest/scp/lczmedarmor
+    name = "LCZ armored vest"
+    desc = "A synthetic armor vest, designed by the SCP foundation. This set has LCZ Guard markings on it"
+    icon_state = "guard-armor-sergeant-lcz"
+    item_state = "guard-armor-sergeant-lcz"
+    body_parts_covered = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
+    cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
+    armor = list(melee = 40, bullet = 70, laser = 40, energy = 25, bomb = 30, bio = 15, rad = 10)
+
+/obj/item/clothing/suit/armor/vest/scp/lczjuniormedarmor
+    name = "LCZ junior armored vest"
+    desc = "A synthetic armor vest, designed by the SCP foundation. This set has LCZ Junior Guard markings on it"
+    icon_state = "guard-armor-lcz"
+    item_state = "guard-armor-lcz"
+    body_parts_covered = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
+    cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
+    armor = list(melee = 40, bullet = 70, laser = 40, energy = 25, bomb = 30, bio = 15, rad = 10)
+
+/obj/item/clothing/suit/armor/vest/scp/hczmedarmor
+    name = "HCZ armored vest"
+    desc = "A synthetic armor vest, designed by the SCP foundation. This set has HCZ Guard markings on it"
+    icon_state = "guard-armor-sergeant-hcz"
+    item_state = "guard-armor-sergeant-hcz"
+    body_parts_covered = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
+    cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
+    armor = list(melee = 40, bullet = 70, laser = 40, energy = 25, bomb = 30, bio = 15, rad = 10)
+
+/obj/item/clothing/suit/armor/vest/scp/hczjuniormedarmor
+    name = "HCZ junior armored vest"
+    desc = "A synthetic armor vest, designed by the SCP foundation. This set has HCZ Junior Guard markings on it"
+    icon_state = "guard-armor-hcz"
+    item_state = "guard-armor-hcz"
+    body_parts_covered = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
+    cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
+    armor = list(melee = 40, bullet = 70, laser = 40, energy = 25, bomb = 30, bio = 15, rad = 10)
+
+/obj/item/clothing/suit/armor/vest/scp/ezmedarmor
+    name = "EZ armored vest"
+    desc = "A synthetic armor vest, designed by the SCP foundation. This set has EZ Guard markings on it"
+    icon_state = "guard-armor-sergeant-ez"
+    item_state = "guard-armor-sergeant-ez"
+    body_parts_covered = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
+    cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
+    armor = list(melee = 40, bullet = 70, laser = 40, energy = 25, bomb = 30, bio = 15, rad = 10)
+
+/obj/item/clothing/suit/armor/vest/scp/ezmedarmor
+    name = "EZ junior armored vest"
+    desc = "A synthetic armor vest, designed by the SCP foundation. This set has EZ Junior Guard markings on it"
+    icon_state = "guard-armor-ez"
+    item_state = "guard-armor-ez"
+    body_parts_covered = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
+    cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
+    armor = list(melee = 40, bullet = 70, laser = 40, energy = 25, bomb = 30, bio = 15, rad = 10)
 
 /obj/item/clothing/suit/armor/vest/scp/pizdeckakoyarmor
 	name = "Commander armor vest"
@@ -370,7 +443,7 @@
 	icon_state = "pcarrier_green"
 
 /obj/item/clothing/suit/armor/pcarrier/green/scp/mtf_epsilon
-	starting_accessories = list(/obj/item/clothing/accessory/armorplate/tactical, /obj/item/clothing/accessory/storage/pouches/green, /obj/item/clothing/accessory/legguards/green)
+	accessories = list(/obj/item/clothing/accessory/armorplate/tactical, /obj/item/clothing/accessory/storage/pouches/green, /obj/item/clothing/accessory/legguards/green)
 
 /obj/item/clothing/suit/armor/pcarrier/navy
 	name = "navy plate carrier"

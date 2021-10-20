@@ -687,6 +687,38 @@
 	desc = "A sterile white uniform. Commonly issued to lower ranked security personnel."
 	icon_state = "white"
 
+/obj/item/clothing/under/scp/lczwhiteuniform
+	name = "LCZ security uniform"
+	desc = "A sterile white uniform. Currently issued to LCZ Guard personnel."
+	icon_state = "white_sergeant_lcz"
+
+
+/obj/item/clothing/under/lczwhitejunioruniform
+	name = "LCZ junior security uniform"
+	desc = "A sterile white uniform. Currently issued to LCZ Junior Guard personnel."
+	icon_state = "white_lcz"
+
+/obj/item/clothing/under/scp/hczwhiteuniform
+	name = "HCZ security uniform"
+	desc = "A sterile white uniform. Currently issued to HCZ Guard personnel."
+	icon_state = "white_sergeant_hcz"
+
+
+/obj/item/clothing/under/scp/hczwhitejunioruniform
+	name = "HCZ junior security uniform"
+	desc = "A sterile white uniform. Currently issued to HCZ Junior Guard personnel."
+	icon_state = "white_hcz"
+
+/obj/item/clothing/under/scp/ezwhiteuniform
+	name = "EZ security uniform"
+	desc = "A sterile white uniform. Currently issued to EZ Guard personnel."
+	icon_state = "white_sergeant_ez"
+
+
+/obj/item/clothing/under/scp/ezwhitejunioruniform
+	name = "EZ junior security uniform"
+	desc = "A sterile white uniform. Currently issued to EZ Junior Guard personnel."
+	icon_state = "white_ez"
 
 /obj/item/clothing/under/scp/donor
 	name = "grey uniform"
@@ -714,7 +746,7 @@
 	icon_state = "suit"
 
 /obj/item/clothing/under/scp/dclass
-	name = "D-Class uniform"
+	name = "D_Class uniform"
 	desc = "A bright orange jumpsuit, indicative of Class D personnel."
 	icon_state = "d"
 

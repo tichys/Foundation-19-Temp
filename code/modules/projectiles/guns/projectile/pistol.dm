@@ -106,14 +106,14 @@
 		icon_state = "magnum-e"
 
 /obj/item/weapon/gun/projectile/p50
-	name = "p50"
+	name = "P50"
 	desc = "The KelTec P50, a semi-automatic long-barreled futuristic pistol that uses the same magazines as the P90. Curiously, the entire top flips open to reload."
 	icon_state = "p50"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "10mm"
 	slot_flags = SLOT_BELT
 	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 2, TECH_ILLEGAL = 6)
-	fire_delay = 3
+	fire_delay = 0
 	screen_shake = 0
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/scp/p90_mag
@@ -128,8 +128,8 @@
 	return
 
 /obj/item/weapon/gun/projectile/gyropistol
-	name = "gyrojet pistol"
-	desc = "A bulky pistol designed to fire self propelled rounds."
+	name = "prototype pistol"
+	desc = "A bulky foundation prototype pistol designed to fire self propelled rounds."
 	icon_state = "gyropistol"
 	max_shells = 8
 	caliber = "75"
@@ -138,6 +138,7 @@
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a75
 	fire_delay = 25
+	slot_flags = SLOT_BELT
 	auto_eject = 1
 	auto_eject_sound = 'sound/weapons/smg_empty_alarm.ogg'
 

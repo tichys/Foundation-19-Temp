@@ -18,10 +18,10 @@
 	max_heat_protection_temperature = HELMET_MAX_HEAT_PROTECTION_TEMPERATURE
 	siemens_coefficient = 0.7
 	w_class = ITEM_SIZE_NORMAL
-
+	
 /obj/item/clothing/head/helmet/nt
-	name = "\improper corporate security helmet"
-	desc = "A helmet with 'CORPORATE SECURITY' printed on the back in red lettering."
+	name = "\improper guard helmet"
+	desc = "A helmet with 'GUARD' printed on the back in red lettering."
 	icon_state = "helmet_nt"
 
 /obj/item/clothing/head/helmet/pcrc
@@ -109,6 +109,28 @@
 	body_parts_covered = HEAD|FACE|EYES
 	siemens_coefficient = 0.5
 	permeability_coefficient = 0
+	
+/obj/item/clothing/head/helmet/mtfheavy
+	name = "combined heavy assault helmet"
+	desc = "A quad-layered heavy composite helmet with titanium strut supports made solely so it doesn't crush one's heavy with the weight."
+	icon_state = "mtf-heavy-helmet"
+	armor = list(melee = 110, bullet = 110, laser = 90, energy = 90, bomb = 120, bio = 100, rad = 80)
+	cold_protection = HEAD
+	min_cold_protection_temperature = SPACE_HELMET_MIN_COLD_PROTECTION_TEMPERATURE
+	item_flags = ITEM_FLAG_THICKMATERIAL|ITEM_FLAG_AIRTIGHT
+	body_parts_covered = HEAD|FACE|EYES
+	siemens_coefficient = 0.5
+	permeability_coefficient = 0
+	
+/obj/item/clothing/head/helmet/mtftactical
+	name = "tactical composite helmet"
+	desc = "An armored composite helmet with night vision goggles attached."
+	icon_state = "mtf-tactical-helmetON"
+	armor = list(melee = 80, bullet = 83, laser = 50,energy = 25, bomb = 50, bio = 100, rad = 60)
+	cold_protection = HEAD
+	min_cold_protection_temperature = SPACE_HELMET_MIN_COLD_PROTECTION_TEMPERATURE
+	item_flags = ITEM_FLAG_THICKMATERIAL|ITEM_FLAG_AIRTIGHT
+	body_parts_covered = HEAD|FACE|EYES
 
 /obj/item/clothing/head/helmet/thunderdome
 	name = "\improper Thunderdome helmet"
@@ -194,8 +216,8 @@
 	icon_state = "m_helmet"
 
 /obj/item/clothing/head/helmet/scp/security
-	name = "\improper corporate security helmet"
-	desc = "A helmet with 'CORPORATE SECURITY' printed on the back lettering."
+	name = "\improper guard helmet"
+	desc = "A helmet with 'GUARD' printed on the back lettering."
 	icon_state = "guard-helm"
 	body_parts_covered = HEAD|FACE|EYES //face shield
 	armor = list(melee = 50, bullet = 70, laser = 50,energy = 25, bomb = 30, bio = 10, rad = 10)

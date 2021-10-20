@@ -7,7 +7,7 @@ GLOBAL_LIST_EMPTY(scp173s)
 
 /mob/living/scp_173
 	name = "SCP-173"
-	desc = "A statue, constructed from concrete and rebar with traces of Krylon brand spray paint"
+	desc = "A statue, constructed from concrete and rebar with spray paint coating the top portion. You can see faint blood stains coating it."
 	icon = 'icons/SCP/scp-173.dmi'
 	icon_state = "173"
 	SCP = /datum/scp/SCP_173
@@ -121,8 +121,8 @@ GLOBAL_LIST_EMPTY(scp173s)
 		if(H.stat == DEAD)
 			to_chat(src, "<span class='warning'><I>[H] is already dead!</I></span>")
 			return
-		visible_message("<span class='danger'>[src] snaps [H]'s neck!</span>")
-		playsound(loc, pick('sound/scp/spook/NeckSnap1.ogg', 'sound/scp/spook/NeckSnap3.ogg'), 50, 1)
+		visible_message("<span class='danger'>[src] appears at [H]'s location, their neck violently twisting with a loud crack by an unseen force!</span>")
+		playsound(loc, pick('sound/scp/spook/NeckSnap1.ogg', 'sound/scp/spook/NeckSnap3.ogg', 'sound/scp/spook/NeckSnap2.ogg' ), 50, 1)
 		H.death()
 		H.scp173_killed = TRUE
 
@@ -180,8 +180,8 @@ GLOBAL_LIST_EMPTY(scp173s)
 				return
 			forceMove(spot)
 			dir = get_dir(src, target)
-			visible_message("<span class='danger'>[src] snaps [target]'s neck!</span>")
-			playsound(loc, pick('sound/scp/spook/NeckSnap1.ogg', 'sound/scp/spook/NeckSnap3.ogg'), 50, 1)
+			visible_message("<span class='danger'>[src] appears at [target]'s location, their neck violently twisting with a loud crack by an unseen force!</span>")
+			playsound(loc, pick('sound/scp/spook/NeckSnap1.ogg', 'sound/scp/spook/NeckSnap2.ogg', 'sound/scp/spook/NeckSnap3.ogg'), 50, 1)
 			target.death()
 			target.scp173_killed = TRUE
 			last_snap = world.time
@@ -189,7 +189,7 @@ GLOBAL_LIST_EMPTY(scp173s)
 
 
 /mob/living/scp_173/verb/get_schwifty() // plz don't kill me for the reference
-	set name = "Shit On Floor"
+	set name = "Defecate"
 	set category = "SCP"
 	if(!isobj(loc) && world.time >= (last_player_shit + (1 MINUTE)))
 		last_player_shit = world.time

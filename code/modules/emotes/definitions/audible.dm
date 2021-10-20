@@ -144,6 +144,7 @@
 /decl/emote/audible/clap
 	key = "clap"
 	emote_message_3p = "USER claps."
+	emote_sound = 'sound/misc/clap.ogg'
 
 /decl/emote/audible/chuckle
 	key = "chuckle"

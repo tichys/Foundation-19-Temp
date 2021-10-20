@@ -38,16 +38,17 @@ var/datum/antagonist/deathsquad/deathsquad
 		player.equip_to_slot_or_del(new /obj/item/clothing/under/color/green(player), slot_w_uniform)
 
 	player.equip_to_slot_or_del(new /obj/item/clothing/shoes/swat(player), slot_shoes)
-	player.equip_to_slot_or_del(new /obj/item/clothing/glasses/thermal(player), slot_glasses)
 	player.equip_to_slot_or_del(new /obj/item/clothing/mask/gas/swat(player), slot_wear_mask)
 	if (player.mind == leader) // Congrats, you're the Nuclear Weapons Specialist
 		player.equip_to_slot_or_del(new /obj/item/weapon/pinpointer(player), slot_l_store)
 		player.equip_to_slot_or_del(new /obj/item/weapon/disk/nuclear(player), slot_r_store)
 	else
 		player.equip_to_slot_or_del(new /obj/item/weapon/plastique(player), slot_l_store)
-	player.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile/revolver/mateba(player), slot_belt)
-	player.equip_to_slot_or_del(new /obj/item/weapon/gun/energy/pulse_rifle(player), slot_r_hand)
-	player.equip_to_slot_or_del(new /obj/item/weapon/rig/ert/assetprotection(player), slot_back)
+	player.equip_to_slot_or_del(new /obj/item/weapon/storage/belt/security/tactical(player), slot_belt)
+	player.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/mtfheavy(player), slot_head)
+	player.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/mtfheavy(player), slot_wear_suit)
+	player.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile/automatic/l6_saw(player), slot_r_hand)
+	player.equip_to_slot_or_del(new /obj/item/weapon/storage/backpack/dufflebag/syndie/ammo(player), backpack_contents = list(/obj/item/ammo_magazine/box/a556 = 5), slot_back)
 	player.implant_loyalty(player)
 
 	var/obj/item/weapon/card/id/id = create_id("AMTF Hammer Down", player)
