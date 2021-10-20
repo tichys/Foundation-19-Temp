@@ -20,19 +20,65 @@
 	w_class = ITEM_SIZE_NORMAL
 	//var/vision_flags = 0
 	//var/darkness_view = 0//Base human is 2
-	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/onmob/Unathi/eyes.dmi'
-		)
 	var/prescription = 0
 	var/toggleable = 0
 	var/off_state = "degoggles"
 	var/active = 1
 	var/activation_sound = 'sound/items/goggles_charge.ogg'
 	var/obj/screen/overlay = null
+	var/obj/item/clothing/head/helmet/hud/hud = null	// lol
 	var/electric = 0 //if the glasses should be disrupted by EMP
-	
+
+/obj/item/clothing/head/helmet/New()
+	..()
+	if(ispath(hud))
+		hud = new hud(src)
+
+/obj/item/clothing/head/helmet/Destroy()
+	qdel(hud)
+	hud = null
+	. = ..()
+
 /obj/item/clothing/head/helmet/needs_vision_update()
 	return ..() || overlay || vision_flags || see_invisible || darkness_view
+
+/obj/item/clothing/head/helmet/emp_act(severity)
+	if(electric)
+		if(istype(src.loc, /mob/living/carbon/human))
+			var/mob/living/carbon/human/M = src.loc
+			to_chat(M, "<span class='danger'>Your [name] malfunction[gender != PLURAL ? "s":""], blinding you!</span>")
+			if(M.glasses == src)
+				M.eye_blind = 2
+				M.eye_blurry = 4
+				// Don't cure being nearsighted
+				if(!(M.disabilities & NEARSIGHTED))
+					M.disabilities |= NEARSIGHTED
+					spawn(100)
+						M.disabilities &= ~NEARSIGHTED
+		if(toggleable)
+			if(active)
+				active = 0
+
+/obj/item/clothing/head/helmet/attack_self(mob/user)
+	if(toggleable && !user.incapacitated())
+		if(active)
+			active = 0
+			icon_state = off_state
+			user.update_inv_glasses()
+			flash_protection = FLASH_PROTECTION_NONE
+			tint = TINT_NONE
+			to_chat(usr, "You deactivate the optical matrix on the [src].")
+		else
+			active = 1
+			icon_state = initial(icon_state)
+			user.update_inv_glasses()
+			if(activation_sound)
+				sound_to(usr, activation_sound)
+
+			flash_protection = initial(flash_protection)
+			tint = initial(tint)
+			to_chat(usr, "You activate the optical matrix on the [src].")
+		user.update_action_buttons()
 
 /obj/item/clothing/head/helmet/nt
 	name = "\improper guard helmet"
