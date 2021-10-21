@@ -188,8 +188,8 @@
 	worn_state = "officerblueclothes"
 
 /obj/item/clothing/under/rank/head_of_security/navyblue
-	desc = "The insignia on this uniform tells you that this uniform belongs to the Head of Security."
-	name = "head of security's uniform"
+	desc = "The insignia on this uniform tells you that this uniform belongs to a member of the Global Occult Coalition."
+	name = "goc representative's uniform"
 	icon_state = "hosblueclothes"
 	item_state = "ba_suit"
 	worn_state = "hosblueclothes"
