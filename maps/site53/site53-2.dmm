@@ -3150,7 +3150,7 @@
 "biD" = (/obj/effect/floor_decal/corner/yellow{dir = 9},/obj/structure/sign/warning/moving_parts{desc = "A sign warning facility staff to stay out of the gravity tram's operating lane at all times."; name = "\improper GRAV-TRAM"; pixel_x = -32},/turf/simulated/floor/tiled/dark/monotile,/area/site53/engineering/primaryhallway)
 "biE" = (/obj/effect/paint_stripe/mauve,/turf/simulated/wall,/area/space)
 "biF" = (/obj/item/modular_computer/console/preset/research,/turf/simulated/floor/bluegrid,/area/turret_protected/ai)
-"biG" = (/obj/structure/AIcore/deactivated,/obj/effect/landmark/start{name = "AI"},/turf/simulated/floor/greengrid,/area/turret_protected/ai)
+"biG" = (/obj/structure/AIcore/deactivated,/obj/effect/landmark/start{name = "AI Core"},/turf/simulated/floor/greengrid,/area/turret_protected/ai)
 "biH" = (/obj/machinery/computer/aiupload,/obj/machinery/camera/network/entrance,/turf/simulated/floor/bluegrid,/area/turret_protected/ai)
 "biI" = (/obj/effect/paint_stripe/mauve,/turf/simulated/wall/r_wall,/area/site53/reswing/robotics)
 "biJ" = (/obj/machinery/light/small{dir = 4},/obj/machinery/r_n_d/server{name = "Auxiliary AIC Server"},/turf/simulated/floor/greengrid,/area/turret_protected/ai)
