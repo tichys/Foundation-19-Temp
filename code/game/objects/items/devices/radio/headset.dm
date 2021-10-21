@@ -198,7 +198,7 @@
 	
 /obj/item/device/radio/headset/heads/hos/gock
 	name = "goc representative's headset'
-	desc = "The headset of the humanitarian. Or so they might say."
+	desc = "The headset of the humanitarian, or so they might say."
 
 /obj/item/device/radio/headset/heads/cw
 	name = "cell warden's headset"
