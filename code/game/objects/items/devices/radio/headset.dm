@@ -197,7 +197,7 @@
 	ks2type = /obj/item/device/encryptionkey/heads/hos
 	
 /obj/item/device/radio/headset/heads/hos/gock
-	name = "goc representative's headset'
+	name = "goc representative's headset"
 	desc = "The headset of the humanitarian, or so they might say."
 
 /obj/item/device/radio/headset/heads/cw
