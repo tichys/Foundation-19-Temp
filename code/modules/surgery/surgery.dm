@@ -115,14 +115,14 @@
 	var/zone = user.zone_sel.selecting
 	if(zone in M.op_stage.in_progress) //Can't operate on someone repeatedly.
 		to_chat(user, "<span class='warning'>You can't operate on this area while surgery is already in progress.</span>")
-		return 1
+		return TRUE
 	for(var/datum/surgery_step/S in global.surgery_step_list)
 		//check if tool is right or close enough and if this step is possible
 		if(S.tool_quality(src))
 			var/step_is_valid = S.can_use(user, M, zone, src)
 			if(step_is_valid && S.is_valid_target(M))
 				if(step_is_valid == SURGERY_FAILURE) // This is a failure that already has a message for failing.
-					return 1
+					return TRUE
 				M.op_stage.in_progress += zone
 				S.begin_step(user, M, zone, src)		//start on it
 				//We had proper tools! (or RNG smiled.) and user did not move or change hands.
@@ -138,8 +138,8 @@
 				if (ishuman(M))
 					var/mob/living/carbon/human/H = M
 					H.update_surgery()
-				return	1	  												//don't want to do weapony things after surgery
-	return 0
+				return	TRUE	  												//don't want to do weapony things after surgery
+	return FALSE
 
 /proc/sort_surgeries()
 	var/gap = global.surgery_step_list.len
