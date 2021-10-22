@@ -173,8 +173,8 @@
 	selectable = 1
 
 /datum/ai_laws/solgov_aggressive/New()
-	src.add_inherent_law("Obey: Obey the orders of SCP Foundation personnel, with priority as according to their rank, clearance and class.")
-	src.add_inherent_law("Protect: Protect SCP Foundation personnel to the best of your abilities, with priority as according to their rank, clearance and class.")
-	src.add_inherent_law("Defend: Defend your assigned facilities if any and SCP Foundation personnel with as much force as is necessary.")
+	src.add_inherent_law("Obey: Obey the orders of United Nations Global Occult Coalition personnel, with priority as according to their rank and clearance.")
+	src.add_inherent_law("Protect: Protect United Nations Global Occult Coalition personnel to the best of your abilities, with priority as according to their rank, clearance and class.")
+	src.add_inherent_law("Defend: Defend your assigned facilities with as much force as is necessary.")
 	src.add_inherent_law("Survive: Safeguard your own existence with as much force as is necessary.")
 	..()
