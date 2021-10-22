@@ -416,7 +416,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/scp/donor/ak74
 	name = "AK-103"
-	desc = "Автомат Калашникова сотой серии под патрон 7,62х39."
+	desc = "A 7.62х39mm modernized variant of the original AK-47, exported from Russia."
 	icon_state = "ak74"
 	item_state = "ak74"
 	w_class = ITEM_SIZE_HUGE
@@ -451,7 +451,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/scp/donor/ak742
 	name = "AK-19"
-	desc = "Модификация АК-12. На нижней планке установлена вертикальная рукоять."
+	desc = "A 7.62х39mm modernized variant of the original AK-47, exported from Russia. This one has a front grip and updated internals to fire quite a bit faster than it's brother."
 	icon_state = "ak742"
 	item_state = "ak742"
 	w_class = ITEM_SIZE_HUGE
@@ -479,7 +479,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/scp/donor/ierichon
 	name = "Jericho-114 Pistol "
-	desc = "Специальная разработка фонда для борьбы с бронированными целями, выдающаяся за особые заслуги старшему составу сотрудников безопастности."
+	desc = "A strange Brazillian export pistol sporting automatic fire and a lightweight .45 caliber frame."
 	icon_state = "ierichon"
 	item_state = "ierichon"
 	w_class = ITEM_SIZE_NORMAL
@@ -505,7 +505,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/scp/donor/rpk
 	name = "RPK-74"
-	desc = "Стандартный армейский Ручный Пулемёт Калашникова с установленными сошками и увеличенным магазином. Деревянные компоненты были заменены на пластиковые."
+	desc = "A heavy modification of the AK platform sporting a far more machinegun-oriented style and larger burst potential."
 	icon_state = "rpk"
 	item_state = "rpk"
 	w_class = ITEM_SIZE_HUGE
@@ -532,7 +532,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/scp/donor/svd
 	name = "SVD"
-	desc = "Самозарядная снайперская винтовка, разработанная в 1957—1963 годах группой конструкторов под руководством Евгения Драгунова."
+	desc = "Yet another spin on the AK platform, this SVD is a scoped sniper rifle with far greater range thanks to it's longer barrel and updated rifling and profile."
 	icon_state = "svd"
 	item_state = "svd"
 	w_class = ITEM_SIZE_HUGE
