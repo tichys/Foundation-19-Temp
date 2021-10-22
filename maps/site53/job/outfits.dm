@@ -272,7 +272,7 @@
 /decl/hierarchy/outfit/job/site90/crew/civ/o5rep
 	name = OUTFIT_JOB_NAME("Global Occult Coalition Representative")
 	uniform = /obj/item/clothing/under/rank/head_of_security/navyblue
-	suit = /obj/item/clothing/suit/storage/vest
+	suit = /obj/item/clothing/suit/security/navyhos
 	head = /obj/item/clothing/head/beret/sec/navy/hos
 	shoes = /obj/item/clothing/shoes/combat
 	glasses = /obj/item/clothing/glasses/sunglasses
