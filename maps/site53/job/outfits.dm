@@ -282,7 +282,7 @@
 	l_ear = /obj/item/device/radio/headset/heads/hos/gock
 	belt = /obj/item/weapon/gun/projectile/revolver/tactical
 	back = /obj/item/weapon/storage/backpack/satchel/pocketbook
-	backpack_contents = list(/obj/item/ammo_magazine/tac50 = 4)
+	backpack_contents = list(/obj/item/ammo_magazine/tac50 = 4, /obj/item/clothing/accessory/armor/helmcover/blue = 1,/obj/item/clothing/head/helmet = 1)
 	
 // /decl/hierarchy/outfit/job/site90/crew/civ/o5rep
 //	name = OUTFIT_JOB_NAME("O5 Representative")
