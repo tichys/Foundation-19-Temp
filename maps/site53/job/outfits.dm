@@ -269,7 +269,7 @@
 	back = /obj/item/weapon/storage/backpack/satchel
 	l_ear = /obj/item/device/radio/headset/headset_com
 
-/decl/hierarchy/outfit/job/site90/crew/civ/o5rep
+/decl/hierarchy/outfit/job/site90/crew/civ/gocrep
 	name = OUTFIT_JOB_NAME("Global Occult Coalition Representative")
 	uniform = /obj/item/clothing/under/rank/head_of_security/navyblue
 	suit = /obj/item/clothing/suit/security/navyhos
@@ -283,17 +283,17 @@
 	belt = /obj/item/weapon/gun/projectile/revolver/tactical
 	back = /obj/item/weapon/storage/backpack/satchel/pocketbook
 	backpack_contents = list(/obj/item/ammo_magazine/tac50 = 4, /obj/item/clothing/accessory/armor/helmcover/blue = 1,/obj/item/clothing/head/helmet = 1)
-	
-// /decl/hierarchy/outfit/job/site90/crew/civ/o5rep
-//	name = OUTFIT_JOB_NAME("O5 Representative")
-//	uniform = /obj/item/clothing/under/suit_jacket/really_black
-//	shoes = /obj/item/clothing/shoes/laceup
-//	l_pocket = /obj/item/device/radio
-//	id_type = /obj/item/weapon/card/id/adminlvl5
-//	l_ear = /obj/item/device/radio/headset/heads/hop
-//	belt = /obj/item/weapon/gun/projectile/gyropistol
-//	back = /obj/item/weapon/storage/backpack/satchel/pocketbook
-//	backpack_contents = list(/obj/item/ammo_magazine/a75 = 3)
+
+/decl/hierarchy/outfit/job/site90/crew/civ/o5rep
+	name = OUTFIT_JOB_NAME("O5 Representative")
+	uniform = /obj/item/clothing/under/suit_jacket/really_black
+	shoes = /obj/item/clothing/shoes/laceup
+	l_pocket = /obj/item/device/radio
+	id_type = /obj/item/weapon/card/id/adminlvl5
+	l_ear = /obj/item/device/radio/headset/heads/hop
+	belt = /obj/item/weapon/gun/projectile/gyropistol
+	back = /obj/item/weapon/storage/backpack/satchel/pocketbook
+	backpack_contents = list(/obj/item/ammo_magazine/a75 = 3)
 
 // ENGINEERING STUFF
 
