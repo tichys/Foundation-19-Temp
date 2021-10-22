@@ -106,8 +106,8 @@
 	icon_state = "beret_corporate_navy_officer"
 
 /obj/item/clothing/head/beret/sec/navy/hos
-	name = "corporate security commander beret"
-	desc = "A navy blue beret with a commander's rank emblem. For officers that are more inclined towards style than safety."
+	name = "colonel's beret"
+	desc = "A navy blue beret with a colonel's rank emblem. For GOC officers far more inclined towards style."
 	icon_state = "beret_corporate_navy_hos"
 
 /obj/item/clothing/head/beret/sec/navy/warden

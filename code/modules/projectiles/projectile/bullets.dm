@@ -184,8 +184,8 @@
 /obj/item/projectile/bullet/pistol/vstrong //tacrevolver
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
 	damage = 70 //.500 S&W Magnum
-	armor_penetration = 35
-	agony = 45
+	armor_penetration = 40
+	agony = 50
 
 /obj/item/projectile/bullet/pistol/strong/revolver //revolvers
 	damage = 60 //Revolvers get snowflake bullets, to keep them relevant

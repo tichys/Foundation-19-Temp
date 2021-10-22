@@ -1184,14 +1184,14 @@
 
 /datum/job/o5rep
 	has_email = TRUE
-	title = "O5 Representative"
+	title = "Global Occult Coalition Representative"
 	department = "Civilian"
 	department_flag = COM
 	total_positions = 1
 	spawn_positions = 1
-	duties = "<big><b>As the O5 Representative, your task is to generally assess the situation, and you are to fax the O5 Council of any wrongdoings or SOP violations. You can also mediate between two employees if it is absolutely necessary. <span style = 'color:red'>REMEMBER!</span> This is a heavy roleplay job, and bad roleplay will be punished. Your job is not to assess SCP's, nor will you have access there. So don't try."
-	supervisors = "the Research Director"
-	economic_modifier = 4
+	duties = "<big><b>As the GOC Representative, your task is to assess the facility and generally advocate for hardline approaches in regards to anomalies and their containment, or destruction. You value human lives far over any anomaly, as does the Global Occult Coalition, and should see to it that lives are preserved where possible, even D-Class ones. Though combat is not your duty, you are issued a revolver to defend yourself with. This job is heavy roleplay: you're expected to be well-versed in actually talking to people on the matters described. Containment of SCPs and direct site matters are not your matters, so don't get involved."
+	supervisors = "Global Occult Coalition Regional Command"
+	economic_modifier = 5
 	minimal_player_age = 5
 	minimal_player_age = 9
 	ideal_character_age = 30
@@ -1205,8 +1205,8 @@
 	)
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_stats(rand(3,8), rand(0,3), rand(5,10)) // Str, Dex, Int.
-		H.add_skills(rand(5,10), rand(5,10), rand(5,10), rand(5,10)) // Melee, Ranged, Medical, Engineering.
+		H.add_stats(rand(10,19), rand(10,19), rand(10,19)) // Str, Dex, Int.
+		H.add_skills(rand(10,19), rand(10,19), rand(10,19), rand(10,19)) // Melee, Ranged, Medical, Engineering.
 
 	access = list(access_com_comms, access_adminlvl1, access_adminlvl2, access_adminlvl3, access_adminlvl4, access_adminlvl5)
 	minimal_access = list()
