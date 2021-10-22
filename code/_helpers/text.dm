@@ -418,6 +418,7 @@ proc/TextPreview(string, len=40)
 	t = replacetext(t, "\[isd\]", "<img src = isd.png>")
 	t = replacetext(t, "\[ecd\]", "<img src = ecd.png>")
 	t = replacetext(t, "\[int\]", "<img src = int.png>")
+	 t = replacetext(t, "\[goc\]", "<img src = ungoc.png>")
 	t = replacetext(t, "\[editorbr\]", "")
 	return t
 
