@@ -946,7 +946,7 @@
 "sj" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/monotile/white,/area/site53/llcz/dclass/cells)
 "sk" = (/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/monotile/white,/area/site53/llcz/dclass/cells)
 "sl" = (/obj/structure/closet/crate/bin{anchored = 1; name = "trash bin"},/turf/simulated/floor/tiled/monotile/white,/area/site53/llcz/dclass/medicalpost)
-"sm" = (/obj/structure/table/steel_reinforced,/obj/item/weapon/storage/box/gloves,/obj/item/weapon/storage/box/masks,/turf/simulated/floor/tiled/monotile/white,/area/site53/llcz/dclass/medicalpost)
+"sm" = (/obj/structure/table/steel_reinforced,/obj/item/weapon/storage/box/gloves,/obj/item/weapon/storage/box/masks,/obj/item/weapon/scalpel/manager,/obj/item/weapon/scalpel/manager,/obj/item/weapon/scalpel/manager,/turf/simulated/floor/tiled/monotile/white,/area/site53/llcz/dclass/medicalpost)
 "sn" = (/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/lino,/area/site53/llcz/dclass/canteen)
 "so" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/effect/catwalk_plated/white,/turf/simulated/floor,/area/site53/llcz/hallways)
 "sp" = (/obj/machinery/light{dir = 8},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/monotile/white,/area/site53/llcz/dclass/recreationhallway)
