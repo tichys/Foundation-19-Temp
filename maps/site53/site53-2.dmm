@@ -951,7 +951,7 @@
 "aso" = (/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/reinforced/airless,/area/vacant/prototype/engine)
 "asp" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/reinforced/airless,/area/vacant/prototype/engine)
 "asq" = (/obj/effect/floor_decal/industrial/warning/corner{icon_state = "warningcorner"; dir = 1},/turf/simulated/floor/tiled/monotile/white,/area/site53/ulcz/scp078)
-"asr" = (/obj/structure/table/steel,/obj/item/organ/internal/posibrain,/obj/item/organ/internal/posibrain,/turf/simulated/floor/tiled/techmaint,/area/site53/reswing/robotics)
+"asr" = (/obj/structure/table/steel,/obj/item/weapon/paper{info = "Apologies Robotics, but your spare AIC cores have been revoked apon showing anomalous properties which hindered the facility operations. We apologize for the inconvience."},/turf/simulated/floor/tiled/techmaint,/area/site53/reswing/robotics)
 "ass" = (/obj/effect/paint_stripe/red,/turf/simulated/wall/titanium,/area/site53/uhcz/securitypost)
 "ast" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/site53/engineering/maintenance/maintenancetunnel)
 "asu" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/plating,/area/site53/engineering/maintenance/maintenancetunnel)
