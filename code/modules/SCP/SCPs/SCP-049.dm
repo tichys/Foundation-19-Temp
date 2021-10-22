@@ -66,9 +66,6 @@ GLOBAL_LIST_EMPTY(scp049_1s)
 			if (H.pestilence)
 				pestilence_images += image('icons/mob/scp049.dmi', H, "pestilence", MOB_LAYER+0.01)
 		client.images |= pestilence_images
-	if (BRUTE >= 600)
-		sleeping += 1
-		adjustBruteLoss(BRUTE - 30, 0)
 
 /mob/living/carbon/human/scp049/Move()
 	..()
