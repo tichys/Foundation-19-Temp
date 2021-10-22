@@ -754,7 +754,7 @@ other types of metals and chemistry for reagents).
 /datum/design/item/biostorage/mmi
 	name = "man-machine interface"
 	id = "mmi"
-	req_tech = list(TECH_DATA = 8, TECH_BIO = 6)
+	req_tech = list(TECH_DATA = 2, TECH_BIO = 3)
 	build_type = PROTOLATHE | MECHFAB
 	materials = list(DEFAULT_WALL_MATERIAL = 1000, "glass" = 500)
 	build_path = /obj/item/device/mmi
@@ -764,7 +764,7 @@ other types of metals and chemistry for reagents).
 /datum/design/item/biostorage/mmi_radio
 	name = "radio-enabled man-machine interface"
 	id = "mmi_radio"
-	req_tech = list(TECH_DATA = 9, TECH_BIO = 6)
+	req_tech = list(TECH_DATA = 2, TECH_BIO = 3, TECH_MAGNET = 2)
 	build_type = PROTOLATHE | MECHFAB
 	materials = list(DEFAULT_WALL_MATERIAL = 1200, "glass" = 500)
 	build_path = /obj/item/device/mmi/radio_enabled
