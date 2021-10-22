@@ -51,7 +51,6 @@
 		item_state = "telebaton_1"
 		w_class = ITEM_SIZE_NORMAL
 		force = 10//quite robust
-		var/agonyforce = 10
 		attack_verb = list("smacked", "struck", "slapped")
 	else
 		user.visible_message("<span class='notice'>\The [user] collapses their telescopic baton.</span>",\
