@@ -585,7 +585,6 @@
 	glasses = /obj/item/clothing/glasses/night
 	gloves = /obj/item/clothing/gloves/thick/combat
 	shoes = /obj/item/clothing/shoes/combat
-	id_type = /obj/item/weapon/card/id/adminlvl5
 	suit_store = /obj/item/weapon/gun/projectile/automatic/scp/donor/ak74
 	r_hand = null
 	l_hand = /obj/item/weapon/material/hatchet/tacknife
@@ -605,7 +604,6 @@
 	glasses = /obj/item/clothing/glasses/night
 	gloves = /obj/item/clothing/gloves/thick/combat
 	shoes = /obj/item/clothing/shoes/combat
-	id_type = /obj/item/weapon/card/id/adminlvl5
 	suit_store = /obj/item/weapon/gun/projectile/automatic/scp/donor/rpk
 	r_hand = null
 	l_hand = /obj/item/weapon/material/hatchet/tacknife
@@ -624,7 +622,6 @@
 	glasses = /obj/item/clothing/glasses/night
 	gloves = /obj/item/clothing/gloves/thick/combat
 	shoes = /obj/item/clothing/shoes/combat
-	id_type = /obj/item/weapon/card/id/adminlvl5
 	suit_store = /obj/item/weapon/gun/projectile/automatic/scp/donor/svd
 	r_hand = null
 	l_hand = /obj/item/weapon/material/hatchet/tacknife
@@ -645,7 +642,6 @@
 	glasses = /obj/item/clothing/glasses/night
 	glasses = /obj/item/clothing/glasses/thermal/plain/augmented
 	shoes = /obj/item/clothing/shoes/combat
-	id_type = /obj/item/weapon/card/id/adminlvl5
 	suit_store = /obj/item/weapon/gun/projectile/automatic/scp/donor/ak742
 	r_hand = null
 	l_hand = /obj/item/weapon/material/hatchet/tacknife
