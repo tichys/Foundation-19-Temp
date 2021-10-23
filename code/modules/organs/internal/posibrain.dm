@@ -1,6 +1,6 @@
 /obj/item/organ/internal/posibrain
 	name = "positronic brain"
-	desc = "A cube of shining metal, four inches to a side and covered in shallow grooves."
+	desc = "A cube of shining metal, four inches to a side and covered in shallow grooves. A small switch is visible, with 'I/O' visible."
 	icon = 'icons/obj/assemblies.dmi'
 	icon_state = "posibrain"
 	organ_tag = BP_POSIBRAIN
@@ -11,7 +11,7 @@
 	throwforce = 1.0
 	throw_speed = 3
 	throw_range = 5
-	origin_tech = list(TECH_ENGINEERING = 4, TECH_MATERIAL = 4, TECH_BLUESPACE = 2, TECH_DATA = 4)
+	origin_tech = list(TECH_ENGINEERING = 3, TECH_MATERIAL = 3, TECH_BLUESPACE = 2, TECH_DATA = 2)
 	attack_verb = list("attacked", "slapped", "whacked")
 
 	relative_size = 60
