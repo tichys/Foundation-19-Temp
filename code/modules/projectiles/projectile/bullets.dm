@@ -241,11 +241,11 @@
 	fire_sound = 'sound/weapons/gunshot/gunshot3.ogg'
 	damage = 50
 	armor_penetration = 35
-	agony = 40
+	agony = 25
 
 /obj/item/projectile/bullet/rifle/a762
 	fire_sound = 'sound/weapons/gunshot/gunshot2.ogg'
-	damage = 55
+	damage = 60
 	armor_penetration = 40
 	agony = 25
 
