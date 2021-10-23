@@ -424,7 +424,8 @@ GLOBAL_LIST_EMPTY(client2mob)
 		'html/images/int.png',
 		'html/images/mtf.png',
 		'html/images/trib.png',
-		'html/images/scplogo.png'
+		'html/images/scplogo.png',
+		'html/images/ungoc.png'
 		)
 
 	spawn (10) //removing this spawn causes all clients to not get verbs.
