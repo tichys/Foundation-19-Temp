@@ -411,12 +411,12 @@
 	item_state = "eyepatch"
 	body_parts_covered = 0
 
-/obj/item/clothing/glasses/thermal/plain/jensen
-	name = "optical thermal implants"
+/obj/item/clothing/glasses/thermal/plain/augmented
+	name = "augmented sunglasses"
 	gender = PLURAL
-	desc = "A set of implantable lenses designed to augment your vision."
-	icon_state = "thermalimplants"
-	item_state = "syringe_kit"
+	desc = "Shades layered with a paper-thin transparent screen capable of displaying numerous data feeds, as well as providing IR vision modes."
+	icon_state = "sun"
+	item_state = "sunglasses"
 
 /obj/item/clothing/glasses/eyepatch/hud
 	name = "iPatch"
