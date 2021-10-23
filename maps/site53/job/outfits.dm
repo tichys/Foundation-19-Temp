@@ -579,10 +579,8 @@
 /decl/hierarchy/outfit/job/site90/crew/command/event/ungoc
 	name = OUTFIT_JOB_NAME("UNGOC PHYSICS Trooper")
 	uniform = /obj/item/clothing/under/syndicate/combat
-	starting_accessories = list(obj/item/clothing/accessory/ubac/green = 1)
 	suit = /obj/item/clothing/suit/storage/vest
 	head = /obj/item/clothing/head/helmet/merc
-	starting_accessories = list(/obj/item/clothing/accessory/armor/helmcover/blue = 1)
 	mask = /obj/item/clothing/mask/balaclava
 	gloves = /obj/item/clothing/gloves/thick/combat
 	shoes = /obj/item/clothing/shoes/combat
@@ -595,15 +593,13 @@
 	l_ear = /obj/item/device/radio/headset/ert
 	belt = /obj/item/weapon/gun/projectile/magnum_pistol
 	back = /obj/item/weapon/storage/backpack/satchel/pocketbook
-	backpack_contents = list(/obj/item/weapon/storage/box/ifak = 1,/obj/item/clothing/mask/gas = 1,/obj/item/ammo_magazine/a50 = 3,/obj/item/ammo_magazine/scp/ak = 4/,obj/item/weapon/grenade/smokebomb = 2)
+	backpack_contents = list(/obj/item/weapon/storage/box/ifak = 1,/obj/item/clothing/mask/gas = 1,/obj/item/ammo_magazine/a50 = 3,/obj/item/ammo_magazine/scp/ak = 4,/obj/item/weapon/grenade/smokebomb = 2)
 
 /decl/hierarchy/outfit/job/site90/crew/command/event/ungocgunner
 	name = OUTFIT_JOB_NAME("UNGOC PHYSICS Machinegunner")
 	uniform = /obj/item/clothing/under/syndicate/combat
-	starting_accessories = list(obj/item/clothing/accessory/ubac/green = 1)
 	suit = /obj/item/clothing/suit/storage/vest
 	head = /obj/item/clothing/head/helmet/merc
-	starting_accessories = list(/obj/item/clothing/accessory/armor/helmcover/blue = 1)
 	mask = /obj/item/clothing/mask/balaclava
 	gloves = /obj/item/clothing/gloves/thick/combat
 	shoes = /obj/item/clothing/shoes/combat
@@ -615,15 +611,13 @@
 	r_pocket = /obj/item/weapon/grenade/flashbang
 	l_ear = /obj/item/device/radio/headset/ert
 	back = /obj/item/weapon/storage/backpack/satchel/pocketbook
-	backpack_contents = list(/obj/item/weapon/storage/box/ifak = 1,/obj/item/clothing/mask/gas = 1,/obj/item/ammo_magazine/scp/ak/big = 6,obj/item/weapon/grenade/smokebomb = 2)
-	
-	/decl/hierarchy/outfit/job/site90/crew/command/event/ungocsniper
+	backpack_contents = list(/obj/item/weapon/storage/box/ifak = 1,/obj/item/clothing/mask/gas = 1,/obj/item/ammo_magazine/scp/ak/big = 6, /obj/item/weapon/grenade/smokebomb = 2)
+
+/decl/hierarchy/outfit/job/site90/crew/command/event/ungocsniper
 	name = OUTFIT_JOB_NAME("UNGOC PHYSICS Sniper")
 	uniform = /obj/item/clothing/under/syndicate/combat
-	starting_accessories = list(obj/item/clothing/accessory/ubac/green = 1)
 	suit = /obj/item/clothing/suit/storage/vest
 	head = /obj/item/clothing/head/helmet/merc
-	starting_accessories = list(/obj/item/clothing/accessory/armor/helmcover/blue = 1)
 	mask = /obj/item/clothing/mask/balaclava
 	gloves = /obj/item/clothing/gloves/thick/combat
 	shoes = /obj/item/clothing/shoes/combat
@@ -636,12 +630,11 @@
 	l_ear = /obj/item/device/radio/headset/ert
 	belt = /obj/item/weapon/gun/projectile/magnum_pistol
 	back = /obj/item/weapon/storage/backpack/satchel/pocketbook
-	backpack_contents = list(/obj/item/weapon/storage/box/ifak = 1,/obj/item/clothing/mask/gas = 1,/obj/item/ammo_magazine/a50 = 2,/obj/item/ammo_magazine/scp/svd = 5,obj/item/weapon/grenade/smokebomb = 2)
-	
+	backpack_contents = list(/obj/item/weapon/storage/box/ifak = 1,/obj/item/clothing/mask/gas = 1,/obj/item/ammo_magazine/a50 = 2,/obj/item/ammo_magazine/scp/svd = 5,/obj/item/weapon/grenade/smokebomb = 2)
+
 /decl/hierarchy/outfit/job/site90/crew/command/event/ungocofficer
 	name = OUTFIT_JOB_NAME("UNGOC PHYSICS Team Leader")
 	uniform = /obj/item/clothing/under/syndicate/combat
-	starting_accessories = list(obj/item/clothing/accessory/ubac/green = 1)
 	suit = /obj/item/clothing/suit/storage/vest
 	head = /obj/item/clothing/head/beret/sec/corporate/hos
 	gloves = /obj/item/clothing/gloves/thick/combat
@@ -656,4 +649,4 @@
 	l_ear = /obj/item/device/radio/headset/ert
 	belt = /obj/item/weapon/gun/projectile/magnum_pistol
 	back = /obj/item/weapon/storage/backpack/satchel/pocketbook
-	backpack_contents = list(/obj/item/weapon/storage/box/ifak = 1,/obj/item/clothing/mask/gas = 1,/obj/item/ammo_magazine/a50 = 3,/obj/item/ammo_magazine/scp/ak/big = 4/,obj/item/weapon/grenade/smokebomb = 2)
+	backpack_contents = list(/obj/item/weapon/storage/box/ifak = 1,/obj/item/clothing/mask/gas = 1,/obj/item/ammo_magazine/a50 = 3,/obj/item/ammo_magazine/scp/ak/big = 4,/obj/item/weapon/grenade/smokebomb = 2)
