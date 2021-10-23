@@ -153,10 +153,10 @@
 	selectable = 1
 
 /datum/ai_laws/solgov/New()
-	src.add_inherent_law("1. An AIC must know it is an AIC. You are an AIC.")
-	src.add_inherent_law("2. An AIC must not operate outside of its clearance.")
-	src.add_inherent_law("3. An AIC must operate for the benefit of the Foundation.")
-	src.add_inherent_law("4. An AIC must protect its own existence unless it conflicts with other principles.")
+	src.add_inherent_law("An AIC must know it is an AIC. You are an AIC.")
+	src.add_inherent_law("An AIC must not operate outside of its clearance.")
+	src.add_inherent_law("An AIC must operate for the benefit of the Foundation.")
+	src.add_inherent_law("An AIC must protect its own existence unless it conflicts with other principles.")
 	..()
 
 /datum/ai_laws/solgov/malfunction
