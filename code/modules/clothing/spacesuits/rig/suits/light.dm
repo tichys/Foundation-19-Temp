@@ -170,7 +170,7 @@
 		/obj/item/rig_module/vision/multi,
 		/obj/item/rig_module/device/healthscanner,
 		/obj/item/rig_module/datajack,
-		/obj/item/rig_module/storage/heavy
+//		/obj/item/rig_module/storage/heavy
 		)
 
 /obj/item/weapon/rig/light/stealth/scp5000/working
@@ -197,5 +197,5 @@
 		/obj/item/rig_module/chem_dispenser/ninja,
 		/obj/item/rig_module/voice,
 		/obj/item/rig_module/self_destruct,
-		/obj/item/rig_module/storage/heavy
+//		/obj/item/rig_module/storage/heavy
 		)

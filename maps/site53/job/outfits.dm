@@ -659,19 +659,19 @@
 	name = OUTFIT_JOB_NAME("Pietro Wilson")
 	uniform = /obj/item/clothing/under/scp/suittie
 	shoes = /obj/item/clothing/shoes/laceup
-    id_type = /obj/item/weapon/card/id/sciencelvl1
+	id_type = /obj/item/weapon/card/id/sciencelvl1
 	r_hand = null
 	l_hand = null
 	l_pocket = null
 	r_pocket = /obj/item/weapon/card/emag
 	l_ear = /obj/item/device/radio/headset/ert
 	back = /obj/item/weapon/rig/light/stealth/scp5000
-	
+
 /decl/hierarchy/outfit/job/site90/crew/command/event/scp5000hunter
 	name = OUTFIT_JOB_NAME("Exclusion Operative")
 	uniform = /obj/item/clothing/under/syndicate/combat
 	shoes = /obj/item/clothing/shoes/combat
-    id_type = null
+	id_type = null
 	r_hand = null
 	l_hand = null
 	l_pocket = null
