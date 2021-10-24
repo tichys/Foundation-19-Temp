@@ -169,6 +169,7 @@
 	initial_modules = list(
 		/obj/item/rig_module/vision/multi
 		/obj/item/rig_module/device/healthscanner
+		/obj/item/rig_module/datajack,
 		)
 
 /obj/item/weapon/rig/light/stealth/scp5000/working
