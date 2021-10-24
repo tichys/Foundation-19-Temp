@@ -115,7 +115,7 @@
 	selectable = 0
 	toggleable = 0
 	disruptive = 0
-	use_power_cost = 500
+	use_power_cost = 0
 
 	engage_string = "Inject"
 
@@ -138,16 +138,18 @@
 /obj/item/rig_module/chem_dispenser/ninja
 	interface_desc = "Dispenses loaded chemicals directly into the wearer's bloodstream. This variant is made to be extremely light and flexible."
 
-	//just over a syringe worth of each. Want more? Go refill. Gives the ninja another reason to have to show their face.
 	charges = list(
-		list("tricordrazine", "tricordrazine", /datum/reagent/tricordrazine,     20),
-		list("tramadol",      "tramadol",      /datum/reagent/tramadol,          20),
-		list("dexalin plus",  "dexalin plus",  /datum/reagent/dexalinp,          20),
-		list("antibiotics",   "antibiotics",   /datum/reagent/spaceacillin,      20),
-		list("antitoxins",    "antitoxins",    /datum/reagent/dylovene,          20),
-		list("glucose",       "glucose",       /datum/reagent/nutriment/glucose, 80),
-		list("hyronalin",     "hyronalin",     /datum/reagent/hyronalin,         20),
-		list("radium",        "radium",        /datum/reagent/radium,            20)
+		list("tricordrazine", "tricordrazine", /datum/reagent/tricordrazine,     500),
+		list("tramadol",      "tramadol",      /datum/reagent/tramadol,          500),
+		list("dexalin plus",  "dexalin plus",  /datum/reagent/dexalinp,          500),
+		list("antibiotics",   "antibiotics",   /datum/reagent/spaceacillin,      500),
+		list("antitoxins",    "antitoxins",    /datum/reagent/dylovene,          500),
+		list("glucose",       "glucose",       /datum/reagent/nutriment/glucose, 500),
+		list("hyronalin",     "hyronalin",     /datum/reagent/hyronalin,         500),
+		list("radium",        "radium",        /datum/reagent/radium,            500),
+		list("synaptizine", "synaptizine", /datum/reagent/synaptizine,      	 500),
+		list("hyperzine",   "hyperzine",   /datum/reagent/hyperzine,        	 500),
+		list("oxycodone",   "oxycodone",   /datum/reagent/tramadol/oxycodone,    500)
 		)
 
 /obj/item/rig_module/chem_dispenser/accepts_item(var/obj/item/input_item, var/mob/living/user)
