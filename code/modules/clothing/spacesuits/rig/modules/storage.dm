@@ -25,7 +25,7 @@
 	name = "compact internal storage compartment"
 	desc = "A storage container designed to be installed in a RIG suit. Has 16 litres of space"
 
-	max_storage_space = DEFAULT_SMALL_STORAGE
+	max_storage_space = DEFAULT_BACKPACK_STORAGE + 10
 
 	loadout_tags = list(LOADOUT_TAG_RIG_STORAGE_1)
 	module_tags = list(LOADOUT_TAG_RIG_STORAGE = 1)
@@ -34,7 +34,7 @@
 	name = "expanded internal storage compartment"
 	desc = "A storage container designed to be installed in a RIG suit. Has 25 litres of space, and can fit bigger objects"
 	max_w_class = ITEM_SIZE_LARGE
-	max_storage_space = DEFAULT_BULKY_STORAGE
+	max_storage_space = DEFAULT_BACKPACK_STORAGE + 40
 	loadout_tags = list(LOADOUT_TAG_RIG_STORAGE_3)
 	module_tags = list(LOADOUT_TAG_RIG_STORAGE = 3)
 
