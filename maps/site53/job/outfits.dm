@@ -667,7 +667,7 @@
 	l_ear = /obj/item/device/radio/headset/ert
 	back = /obj/item/weapon/rig/light/stealth/scp5000
 	
-/decl/hierarchy/outfit/job/site90/crew/command/event/scp5000
+/decl/hierarchy/outfit/job/site90/crew/command/event/scp5000hunter
 	name = OUTFIT_JOB_NAME("Exclusion Operative")
 	uniform = /obj/item/clothing/under/syndicate/combat
 	shoes = /obj/item/clothing/shoes/combat
