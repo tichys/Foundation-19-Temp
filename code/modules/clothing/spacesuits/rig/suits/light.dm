@@ -167,9 +167,10 @@
 	req_access = list(access_syndicate)
 
 	initial_modules = list(
-		/obj/item/rig_module/vision/multi
-		/obj/item/rig_module/device/healthscanner
+		/obj/item/rig_module/vision/multi,
+		/obj/item/rig_module/device/healthscanner,
 		/obj/item/rig_module/datajack,
+		/obj/item/rig_module/storage/heavy
 		)
 
 /obj/item/weapon/rig/light/stealth/scp5000/working
@@ -185,15 +186,16 @@
 	req_access = list(access_syndicate)
 
 	initial_modules = list(
-		/obj/item/rig_module/vision/multi
-		/obj/item/rig_module/device/healthscanner
-		/obj/item/rig_module/ai_container
-		/obj/item/rig_module/datajack
-		/obj/item/rig_module/electrowarfare_suite
-		/obj/item/rig_module/power_sink
-		/obj/item/rig_module/stealth_field
-		/obj/item/rig_module/teleporter
-		/obj/item/rig_module/chem_dispenser/ninja
-		/obj/item/rig_module/voice
-		/obj/item/rig_module/self_destruct
+		/obj/item/rig_module/vision/multi,
+		/obj/item/rig_module/device/healthscanner,
+		/obj/item/rig_module/ai_container,
+		/obj/item/rig_module/datajack,
+		/obj/item/rig_module/electrowarfare_suite,
+		/obj/item/rig_module/power_sink,
+		/obj/item/rig_module/stealth_field,
+		/obj/item/rig_module/teleporter,
+		/obj/item/rig_module/chem_dispenser/ninja,
+		/obj/item/rig_module/voice,
+		/obj/item/rig_module/self_destruct,
+		/obj/item/rig_module/storage/heavy
 		)
