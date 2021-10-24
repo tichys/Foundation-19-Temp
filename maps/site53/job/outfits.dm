@@ -585,6 +585,7 @@
 	glasses = /obj/item/clothing/glasses/night
 	gloves = /obj/item/clothing/gloves/thick/combat
 	shoes = /obj/item/clothing/shoes/combat
+	id_type = null
 	suit_store = /obj/item/weapon/gun/projectile/automatic/scp/donor/ak74
 	r_hand = null
 	l_hand = /obj/item/weapon/material/hatchet/tacknife
@@ -604,6 +605,7 @@
 	glasses = /obj/item/clothing/glasses/night
 	gloves = /obj/item/clothing/gloves/thick/combat
 	shoes = /obj/item/clothing/shoes/combat
+	id_type = null
 	suit_store = /obj/item/weapon/gun/projectile/automatic/scp/donor/rpk
 	r_hand = null
 	l_hand = /obj/item/weapon/material/hatchet/tacknife
@@ -622,6 +624,7 @@
 	glasses = /obj/item/clothing/glasses/night
 	gloves = /obj/item/clothing/gloves/thick/combat
 	shoes = /obj/item/clothing/shoes/combat
+	id_type = null
 	suit_store = /obj/item/weapon/gun/projectile/automatic/scp/donor/svd
 	r_hand = null
 	l_hand = /obj/item/weapon/material/hatchet/tacknife
@@ -639,9 +642,9 @@
 	mask = /obj/item/clothing/mask/gas
 	head = /obj/item/clothing/head/beret/sec/corporate/hos
 	gloves = /obj/item/clothing/gloves/thick/combat
-	glasses = /obj/item/clothing/glasses/night
 	glasses = /obj/item/clothing/glasses/thermal/plain/augmented
 	shoes = /obj/item/clothing/shoes/combat
+	id_type = null
 	suit_store = /obj/item/weapon/gun/projectile/automatic/scp/donor/ak742
 	r_hand = null
 	l_hand = /obj/item/weapon/material/hatchet/tacknife
@@ -651,3 +654,27 @@
 	belt = /obj/item/weapon/gun/projectile/magnum_pistol
 	back = /obj/item/weapon/storage/backpack/satchel/pocketbook
 	backpack_contents = list(/obj/item/weapon/storage/box/ifak = 1,/obj/item/ammo_magazine/a50 = 2,/obj/item/ammo_magazine/scp/ak/big = 4,/obj/item/clothing/accessory/armor/helmcover/blue/sol = 1,/obj/item/clothing/accessory/ubac/green = 1)
+
+/decl/hierarchy/outfit/job/site90/crew/command/event/scp5000
+	name = OUTFIT_JOB_NAME("Pietro Wilson")
+	uniform = /obj/item/clothing/under/scp/suittie
+	shoes = /obj/item/clothing/shoes/laceup
+    id_type = /obj/item/weapon/card/id/sciencelvl1
+	r_hand = null
+	l_hand = null
+	l_pocket = null
+	r_pocket = /obj/item/weapon/card/emag
+	l_ear = /obj/item/device/radio/headset/ert
+	back = /obj/item/weapon/rig/light/stealth/scp5000
+	
+/decl/hierarchy/outfit/job/site90/crew/command/event/scp5000
+	name = OUTFIT_JOB_NAME("Exclusion Operative")
+	uniform = /obj/item/clothing/under/syndicate/combat
+	shoes = /obj/item/clothing/shoes/combat
+    id_type = null
+	r_hand = null
+	l_hand = null
+	l_pocket = null
+	r_pocket = /obj/item/weapon/card/emag
+	l_ear = /obj/item/device/radio/headset/ert
+	back = /obj/item/weapon/rig/light/stealth/scp5000/working
