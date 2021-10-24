@@ -61,7 +61,7 @@
 		return
 	else //and if it's beating, let's see if it should
 		var/should_stop = prob(80) && owner.get_blood_circulation() < BLOOD_VOLUME_SURVIVE //cardiovascular shock, not enough liquid to pump
-		should_stop = should_stop || prob(max(0, owner.getBrainLoss() - owner.maxHealth * 0.25)) //brain failing to work heart properly
+		should_stop = should_stop || prob(max(0, owner.getBrainLoss() - owner.maxHealth * 0.5)) //brain failing to work heart properly
 		should_stop = should_stop || (prob(10) && owner.shock_stage >= 120) //traumatic shock
 		should_stop = should_stop || (prob(10) && pulse == PULSE_THREADY) //erratic heart patterns, usually caused by oxyloss
 		if(should_stop) // The heart has stopped due to going into traumatic or cardiovascular shock.
@@ -126,9 +126,9 @@
 							//somehow you can apply pressure to every wound on the organ at the same time
 							//you're basically forced to do nothing at all, so let's make it pretty effective
 							var/min_eff_damage = max(0, W.damage - 10) / 6 //still want a little bit to drip out, for effect
-							blood_max += max(min_eff_damage, W.damage - 30) / 40
+							blood_max += max(min_eff_damage, W.damage - 30) / 80
 						else
-							blood_max += W.damage / 40
+							blood_max += W.damage / 80
 
 			if(temp.status & ORGAN_ARTERY_CUT)
 				var/bleed_amount = Floor((owner.vessel.total_volume / (temp.applied_pressure || !open_wound ? 400 : 250))*temp.arterial_bleed_severity)
