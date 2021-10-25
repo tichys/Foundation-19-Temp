@@ -105,7 +105,7 @@
 	name = "SCP-500"
 	desc = "A pill supposedly curing everything."
 	icon_state = "pill9"
-	
+
 /obj/item/weapon/reagent_containers/pill/scp500/New()
 	..()
 	reagents.add_reagent(/datum/reagent/adminordrazine, 50)
@@ -314,7 +314,7 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 	..()
 	reagents.add_reagent(/datum/reagent/paroxetine, 10)
 	color = reagents.get_color()
-	
+
 /obj/item/weapon/reagent_containers/pill/amnestics/classa
 	name = "Amnestics_A (1u)"
 	desc = "Removes all memory up until the last experiment."
@@ -323,7 +323,7 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 	..()
 	reagents.add_reagent(/datum/reagent/amnestics/classa, 1)
 	color = reagents.get_color()
-	
+
 /obj/item/weapon/reagent_containers/pill/amnestics/classb
 	name = "Amnestics_B (1u)"
 	desc = "Removes all memory up until the subject woke up."
@@ -332,7 +332,7 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 	..()
 	reagents.add_reagent(/datum/reagent/amnestics/classb, 1)
 	color = reagents.get_color()
-	
+
 /obj/item/weapon/reagent_containers/pill/amnestics/classc
 	name = "Amnestics_C (1u)"
 	desc = "Removes all memory up until the subject arrived at the foundation."
@@ -341,7 +341,7 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 	..()
 	reagents.add_reagent(/datum/reagent/amnestics/classc, 1)
 	color = reagents.get_color()
-	
+
 /obj/item/weapon/reagent_containers/pill/amnestics/classe
 	name = "Amnestics_E (1u)"
 	desc = "Removes all memories and personality, turning the subject into a blank slate to mold."
@@ -349,4 +349,29 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 /obj/item/weapon/reagent_containers/pill/amnestics/classe/New()
 	..()
 	reagents.add_reagent(/datum/reagent/amnestics/classe, 1)
+	color = reagents.get_color()
+
+/obj/item/weapon/reagent_containers/pill/alkysine
+	name = "Alkysine (5u)"
+	desc = "Treats brain trauma."
+	icon_state = "pill3"
+/obj/item/weapon/reagent_containers/pill/alkysine/New()
+	..()
+	reagents.add_reagent(/datum/reagent/alkysine, 5)
+	color = reagents.get_color()
+
+
+/obj/item/weapon/reagent_containers/pill/combatpill
+	name = "Combat pill"
+	desc = "Treats trauma and stabilize patient."
+	icon_state = "pill3"
+/obj/item/weapon/reagent_containers/pill/combatpill/New()
+	..()
+	reagents.add_reagent(/datum/reagent/bicaridine, 20)
+	reagents.add_reagent(/datum/reagent/inaprovaline, 10)
+	reagents.add_reagent(/datum/reagent/dylovene, 10)
+	reagents.add_reagent(/datum/reagent/tramadol, 10)
+	reagents.add_reagent(/datum/reagent/dexalinp, 15)
+	reagents.add_reagent(/datum/reagent/dermaline, 15)
+	reagents.add_reagent(/datum/reagent/synaptizine, 3)
 	color = reagents.get_color()
