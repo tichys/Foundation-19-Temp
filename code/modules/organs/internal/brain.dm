@@ -12,7 +12,7 @@
 	throw_range = 5
 	origin_tech = list(TECH_BIO = 3)
 	attack_verb = list("attacked", "slapped", "whacked")
-	relative_size = 60
+	relative_size = 80
 	scp106_vulnerable = FALSE
 
 	var/can_use_mmi = TRUE
@@ -184,7 +184,7 @@
 				if(is_broken() && prob(1) && owner.get_active_hand())
 					to_chat(owner, "<span class='danger'>Your hand won't respond properly, and you drop what you are holding!</span>")
 					owner.drop_item()
-				if((damage >= (max_damage * 0.1)))
+				if((damage >= (max_damage * 0.15)))
 					if(!owner.lying)
 						to_chat(owner, "<span class='danger'>You black out!</span>")
 					owner.Paralyse(100)
