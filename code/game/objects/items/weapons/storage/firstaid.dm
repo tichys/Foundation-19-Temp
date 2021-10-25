@@ -267,3 +267,16 @@
 	desc = "Mild painkiller, also known as Tylenol. Won't fix the cause of your headache (unlike cyanide), but might make it bearable."
 
 	startswith = list(/obj/item/weapon/reagent_containers/pill/paracetamol = 21)
+
+/obj/item/weapon/storage/pill_bottle/alkysine
+	name = "bottle of Alkysine pills"
+	desc = "Contains pills used to treat brain damage."
+
+	startswith = list(/obj/item/weapon/reagent_containers/pill/alkysine = 21)
+
+
+/obj/item/weapon/storage/pill_bottle/combatpill
+	name = "bottle of Combat Pills"
+	desc = "Contains pills used to treat trauma."
+
+	startswith = list(/obj/item/weapon/reagent_containers/pill/combatpill = 21)
