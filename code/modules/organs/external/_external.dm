@@ -427,7 +427,7 @@ This function completely restores a damaged organ to perfect condition.
 	//moved these before the open_wound check so that having many small wounds for example doesn't somehow protect you from taking internal damage (because of the return)
 	//Brute damage can possibly trigger an internal wound, too.
 	var/local_damage = brute_dam + burn_dam + damage
-	if(!surgical && (type in list()) && damage > 15 && local_damage > 30)
+	if(!surgical && (type in list()) && damage > 150000 && local_damage > 30000)
 
 		var/internal_damage
 		if(prob(damage) && sever_artery())
