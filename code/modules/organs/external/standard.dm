@@ -22,6 +22,7 @@
 	encased = "ribcage"
 	artery_name = "aorta"
 	cavity_name = "thoracic"
+	arterial_bleed_severity = 0
 
 /obj/item/organ/external/chest/get_agony_multiplier()
 	return (owner && owner.headcheck(organ_tag)) ? 0.1 : 1
@@ -56,6 +57,7 @@
 	gendered_icon = 1
 	artery_name = "iliac artery"
 	cavity_name = "abdominal"
+	arterial_bleed_severity = 0
 
 /obj/item/organ/external/arm
 	organ_tag = BP_L_ARM
@@ -72,7 +74,7 @@
 	has_tendon = TRUE
 	tendon_name = "palmaris longus tendon"
 	artery_name = "basilic vein"
-	arterial_bleed_severity = 0.375
+	arterial_bleed_severity = 0
 
 /obj/item/organ/external/arm/get_agony_multiplier()
 	return (owner && owner.headcheck(organ_tag)) ? 0.5 : 1
@@ -111,7 +113,7 @@
 	has_tendon = TRUE
 	tendon_name = "cruciate ligament"
 	artery_name = "femoral artery"
-	arterial_bleed_severity = 0.375
+	arterial_bleed_severity = 0
 
 /obj/item/organ/external/leg/get_agony_multiplier()
 	return (owner && owner.headcheck(organ_tag)) ? 0.5 : 1
@@ -147,7 +149,7 @@
 	can_stand = 1
 	has_tendon = TRUE
 	tendon_name = "Achilles tendon"
-	arterial_bleed_severity = 0.2
+	arterial_bleed_severity = 0
 
 /obj/item/organ/external/foot/get_agony_multiplier()
 	return (owner && owner.headcheck(organ_tag)) ? 0.5 : 1
@@ -187,7 +189,7 @@
 	can_grasp = 1
 	has_tendon = TRUE
 	tendon_name = "carpal ligament"
-	arterial_bleed_severity = 0.2
+	arterial_bleed_severity = 0
 
 /obj/item/organ/external/hand/get_agony_multiplier()
 	return (owner && owner.headcheck(organ_tag)) ? 0.5 : 1

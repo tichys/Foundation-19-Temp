@@ -15,7 +15,7 @@
 	encased = "skull"
 	artery_name = "cartoid artery"
 	cavity_name = "cranial"
-	arterial_bleed_severity = 2
+	arterial_bleed_severity = 0
 
 	var/can_intake_reagents = 1
 	var/eye_icon = "eyes_s"
