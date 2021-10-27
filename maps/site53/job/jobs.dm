@@ -145,7 +145,6 @@
 	access_commtower,
 	access_sciencelvl1,
 	access_sciencelvl3,
-	access_mtflvl1
 
 	)
 	minimal_access = list()
@@ -853,7 +852,7 @@
 	/datum/mil_rank/security/o5
 	)
 
-	access = list(access_com_comms, access_med_comms, access_medicalgen, access_medicalequip, access_medicalviro, access_medicalchem, access_s53cmo, access_keyauth, access_mtflvl1, access_mtflvl2)
+	access = list(access_com_comms, access_med_comms, access_medicalgen, access_medicalequip, access_medicalviro, access_medicalchem, access_s53cmo, access_keyauth)
 	minimal_access = list()
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -933,7 +932,7 @@
 		H.add_skills(rand(10,25), rand(10,25), rand(70,90), rand(5,10))
 
 
-	access = list(access_med_comms, access_medicalgen, access_medicalequip, access_mtflvl1, access_mtflvl2)
+	access = list(access_med_comms, access_medicalgen, access_medicalequip)
 	minimal_access = list()
 
 /datum/job/virologist
@@ -985,7 +984,7 @@
 		H.add_skills(rand(10,25), rand(10,25), rand(70,90), rand(5,10))
 
 
-	access = list(access_med_comms, access_medicalgen, access_medicalequip, access_mtflvl1, access_mtflvl2)
+	access = list(access_med_comms, access_medicalgen, access_medicalequip)
 	minimal_access = list()
 
 /datum/job/emt
@@ -1015,7 +1014,7 @@
 		H.add_skills(rand(10,25), rand(10,25), rand(50,70), rand(5,10))
 
 
-	access = list(access_med_comms, access_medicalgen, access_medicalequip, access_mtflvl1)
+	access = list(access_med_comms, access_medicalgen, access_medicalequip)
 	minimal_access = list()
 
 

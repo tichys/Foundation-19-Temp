@@ -131,17 +131,20 @@
 	damage = 32.5 //9mm, .38, etc
 	armor_penetration = 17.5
 	agony = 15
+	embed = 0
 
 /obj/item/projectile/bullet/pistol/medium
 	damage = 45 //.45
 	armor_penetration = 5
 	agony = 20
+	embed = 0
 
 /obj/item/projectile/bullet/pistol/medium/smg
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
 	damage = 30 //10mm/5.7x28
 	armor_penetration = 35
 	agony = 15
+	embed = 0
 
 /obj/item/projectile/bullet/pistol/medium/smg/rubber
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
@@ -156,41 +159,48 @@
 	damage = 45 //10mm hollowpoint
 	armor_penetration = 5
 	agony = 20
+	embed = 0
 
 /obj/item/projectile/bullet/pistol/medium/smg/ap
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
 	damage = 22.5 //10mm AP
 	armor_penetration = 65
 	agony = 10
+	embed = 0
 
 /obj/item/projectile/bullet/pistol/medium/smg/silver
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
 	damage = 30 //10mm but i have no idea what bimmer wanted for classifaction, so i made it just better normal ammo
 	armor_penetration = 30
 	agony = 15
+	embed = 0
 
 /obj/item/projectile/bullet/pistol/medium/revolver
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
 	damage = 55 //.44 magnum or something
 	armor_penetration = 15
 	agony = 25
+	embed = 0
 
 /obj/item/projectile/bullet/pistol/strong //matebas
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
 	damage = 65 //.50AE
 	armor_penetration = 15
 	agony = 30
+	embed = 0
 
 /obj/item/projectile/bullet/pistol/vstrong //tacrevolver
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
 	damage = 70 //.500 S&W Magnum
 	armor_penetration = 40
 	agony = 50
+	embed = 0
 
 /obj/item/projectile/bullet/pistol/strong/revolver //revolvers
 	damage = 60 //Revolvers get snowflake bullets, to keep them relevant
 	armor_penetration = 20
 	agony = 45
+	embed = 0
 
 /obj/item/projectile/bullet/pistol/rubber //"rubber" bullets
 	name = "rubber bullet"
@@ -210,6 +220,7 @@
 	damage = 60
 	armor_penetration = 24
 	agony = 40
+	embed = 0
 
 /obj/item/projectile/bullet/shotgun/beanbag		//because beanbags are not bullets
 	name = "beanbag"
@@ -229,6 +240,7 @@
 	range_step = 1
 	spread_step = 10
 	agony = 10
+	embed = 0
 
 /* "Rifle" rounds */
 
@@ -236,18 +248,20 @@
 	armor_penetration = 25
 	penetrating = 1
 	agony = 35
-
+	embed = 0
 /obj/item/projectile/bullet/rifle/a556
 	fire_sound = 'sound/weapons/gunshot/gunshot3.ogg'
 	damage = 50
 	armor_penetration = 35
 	agony = 25
+	embed = 0
 
 /obj/item/projectile/bullet/rifle/a762
 	fire_sound = 'sound/weapons/gunshot/gunshot2.ogg'
 	damage = 60
 	armor_penetration = 40
 	agony = 35
+	embed = 0
 
 /obj/item/projectile/bullet/rifle/a145
 	fire_sound = 'sound/weapons/gunshot/sniper.ogg'
@@ -258,6 +272,7 @@
 	armor_penetration = 100
 	hitscan = 1 //so the PTR isn't useless as a sniper weapon
 	penetration_modifier = 1.25
+	embed = 0
 
 /obj/item/projectile/bullet/rifle/a145/apds
 	damage = 100
@@ -265,6 +280,8 @@
 	armor_penetration = 120
 	penetration_modifier = 1.5
 	agony = 100
+	embed = 0
+
 
 /* Miscellaneous */
 
@@ -273,12 +290,14 @@
 	damage = 25
 	damage_type = OXY
 	agony = 20
+	embed = 0
 
 /obj/item/projectile/bullet/cyanideround
 	name = "poison bullet"
 	damage = 45
 	damage_type = TOX
 	agony = 20
+	embed = 0
 
 /obj/item/projectile/bullet/burstbullet
 	name = "exploding bullet"
