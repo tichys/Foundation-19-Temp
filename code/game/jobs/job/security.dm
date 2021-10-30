@@ -40,7 +40,7 @@
 	minimal_player_age = 10
 	ideal_character_age = 45
 	alt_titles = null
-	outfit_type = /decl/hierarchy/outfit/job/site90/crew/security/ltofficer
+	outfit_type = /decl/hierarchy/outfit/job/site90/crew/security/ltofficerez
 	allowed_branches = list(
 		/datum/mil_branch/security
 	)
@@ -129,7 +129,7 @@
 	minimal_player_age = 10
 	ideal_character_age = 45
 	alt_titles = null
-	outfit_type = /decl/hierarchy/outfit/job/site90/crew/security/ltofficer
+	outfit_type = /decl/hierarchy/outfit/job/site90/crew/security/ltofficerhcz
 	allowed_branches = list(
 		/datum/mil_branch/security
 	)
@@ -158,7 +158,7 @@
 	minimal_player_age = 5
 	ideal_character_age = 25
 	alt_titles = null
-	outfit_type = /decl/hierarchy/outfit/job/site90/crew/security/ncoofficer
+	outfit_type = /decl/hierarchy/outfit/job/site90/crew/security/ncoofficerhcz
 	allowed_branches = list(
 		/datum/mil_branch/security
 	)

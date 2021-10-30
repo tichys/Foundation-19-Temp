@@ -9,8 +9,8 @@
  * Security
  */
 /obj/item/clothing/under/rank/warden
-	desc = "It's made of a slightly sturdier material than standard jumpsuits, to allow for more robust protection. It has the word \"Warden\" written on the shoulders."
-	name = "warden's jumpsuit"
+	desc = "Foundation SD issue uniform"
+	name = "Foundation security officer uniform"
 	icon_state = "warden"
 	item_state = "r_suit"
 	worn_state = "warden"
@@ -24,8 +24,8 @@
 	body_parts_covered = 0
 
 /obj/item/clothing/under/rank/security
-	name = "security officer's jumpsuit"
-	desc = "It's made of a slightly sturdier material than standard jumpsuits, to allow for robust protection."
+	name = "Foundation security guard uniform"
+	desc = "Foundation security guard uniform"
 	icon_state = "security"
 	item_state = "r_suit"
 	worn_state = "secred"
@@ -43,8 +43,8 @@
 	siemens_coefficient = 0.9
 
 /obj/item/clothing/under/rank/security2
-	name = "security officer's uniform"
-	desc = "It's made of a slightly sturdier material, to allow for robust protection."
+	name = "Foundation security uniform"
+	desc = "Foundation SD issue uniform"
 	icon_state = "redshirt2"
 	item_state = "r_suit"
 	worn_state = "redshirt2"
@@ -122,8 +122,8 @@
  * Head of Security
  */
 /obj/item/clothing/under/rank/head_of_security
-	desc = "It's a jumpsuit worn by those few with the dedication to achieve the position of \"Head of Security\". It has additional armor to protect the wearer."
-	name = "head of security's jumpsuit"
+	desc = "Issued to Foundation SD ranking officers"
+	name = "Foundation security commander uniform"
 	icon_state = "hos"
 	item_state = "r_suit"
 	worn_state = "hosred"
@@ -150,7 +150,7 @@
 	siemens_coefficient = 0.6
 
 /obj/item/clothing/suit/armor/hos
-	name = "armored coat"
+	name = "Foundation SD commander coat"
 	desc = "A greatcoat enhanced with a special alloy for some protection and style."
 	icon_state = "hos"
 	item_state = "hos"
@@ -162,14 +162,14 @@
 //Jensen cosplay gear
 /obj/item/clothing/under/rank/head_of_security/jensen
 	desc = "You never asked for anything that stylish."
-	name = "head of security's jumpsuit"
+	name = "Foundation SD commander coat"
 	icon_state = "jensen"
 	item_state = "jensen"
 	worn_state = "jensen"
 	siemens_coefficient = 0.6
 
 /obj/item/clothing/suit/armor/hos/jensen
-	name = "armored trenchcoat"
+	name = "Foundation SD commander coat"
 	desc = "A trenchcoat augmented with a special alloy for some protection and style."
 	icon_state = "hostrench"
 	item_state = "hostrench"
