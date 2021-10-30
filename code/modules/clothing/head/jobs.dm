@@ -96,12 +96,12 @@
 	body_parts_covered = 0
 
 /obj/item/clothing/head/beret/sec
-	name = "corporate security beret"
-	desc = "A beret with the security insignia emblazoned on it. For officers that are more inclined towards style than safety."
+	name = "Foundation security guard beret"
+	desc = "Foundation SD Issue beret for agents and guards."
 	icon_state = "beret_corporate_red"
 
 /obj/item/clothing/head/beret/sec/navy/officer
-	name = "corporate security officer beret"
+	name = "Foundation security guard beret"
 	desc = "A navy blue beret with an officer's rank emblem. For officers that are more inclined towards style than safety."
 	icon_state = "beret_corporate_navy_officer"
 
@@ -111,23 +111,23 @@
 	icon_state = "beret_corporate_navy_hos"
 
 /obj/item/clothing/head/beret/sec/navy/warden
-	name = "corporate security warden beret"
+	name = "Foundation security officer beret"
 	desc = "A navy blue beret with a warden's rank emblem. For officers that are more inclined towards style than safety."
 	icon_state = "beret_corporate_navy_warden"
 
 /obj/item/clothing/head/beret/sec/corporate/officer
-	name = "corporate security officer beret"
-	desc = "A corporate black beret with an officer's rank emblem. For officers that are more inclined towards style than safety."
+	name = "Foundation security guard beret"
+	desc = "Foundation SD Issue beret for junior agents and guards"
 	icon_state = "beret_corporate_officer"
 
 /obj/item/clothing/head/beret/sec/corporate/hos
-	name = "military beret"
-	desc = "A black beret with a captain's rank emblem. For officers that are more inclined towards style than safety."
+	name = "Foundation security commander beret"
+	desc = "Foundation SD Issue beret for agents and guards. This one is made for a commanding officer."
 	icon_state = "beret_corporate_hos"
 
 /obj/item/clothing/head/beret/sec/corporate/warden
-	name = "corporate security warden beret"
-	desc = "A corporate black beret with a warden's rank emblem. For officers that are more inclined towards style than safety."
+	name = "Foundation security officer beret"
+	desc = "Foundation SD Issue beret for agents and guards"
 	icon_state = "beret_corporate_warden"
 
 /obj/item/clothing/head/beret/engineering

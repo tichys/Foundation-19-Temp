@@ -97,7 +97,7 @@
 	id_type = /obj/item/weapon/card/id/zcseclvl4hcz
 	l_ear = /obj/item/device/radio/headset/heads/cos
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
-	back = /obj/item/weapon/storage/backpack/dufflebag/sec
+	back = null
 
 /decl/hierarchy/outfit/job/site90/crew/security/ltofficerlcz
 	name = OUTFIT_JOB_NAME("LCZ Zone Commander")
@@ -111,7 +111,7 @@
 
 /decl/hierarchy/outfit/job/site90/crew/security/ltofficerez
 	name = OUTFIT_JOB_NAME("EZ Senior Agent")
-	uniform = /obj/item/clothing/under/scp/utility/security/zc
+	uniform = /obj/item/clothing/under/rank/head_of_security/corp
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/zcseclvl4ez
 	l_ear = /obj/item/device/radio/headset/heads/cos
@@ -129,7 +129,7 @@
 
 /decl/hierarchy/outfit/job/site90/crew/security/ncoofficerhcz
 	name = OUTFIT_JOB_NAME("HCZ Guard")
-	uniform = /obj/item/clothing/under/scp/hczwhiteuniform
+	uniform = /obj/item/clothing/under/color/black
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/seclvl3hcz
 	l_ear = /obj/item/device/radio/headset/headset_sec_hcz
@@ -138,7 +138,7 @@
 
 /decl/hierarchy/outfit/job/site90/crew/security/ncoofficerez
 	name = OUTFIT_JOB_NAME("EZ Agent")
-	uniform = /obj/item/clothing/under/scp/ezwhiteuniform
+	uniform = /obj/item/clothing/under/rank/warden/corp
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/seclvl3ez
 	l_ear = /obj/item/device/radio/headset/headset_sec_ecz
@@ -147,7 +147,7 @@
 
 /decl/hierarchy/outfit/job/site90/crew/security/enlistedofficerez
 	name = OUTFIT_JOB_NAME("EZ Junior Agent")
-	uniform = /obj/item/clothing/under/scp/ezwhitejunioruniform
+	uniform = /obj/item/clothing/under/rank/security/corp
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/seclvl3ez
 	l_ear = /obj/item/device/radio/headset/headset_sec_ecz
@@ -162,11 +162,11 @@
 	id_type = /obj/item/weapon/card/id/seclvl3
 	l_ear = /obj/item/device/radio/headset/headset_sec_lcz
 	l_pocket = /obj/item/weapon/book/manual/scp/secsop
-	back = /obj/item/weapon/storage/backpack/satchel
+	back = null
 
 /decl/hierarchy/outfit/job/site90/crew/security/enlistedofficerhcz
 	name = OUTFIT_JOB_NAME("HCZ Junior Guard")
-	uniform = /obj/item/clothing/under/scp/hczwhitejunioruniform
+	uniform = /obj/item/clothing/under/color/black
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/junseclvl3hcz
 	l_ear = /obj/item/device/radio/headset/headset_sec_hcz
