@@ -138,6 +138,7 @@
 		/obj/item/ammo_magazine/box/c9mm
 	)
 
+
 /obj/structure/closet/secure_closet/mtf/co
 	name = "Zone Commander's Locker"
 	req_access = list(access_mtflvl4)
@@ -214,7 +215,11 @@
 		/obj/item/clothing/accessory/armorplate/medium,
 		/obj/item/clothing/accessory/storage/pouches/large,
 		/obj/item/clothing/under/color/black,
-		/obj/item/clothing/head/helmet
+		/obj/item/clothing/head/helmet,
+		/obj/item/weapon/gun/projectile/sec/sec,
+		/obj/item/ammo_magazine/c45m = 2,
+		/obj/item/ammo_magazine/box/c45donor,
+		/obj/item/ammo_magazine/box/c45donor/rubber
 	)
 
 /obj/structure/closet/secure_closet/mtf/hczguardjunior
@@ -494,7 +499,11 @@
 		/obj/item/clothing/accessory/armorplate/medium,
 		/obj/item/clothing/accessory/storage/pouches,
 		/obj/item/clothing/head/helmet,
-		/obj/item/clothing/head/beret/sec/corporate/warden
+		/obj/item/clothing/head/beret/sec/corporate/warden,
+		/obj/item/weapon/gun/projectile/sec/sec,
+		/obj/item/ammo_magazine/c45m = 2,
+		/obj/item/ammo_magazine/box/c45donor,
+		/obj/item/ammo_magazine/box/c45donor/rubber
 )
 
 
