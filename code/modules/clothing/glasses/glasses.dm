@@ -460,6 +460,7 @@
 	desc = "A Security-type heads-up display that connects directly to the optical nerve of the user, replacing the need for that useless eyeball."
 	hud = /obj/item/clothing/glasses/hud/security
 	eye_color = COLOR_RED
+	flash_protection = FLASH_PROTECTION_MAJOR
 
 /obj/item/clothing/glasses/eyepatch/hud/medical
 	name = "MEDpatch"
