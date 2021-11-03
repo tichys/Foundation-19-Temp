@@ -23,7 +23,7 @@ GLOBAL_LIST_EMPTY(scp049_1s)
 /obj/sprite_helper/scp049
 	icon = 'icons/mob/scp049.dmi'
 
-/mob/living/carbon/human/scp049/IsAdvancedToolUser()
+/mob/living/carbon/human/scp049/CanUseGuns()
 	return FALSE
 
 /mob/living/carbon/human/scp049/New()
